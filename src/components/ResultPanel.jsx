@@ -63,6 +63,36 @@ export function ResultPanel({ lines }) {
                             <p className="text-stone-700 text-sm">{interpretation.transformationTip}</p>
                         </div>
                     )}
+
+                    {interpretation.lines && interpretation.lines.length > 0 && (
+                        <div>
+                            <h4 className="font-bold text-stone-800 border-b border-stone-200 pb-1 mb-2">六爻解析</h4>
+                            <div className="space-y-3">
+                                {interpretation.lines.map((lineData, i) => {
+                                    // lines is an array from App.jsx, bottom to top.
+                                    // i=0 is bottom line (初爻), i=5 is top line (上爻)
+                                    // 6 and 9 are moving lines
+                                    const isMoving = lines[i] === 6 || lines[i] === 9;
+                                    
+                                    return (
+                                        <div 
+                                            key={i} 
+                                            className={`p-3 rounded-lg border transition-all ${isMoving ? 'bg-amber-50 border-amber-300 shadow-md ring-1 ring-amber-200' : 'bg-white border-stone-200 opacity-70 hover:opacity-100'}`}
+                                        >
+                                            <div className="flex items-center gap-2 mb-1">
+                                                <span className={`font-bold ${isMoving ? 'text-amber-800' : 'text-stone-700'}`}>{lineData.position}</span>
+                                                {isMoving && (
+                                                    <span className="text-xs bg-amber-600 text-white px-2 py-0.5 rounded shadow-sm">變爻</span>
+                                                )}
+                                            </div>
+                                            <p className={`font-serif font-medium mb-1 ${isMoving ? 'text-stone-900 text-lg' : 'text-stone-700'}`}>{lineData.text}</p>
+                                            <p className="text-sm text-stone-600 leading-relaxed">{lineData.meaning}</p>
+                                        </div>
+                                    );
+                                })}
+                            </div>
+                        </div>
+                    )}
                 </div>
             ) : (
                 <div className="flex flex-col gap-3 mt-4 animate-pulse">
