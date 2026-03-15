@@ -29,7 +29,7 @@ export function ResultPanel({ lines }) {
 
     return (
         <div className="h-full bg-stone-50 p-6 rounded-xl border border-stone-200 overflow-y-auto">
-            <h3 className="text-2xl font-serif font-bold text-stone-900 mb-2">{t(`hexagrams.${hexKey}`)}</h3>
+            <h3 className="text-2xl font-sans font-bold text-stone-900 mb-2">{t(`hexagrams.${hexKey}`)}</h3>
 
             {interpretation ? (
                 <div className="mt-4 space-y-6">
@@ -57,12 +57,7 @@ export function ResultPanel({ lines }) {
                         </div>
                     </div>
 
-                    {interpretation.transformationTip && (
-                        <div>
-                            <h4 className="font-bold text-stone-800 border-b border-stone-200 pb-1 mb-2">變卦提示</h4>
-                            <p className="text-stone-700 text-sm">{interpretation.transformationTip}</p>
-                        </div>
-                    )}
+                    {/* Removed transformationTip section */}
 
                     {interpretation.lines && interpretation.lines.length > 0 && (
                         <div>
@@ -77,15 +72,12 @@ export function ResultPanel({ lines }) {
                                     return (
                                         <div 
                                             key={i} 
-                                            className={`p-3 rounded-lg border transition-all ${isMoving ? 'bg-amber-50 border-amber-300 shadow-md ring-1 ring-amber-200' : 'bg-white border-stone-200 opacity-70 hover:opacity-100'}`}
+                                            className="p-3 bg-white rounded-lg border border-stone-200 transition-all opacity-70 hover:opacity-100"
                                         >
                                             <div className="flex items-center gap-2 mb-1">
-                                                <span className={`font-bold ${isMoving ? 'text-amber-800' : 'text-stone-700'}`}>{lineData.position}</span>
-                                                {isMoving && (
-                                                    <span className="text-xs bg-amber-600 text-white px-2 py-0.5 rounded shadow-sm">變爻</span>
-                                                )}
+                                                <span className="font-bold text-stone-700">{lineData.position}</span>
                                             </div>
-                                            <p className={`font-serif font-medium mb-1 ${isMoving ? 'text-stone-900 text-lg' : 'text-stone-700'}`}>{lineData.text}</p>
+                                            <p className="font-sans font-medium mb-1 text-stone-700">{lineData.text}</p>
                                             <p className="text-sm text-stone-600 leading-relaxed">{lineData.meaning}</p>
                                         </div>
                                     );

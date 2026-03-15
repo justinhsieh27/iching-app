@@ -10,10 +10,10 @@ export function GenerationPanel({ lines, currentChange, currentStalks }) {
     // We use flex-col-reverse to render index 0 at the bottom.
 
     return (
-        <div className="bg-white p-4 rounded-xl shadow-sm flex flex-col items-center h-full border border-stone-200 overflow-hidden relative">
-            <h2 className="text-lg sm:text-xl font-serif font-bold text-stone-800 mb-2 shrink-0">{t("generation.title")}</h2>
+        <div className={clsx("bg-white p-4 rounded-xl shadow-sm flex flex-col items-center border border-stone-200 overflow-hidden relative transition-all", lines.length === 6 ? "h-auto" : "h-full")}>
+            <h2 className="text-lg sm:text-xl font-sans font-bold text-stone-800 mb-2 shrink-0">{t("generation.title")}</h2>
 
-            <div className="flex-1 flex flex-col-reverse justify-center gap-1 sm:gap-2 w-full max-w-[300px] pl-10 pr-2 py-2 min-h-0">
+            <div className={clsx("flex flex-col-reverse justify-center gap-1 sm:gap-2 w-full max-w-[300px] pl-10 pr-2 py-2", lines.length === 6 ? "h-[240px]" : "flex-1 min-h-0")}>
                 {/* Placeholders for 6 lines */}
                 {[0, 1, 2, 3, 4, 5].map((index) => {
                     const lineVal = lines[index];
@@ -93,7 +93,7 @@ function LineVisual({ value }) {
             {/* Changing Indicator (Circle or Cross) */}
             {isChanging && (
                 <div className="absolute right-[-2rem] text-amber-600 font-bold text-lg">
-                    {value === OLD_YANG ? "O" : "X"}
+                    O
                 </div>
             )}
         </div>

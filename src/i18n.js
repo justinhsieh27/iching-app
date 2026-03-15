@@ -105,7 +105,7 @@ const resources = {
     translation: {
       "app": {
         "title": "易經",
-        "subtitle": "占卜",
+        "subtitle": "大衍之數",
         "status": "第 {{line}} 爻 • 第 {{change}}/3 變",
         "complete": "完成"
       },

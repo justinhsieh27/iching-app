@@ -52,14 +52,12 @@ function App() {
   return (
     <div className="min-h-screen bg-stone-100 p-4 font-sans text-stone-900 flex flex-col items-center">
       <header className="w-full max-w-6xl mb-4 flex justify-between items-center px-2">
-        <h1 className="text-2xl font-serif font-bold text-stone-800 tracking-wide">
+        <h1 className="text-2xl font-sans font-bold text-stone-800 tracking-wide">
           {t("app.title")} <span className="text-stone-500 font-sans font-normal text-sm ml-2">{t("app.subtitle")}</span>
         </h1>
         <div className="flex items-center gap-4">
-          <div className="text-xs text-stone-500 font-mono">
-            {lines.length < 6
-              ? t("app.status", { line: lines.length + 1, change: changeCount + 1 })
-              : t("app.complete")}
+          <div className="text-xs text-stone-500 font-mono hidden">
+            {/* Moved to ControlPanel */}
           </div>
           <button
             onClick={() => i18n.changeLanguage(i18n.language === 'en' ? 'zh-TW' : 'en')}
@@ -71,22 +69,24 @@ function App() {
       </header>
 
       {/* Main Grid Layout */}
-      <main className="w-full max-w-6xl flex-1 grid grid-cols-1 lg:grid-cols-2 gap-4 h-[calc(100vh-6rem)]">
+      <main className="w-full max-w-6xl flex-1 flex flex-col lg:grid lg:grid-cols-2 gap-4 lg:h-[calc(100vh-6rem)] lg:min-h-0 pb-8 lg:pb-0">
 
         {/* Left Column (Desktop) / Top (Mobile): Control Panel */}
-        <div className="h-[50vh] lg:h-full order-1">
+        <div className="h-[50vh] min-h-[400px] shrink-0 lg:h-full order-1 lg:min-h-0">
           <ControlPanel
             stalksCount={currentStalks}
+            lines={lines}
+            changeCount={changeCount}
             onSplit={handleSplit}
             onReset={handleReset}
           />
         </div>
 
         {/* Right Column (Desktop) / Bottom (Mobile) */}
-        <div className="h-full flex flex-col gap-4 order-2">
+        <div className="flex flex-col gap-4 order-2 shrink-0 lg:h-full lg:min-h-0">
 
           {/* Top Right: Generation Panel */}
-          <div className="flex-1 min-h-[300px]">
+          <div className={lines.length === 6 ? "shrink-0" : "shrink-0 lg:flex-1 lg:min-h-[240px]"}>
             <GenerationPanel
               lines={lines}
               currentChange={changeCount}
@@ -95,7 +95,7 @@ function App() {
           </div>
 
           {/* Bottom Right: Result Panel */}
-          <div className="flex-1 min-h-[200px]">
+          <div className="flex-1 shrink-0 lg:min-h-0">
             <ResultPanel lines={lines} />
           </div>
         </div>

@@ -7,6 +7,8 @@ import { performChange } from '../lib/iching';
 export function ControlPanel({
     stage, // 'start', 'split', 'count' -> we actually just need to know if we can split
     stalksCount,
+    lines,
+    changeCount,
     onSplit,
     onReset
 }) {
@@ -48,14 +50,21 @@ export function ControlPanel({
                 </button>
             </div>
 
-            <div className="mb-4">
-                <h2 className="text-xl font-serif font-bold text-stone-800">{t("control.title")}</h2>
-                <p className="text-stone-600 text-sm mt-1">
-                    {stalksCount === 49 ? t("control.descFirst") : t("control.descRemaining", { count: stalksCount })}
-                </p>
-                <p className="text-stone-500 text-xs mt-2 italic">
-                    {t("control.instruction")}
-                </p>
+            <div className="mb-4 flex items-center justify-between">
+                <div>
+                    <h2 className="text-xl font-sans font-bold text-stone-800">
+                        {lines.length < 6 
+                            ? t("app.status", { line: lines.length + 1, change: changeCount + 1 })
+                            : t("app.complete")
+                        }
+                    </h2>
+                    <p className="text-stone-600 text-sm mt-1">
+                        {stalksCount === 49 ? t("control.descFirst") : t("control.descRemaining", { count: stalksCount })}
+                    </p>
+                    <p className="text-stone-500 text-xs mt-2 italic">
+                        {t("control.instruction")}
+                    </p>
+                </div>
             </div>
 
             {/* Visualization Area */}
