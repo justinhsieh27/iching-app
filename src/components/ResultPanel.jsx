@@ -1,23 +1,59 @@
-
 import React, { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { getHexagramKey } from '../lib/iching';
+import { GoogleGenerativeAI } from '@google/generative-ai';
 
 import ichingData from '../data/iching_reference.json';
 
 export function ResultPanel({ lines, question }) {
     const { t } = useTranslation();
     const [interpretation, setInterpretation] = useState(null);
+    const [aiResult, setAiResult] = useState('');
+    const [isAiLoading, setIsAiLoading] = useState(false);
     const hexKey = getHexagramKey(lines);
 
     useEffect(() => {
         if (lines.length === 6) {
             const data = ichingData[hexKey];
             setInterpretation(data);
+            setAiResult('');
         } else {
             setInterpretation(null);
+            setAiResult('');
         }
     }, [lines, hexKey]);
+
+    const handleGenerateAI = async () => {
+        if (!interpretation) return;
+        
+        setIsAiLoading(true);
+        setAiResult('');
+        
+        try {
+            const hexName = t(`hexagrams.${hexKey}`);
+            const movingLines = [];
+            for (let i = 5; i >= 0; i--) {
+                if (lines[i] === 6 || lines[i] === 9) {
+                    movingLines.push(interpretation.lines[i].position);
+                }
+            }
+            const movingStr = movingLines.length > 0 ? movingLines.join('、') : '無變爻';
+            const reqQuestion = question ? `問題：「${question}」` : '這個卦象';
+            
+            const prompt = `你在這裡是易經專家。針對${reqQuestion}，本卦為「${hexName}」，變爻為「${movingStr}」，請給出一段簡短、專業且具體的易經解析與建議。`;
+            
+            const genAI = new GoogleGenerativeAI(import.meta.env.VITE_GEMINI_API_KEY);
+            const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
+            
+            const result = await model.generateContent(prompt);
+            setAiResult(result.response.text());
+        } catch (error) {
+            console.error("AI Generation Error:", error);
+            setAiResult(`抱歉，AI 產生解析時發生錯誤：${error.message || error}\n請確認您的 API 金鑰是否有效且網路連線正常。`);
+        } finally {
+            setIsAiLoading(false);
+        }
+    };
 
     if (lines.length < 6) {
         return (
@@ -70,35 +106,68 @@ export function ResultPanel({ lines, question }) {
                     <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3">
                         <span className="text-amber-800 font-bold flex items-center gap-2">
                             <svg className="w-5 h-5 text-amber-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
-                            AI 解析
+                            解析選項
                         </span>
                         
-                        {(() => {
-                            const hexName = t(`hexagrams.${hexKey}`);
-                            const movingLines = [];
-                            for (let i = 5; i >= 0; i--) {
-                                if (lines[i] === 6 || lines[i] === 9) {
-                                    movingLines.push(interpretation.lines[i].position);
+                        <div className="flex flex-col sm:flex-row gap-2 w-full sm:w-auto">
+                            {(() => {
+                                const hexName = t(`hexagrams.${hexKey}`);
+                                const movingLines = [];
+                                for (let i = 5; i >= 0; i--) {
+                                    if (lines[i] === 6 || lines[i] === 9) {
+                                        movingLines.push(interpretation.lines[i].position);
+                                    }
                                 }
-                            }
-                            const movingStr = movingLines.length > 0 ? movingLines.join('、') : '無變爻';
-                            const reqQuestion = question ? ` 問題：「${question}」` : '';
-                            const searchQuery = `易經 ${hexName} 變爻 ${movingStr}${reqQuestion} AI 解析`;
-                            const googleSearchUrl = `https://www.google.com/search?q=${encodeURIComponent(searchQuery)}&udm=50`;
-                            
-                            return (
-                                <a 
-                                    href={googleSearchUrl}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="px-4 py-2 bg-white/80 border border-amber-300 text-amber-800 rounded-lg font-medium hover:bg-white hover:shadow-sm transition-all flex items-center justify-center gap-2 text-sm w-full sm:w-auto"
-                                >
-                                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
-                                    透過 Google 搜尋 AI 解析
-                                </a>
-                            );
-                        })()}
+                                const movingStr = movingLines.length > 0 ? movingLines.join('、') : '無變爻';
+                                const reqQuestion = question ? ` 問題：「${question}」` : '';
+                                const searchQuery = `易經 ${hexName} 變爻 ${movingStr}${reqQuestion} AI 解析`;
+                                const googleSearchUrl = `https://www.google.com/search?q=${encodeURIComponent(searchQuery)}&udm=50`;
+                                
+                                return (
+                                    <a 
+                                        href={googleSearchUrl}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="px-4 py-2 bg-white/80 border border-amber-300 text-amber-800 rounded-lg font-medium hover:bg-white hover:shadow-sm transition-all flex items-center justify-center gap-2 text-sm w-full sm:w-auto"
+                                    >
+                                        <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+                                        透過 Google 搜尋
+                                    </a>
+                                );
+                            })()}
+
+                            <button 
+                                onClick={handleGenerateAI}
+                                disabled={isAiLoading || !!aiResult}
+                                className="px-4 py-2 bg-white/80 border border-amber-300 text-amber-800 rounded-lg font-medium hover:bg-white hover:shadow-sm transition-all flex items-center justify-center gap-2 text-sm w-full sm:w-auto disabled:opacity-50 disabled:cursor-not-allowed"
+                            >
+                                {isAiLoading ? (
+                                    <>
+                                        <svg className="animate-spin -ml-1 mr-2 h-4 w-4 text-amber-800" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                                            <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
+                                            <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                                        </svg>
+                                        解析中...
+                                    </>
+                                ) : aiResult ? (
+                                    <>
+                                        <svg className="w-4 h-4 mr-1 text-amber-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path></svg>
+                                        解析完成
+                                    </>
+                                ) : (
+                                    <>
+                                        <svg className="w-4 h-4 mr-1 text-amber-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                                        使用 Gemini 解析
+                                    </>
+                                )}
+                            </button>
+                        </div>
                     </div>
+                    {aiResult && (
+                        <div className="mt-4 p-4 bg-white/90 rounded-lg border border-amber-200/50 text-amber-900 text-sm sm:text-base leading-relaxed whitespace-pre-wrap shadow-inner prose prose-amber">
+                            {aiResult}
+                        </div>
+                    )}
                 </div>
             )}
 
@@ -138,7 +207,6 @@ export function ResultPanel({ lines, question }) {
                                     // lines is an array from App.jsx, bottom to top.
                                     // i=0 is bottom line (初爻), i=5 is top line (上爻)
                                     // 6 and 9 are moving lines
-                                    const isMoving = lines[i] === 6 || lines[i] === 9;
                                     
                                     return (
                                         <div 
