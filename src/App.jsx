@@ -13,6 +13,8 @@ function App() {
   const [currentStalks, setCurrentStalks] = useState(49); // Starts at 49 (after Taiji removed)
   const [changeCount, setChangeCount] = useState(0); // 0, 1, 2
   const [history, setHistory] = useState([]); // Log of steps for debug/display
+  const [isStarted, setIsStarted] = useState(false);
+  const [question, setQuestion] = useState("");
 
   // Handlers
   const handleSplit = (ratio) => {
@@ -47,6 +49,8 @@ function App() {
     setCurrentStalks(49);
     setChangeCount(0);
     setHistory([]);
+    setIsStarted(false);
+    setQuestion("");
   };
 
   return (
@@ -69,37 +73,61 @@ function App() {
       </header>
 
       {/* Main Grid Layout */}
-      <main className="w-full max-w-6xl flex-1 flex flex-col lg:grid lg:grid-cols-2 gap-4 lg:h-[calc(100vh-6rem)] lg:min-h-0 pb-8 lg:pb-0">
+      {!isStarted ? (
+        <main className="w-full flex-1 flex flex-col items-center justify-center p-4">
+          <div className="bg-white p-8 rounded-xl shadow-sm border border-stone-200 max-w-md w-full text-center">
+            <h2 className="text-2xl font-bold text-stone-800 mb-4">{t("app.askQuestion", "請問您想占卜什麼？")}</h2>
+            <div className="mb-6">
+              <input
+                type="text"
+                value={question}
+                onChange={(e) => setQuestion(e.target.value)}
+                placeholder={t("app.questionPlaceholder", "例如：明天的面試會順利嗎？")}
+                className="w-full px-4 py-3 border border-stone-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-500 focus:border-amber-500 transition shadow-inner text-stone-700"
+                autoFocus
+              />
+            </div>
+            <button
+              onClick={() => setIsStarted(true)}
+              className="w-full py-3 bg-amber-700 text-white rounded-lg font-bold text-lg hover:bg-amber-600 transition shadow-md"
+            >
+              {t("app.startDivination", "開始起卦")}
+            </button>
+          </div>
+        </main>
+      ) : (
+        <main className="w-full max-w-6xl flex-1 flex flex-col lg:grid lg:grid-cols-2 gap-4 lg:h-[calc(100vh-6rem)] lg:min-h-0 pb-8 lg:pb-0">
 
-        {/* Left Column (Desktop) / Top (Mobile): Control Panel */}
-        <div className="h-[50vh] min-h-[400px] shrink-0 lg:h-full order-1 lg:min-h-0">
-          <ControlPanel
-            stalksCount={currentStalks}
-            lines={lines}
-            changeCount={changeCount}
-            onSplit={handleSplit}
-            onReset={handleReset}
-          />
-        </div>
-
-        {/* Right Column (Desktop) / Bottom (Mobile) */}
-        <div className="flex flex-col gap-4 order-2 shrink-0 lg:h-full lg:min-h-0">
-
-          {/* Top Right: Generation Panel */}
-          <div className={lines.length === 6 ? "shrink-0" : "shrink-0 lg:flex-1 lg:min-h-[240px]"}>
-            <GenerationPanel
+          {/* Left Column (Desktop) / Top (Mobile): Control Panel */}
+          <div className="h-[50vh] min-h-[400px] shrink-0 lg:h-full order-1 lg:min-h-0">
+            <ControlPanel
+              stalksCount={currentStalks}
               lines={lines}
-              currentChange={changeCount}
-              currentStalks={currentStalks}
+              changeCount={changeCount}
+              onSplit={handleSplit}
+              onReset={handleReset}
             />
           </div>
 
-          {/* Bottom Right: Result Panel */}
-          <div className="flex-1 shrink-0 lg:min-h-0">
-            <ResultPanel lines={lines} />
+          {/* Right Column (Desktop) / Bottom (Mobile) */}
+          <div className="flex flex-col gap-4 order-2 shrink-0 lg:h-full lg:min-h-0">
+
+            {/* Top Right: Generation Panel */}
+            <div className={lines.length === 6 ? "shrink-0" : "shrink-0 lg:flex-1 lg:min-h-[240px]"}>
+              <GenerationPanel
+                lines={lines}
+                currentChange={changeCount}
+                currentStalks={currentStalks}
+              />
+            </div>
+
+            {/* Bottom Right: Result Panel */}
+            <div className="flex-1 shrink-0 lg:min-h-0">
+              <ResultPanel lines={lines} question={question} />
+            </div>
           </div>
-        </div>
-      </main>
+        </main>
+      )}
     </div>
   );
 }
