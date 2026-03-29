@@ -46,7 +46,25 @@ export function ResultPanel({ lines, question }) {
             const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
             
             const result = await model.generateContent(prompt);
-            setAiResult(result.response.text());
+            const aiText = result.response.text();
+            setAiResult(aiText);
+            
+            // 寫入本地日誌
+            try {
+                await fetch('/api/log', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        time: new Date().toLocaleString('zh-TW'),
+                        question: question,
+                        hexName: hexName,
+                        movingStr: movingStr,
+                        aiResult: aiText
+                    })
+                });
+            } catch (err) {
+                console.error("Logging Error:", err);
+            }
         } catch (error) {
             console.error("AI Generation Error:", error);
             setAiResult(`抱歉，AI 產生解析時發生錯誤：${error.message || error}\n請確認您的 API 金鑰是否有效且網路連線正常。`);
@@ -157,7 +175,7 @@ export function ResultPanel({ lines, question }) {
                                 ) : (
                                     <>
                                         <svg className="w-4 h-4 mr-1 text-amber-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
-                                        使用 Gemini 解析
+                                        AI 解析
                                     </>
                                 )}
                             </button>
