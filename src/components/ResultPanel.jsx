@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { getHexagramKey } from '../lib/iching';
-import { GoogleGenerativeAI } from '@google/generative-ai';
 
 import ichingData from '../data/iching_reference.json';
 
@@ -42,11 +41,19 @@ export function ResultPanel({ lines, question }) {
             
             const prompt = `你在這裡是易經專家。針對${reqQuestion}，本卦為「${hexName}」，變爻為「${movingStr}」，請給出一段簡短、專業且具體的易經解析與建議。`;
             
-            const genAI = new GoogleGenerativeAI(import.meta.env.VITE_GEMINI_API_KEY);
-            const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
+            const response = await fetch('/api/gemini', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ prompt })
+            });
             
-            const result = await model.generateContent(prompt);
-            const aiText = result.response.text();
+            if (!response.ok) {
+                const errData = await response.json().catch(() => ({}));
+                throw new Error(errData.error || `HTTP error ${response.status}`);
+            }
+            
+            const data = await response.json();
+            const aiText = data.text;
             setAiResult(aiText);
             
             // 寫入本地日誌
