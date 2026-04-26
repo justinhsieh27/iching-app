@@ -1,0 +1,3030 @@
+{
+  "100000": {
+    "name": "Fù (Return) Hexagram",
+    "symbolInfo": "Upper Kūn ☷ Lower Zhèn ☳",
+    "image": "Earth over Thunder",
+    "keywords": "Prosperity, unimpeded in coming and going, repeatedly returning to its way",
+    "coreMeaning": "The return of the single Yang line; when things reach an extreme, they reverse; returning to the right path, starting anew.",
+    "aspects": {
+      "事業": "Fortunes are rising, re-energize and regain morale.",
+      "感情": "Old flame rekindled or relationships repaired.",
+      "健康": "Condition improving, gradually recovering.",
+      "財運": "Financial luck gradually recovers, can advance with small steps."
+    },
+    "transformationTip": "Moving Line 1 → Kūn Hexagram; Moving Top Line → Zhèn Hexagram",
+    "notes": "",
+    "lines": [
+      {
+        "position": "Line 1 (Yang)",
+        "text": "Return before going far, no regret, great auspiciousness.",
+        "meaning": "Realizing one is lost and returning, quickly coming back to the right path, no regret, great auspiciousness."
+      },
+      {
+        "position": "Line 2 (Yin)",
+        "text": "Auspicious return.",
+        "meaning": "Following good people to return, auspicious."
+      },
+      {
+        "position": "Line 3 (Yin)",
+        "text": "Frequent return, dangerous, no blame.",
+        "meaning": "Repeatedly turning back multiple times, although there is danger, there is no major blame."
+      },
+      {
+        "position": "Line 4 (Yin)",
+        "text": "Walking in the middle, returning alone.",
+        "meaning": "Returning alone to the right path amidst the crowd, admirable and valuable."
+      },
+      {
+        "position": "Line 5 (Yin)",
+        "text": "Sincere return, no regret.",
+        "meaning": "Returning with integrity and honesty, no regret."
+      },
+      {
+        "position": "Line 6 (Yin)",
+        "text": "Lost return, inauspicious, disaster and calamity. If military force is used, there will ultimately be great defeat.",
+        "meaning": "Lost and unable to return, inauspicious. Sending out troops will certainly lead to great defeat."
+      }
+    ]
+  },
+  "100001": {
+    "name": "Nourishment (Yi)",
+    "symbolInfo": "Upper Gen☶ Lower Zhen☳",
+    "image": "Mountain over Thunder",
+    "keywords": "Perseverance brings good fortune; observe nourishment; seek nourishment for oneself",
+    "coreMeaning": "Nourish body and mind, be cautious in speech and moderate in diet; right nourishment brings good fortune, ensure words and actions align.",
+    "aspects": {
+      "事業": "Focus on self-cultivation, be cautious in words and deeds.",
+      "感情": "Be caring and considerate, express love through actions.",
+      "健康": "Pay attention to diet and oral health, maintain well-being.",
+      "財運": "Control expenses, live within your means."
+    },
+    "transformationTip": "Moving initial line → Po (Stripping) hexagram; Moving top line → Zhen (Arousing) hexagram.",
+    "notes": "",
+    "lines": [
+      {
+        "position": "Line 1 (Yang)",
+        "text": "To abandon your divine tortoise and look enviously at my full cheeks: ominous.",
+        "meaning": "To give up one's own spiritual wisdom and envy others' physical appetites: ominous."
+      },
+      {
+        "position": "Line 2 (Yin)",
+        "text": "To seek nourishment from below; deviating from the norm in seeking nourishment from the mound: advance brings misfortune.",
+        "meaning": "To seek nourishment in violation of the usual path, seeking it from below: advancing brings misfortune."
+      },
+      {
+        "position": "Line 3 (Yin)",
+        "text": "To deviate from nourishment; perseverance brings misfortune. For ten years do not act; there is no advantage.",
+        "meaning": "To violate the way of nourishment; even perseverance brings misfortune. Do not act for ten years."
+      },
+      {
+        "position": "Line 4 (Yin)",
+        "text": "Seeking nourishment from above: good fortune. Like a tiger looking with intense gaze, its desire persistent, but no blame.",
+        "meaning": "Seeking nourishment from above: auspicious. Like a tiger staring greedily, yet without blame."
+      },
+      {
+        "position": "Line 5 (Yin)",
+        "text": "Departing from the norm; dwelling in perseverance brings good fortune. One should not cross the great river.",
+        "meaning": "Although deviating from the norm, dwelling in the right path brings good fortune. But one should not take great risks."
+      },
+      {
+        "position": "Line 6 (Yang)",
+        "text": "From whom nourishment comes; peril brings good fortune. It is advantageous to cross the great river.",
+        "meaning": "Many rely on you for nourishment; though there is danger, it is auspicious. It is beneficial to overcome great difficulties."
+      }
+    ]
+  },
+  "100010": {
+    "name": "Hexagram Chun (Difficulty at the Beginning)",
+    "symbolInfo": "Upper Kan ☵, Lower Zhen ☳",
+    "image": "Water over Thunder",
+    "keywords": "Primal, Penetrating, Harmonious, Persistent; Not favorable to undertake anything.",
+    "coreMeaning": "Like plants first emerging, a difficult start; all things are hard at the beginning, it is advisable to patiently wait for the opportune moment.",
+    "aspects": {
+      "事業": "Initial difficulties in enterprise, it is advisable to seek assistance from benefactors.",
+      "感情": "Early romantic setbacks, requires patient cultivation.",
+      "健康": "Pay attention to kidneys and bones/muscles, do not overexert yourself.",
+      "財運": "Difficulty in capital circulation, prudence is paramount."
+    },
+    "transformationTip": "Moving Line 1 → Hexagram Yi (Increase); Moving Line 6 → Hexagram Ji Ji (Completion).",
+    "notes": "",
+    "lines": [
+      {
+        "position": "Line 1 (Yang)",
+        "text": "Hovering, favorable to abide in firmness, favorable to establish feudal lords.",
+        "meaning": "A difficult start, it is advisable to first stand firm, recruit talents, and then act."
+      },
+      {
+        "position": "Line 2 (Yin)",
+        "text": "Chun, as if hesitating, horses move in platoons. Not robbers, but seeking marriage.",
+        "meaning": "In a dilemma, seemingly enemies but actually a good match, patiently await the opportune moment."
+      },
+      {
+        "position": "Line 3 (Yin)",
+        "text": "Hunting deer without a forester, only entering the forest. A superior person perceives the difficulty; it is better to give up.",
+        "meaning": "Reckless pursuit ultimately leads to emptiness; knowing when to retreat is better than brute force."
+      },
+      {
+        "position": "Line 4 (Yin)",
+        "text": "Horses move in platoons. Seeking marriage; going is auspicious, nothing unfavorable.",
+        "meaning": "Actively seeking assistance from benefactors, setting aside ego to seek cooperation, auspicious."
+      },
+      {
+        "position": "Line 5 (Yang)",
+        "text": "Chun, its fat (richness). For small firmness, auspicious; for great firmness, inauspicious.",
+        "meaning": "Bestowing favors is hindered. For small matters, adhering to uprightness is auspicious; for great matters, forcing action is inauspicious."
+      },
+      {
+        "position": "Line 6 (Yin)",
+        "text": "Horses move in platoons, weeping blood in streams.",
+        "meaning": "Extremely distressed, isolated and helpless, crying sorrowfully, needing to quietly await a turning point."
+      }
+    ]
+  },
+  "100011": {
+    "name": "Increase (Yi Gua)",
+    "symbolInfo": "Upper Wind (Sun) ☴ Lower Thunder (Zhen) ☳",
+    "image": "Wind over Thunder",
+    "keywords": "Beneficial to have somewhere to go, beneficial to cross the great river",
+    "coreMeaning": "Decrease the upper to benefit the lower, widely bestowing kindness; A time of increase, suitable for proactive action.",
+    "aspects": {
+      "事業": "Assistance from noble people, significant progress in career.",
+      "感情": "Emotional growth, mutual benefit in relationships.",
+      "健康": "Improved physical condition, continuous increase in well-being.",
+      "財運": "Increased financial fortune, favorable for investment."
+    },
+    "transformationTip": "Moving bottom line transforms to Hexagram Zhen (Thunder); Moving top line transforms to Hexagram Sun (Wind).",
+    "notes": "",
+    "lines": [
+      {
+        "position": "Line 1 (Yang)",
+        "text": "It is beneficial to undertake great deeds, supreme good fortune, no blame.",
+        "meaning": "Suitable for undertaking great enterprises, greatly auspicious with no fault."
+      },
+      {
+        "position": "Line 2 (Yin)",
+        "text": "Perhaps it will be increased, even ten pairs of tortoise shells cannot deter it. Long-lasting perseverance is auspicious. The king uses it to make offerings to God, auspicious.",
+        "meaning": "Receiving great increase, enduring uprightness is auspicious. The king making sacrifices to Heaven is also auspicious."
+      },
+      {
+        "position": "Line 3 (Yin)",
+        "text": "To increase by using inauspicious events, no blame. Possessing sincerity and acting with moderation, reporting to the duke with a jade tablet.",
+        "meaning": "Benefiting from unfortunate events, no blame. Acting with integrity and moderation, reporting to the duke or marquis."
+      },
+      {
+        "position": "Line 4 (Yin)",
+        "text": "Acting with moderation, the duke listens and follows. It is beneficial to move the capital or the state based on this.",
+        "meaning": "Acting with moderation and uprightness, gaining approval from the duke or marquis. Suitable for major undertakings such as relocating the capital or establishing a state."
+      },
+      {
+        "position": "Line 5 (Yang)",
+        "text": "Possessing sincerity and a benevolent heart, do not ask, for it is supremely auspicious. Bestow kindness with virtue.",
+        "meaning": "Benefiting the people with sincerity, no need to consult or ask, it is naturally greatly auspicious. Bestowing kindness through virtue."
+      },
+      {
+        "position": "Line 6 (Yang)",
+        "text": "No one increases it, or perhaps it is attacked. If the mind is not constant, there will be misfortune.",
+        "meaning": "No one adds to it, instead it is attacked. If the will is not firm, there will be misfortune."
+      }
+    ]
+  },
+  "100100": {
+    "name": "Zhen Hexagram",
+    "symbolInfo": "Upper Zhen ☳ Lower Zhen ☳",
+    "image": "Thunder",
+    "keywords": "Success, thunder comes terrifyingly, then laughter and talk",
+    "coreMeaning": "Thunder brings shock and fear, be reverent, cautious, and self-reflect; crises awaken, strive forward.",
+    "aspects": {
+      "事業": "Sudden changes, maintain calm in response",
+      "感情": "Sudden events in relationships, requires calm handling",
+      "健康": "Pay attention to liver, gallbladder, and nervous system",
+      "財運": "Sudden financial changes, respond cautiously"
+    },
+    "transformationTip": "Changing Line 1 → Yu Hexagram; Changing Line 6 → Yi Hexagram",
+    "notes": "",
+    "lines": [
+      {
+        "position": "Line 1 (Yang)",
+        "text": "Thunder comes terrifyingly, then laughter and talk, auspicious.",
+        "meaning": "When thunder comes, one shivers with fear; after the fright, peace and calm laughter, auspicious."
+      },
+      {
+        "position": "Line 2 (Yin)",
+        "text": "Thunder comes dangerously, losing a hundred thousand cowries, ascending to high hills. Do not pursue, in seven days it will be regained.",
+        "meaning": "Thunder comes dangerously, losing possessions, ascending to high hills. Do not pursue, in seven days it will be recovered."
+      },
+      {
+        "position": "Line 3 (Yin)",
+        "text": "Thunder comes confusedly; acting within the shock, without misfortune.",
+        "meaning": "Confused amidst the thunder, yet acting within the tremor, without disaster."
+      },
+      {
+        "position": "Line 4 (Yang)",
+        "text": "The shock sinks into the mud.",
+        "meaning": "The thunder shock sinks into the mire, action is obstructed."
+      },
+      {
+        "position": "Line 5 (Yin)",
+        "text": "Thunder comes and goes dangerously. A hundred thousand without loss, but there is something to be done.",
+        "meaning": "Thunder comes and goes with danger, though nothing is lost, there are matters that need to be handled."
+      },
+      {
+        "position": "Line 6 (Yin)",
+        "text": "Thunder comes with trembling, looking around apprehensively. Campaigning is inauspicious. The shock does not fall on one's own person, but on one's neighbor, no blame.",
+        "meaning": "Thunder brings a look of panic in the eyes; campaigning is inauspicious. The shock is upon one's neighbor, not oneself, no blame."
+      }
+    ]
+  },
+  "100101": {
+    "name": "Biting Through (Shi He)",
+    "symbolInfo": "Upper Li ☲ (Fire), Lower Zhen ☳ (Thunder)",
+    "image": "Fire over Thunder",
+    "keywords": "Success, beneficial to administer justice",
+    "coreMeaning": "Biting through and connecting, removing obstacles; administering justice clearly and discerning right from wrong.",
+    "aspects": {
+      "事業": "Remove obstacles, make decisive decisions",
+      "感情": "Face problems, communicate honestly to resolve misunderstandings",
+      "健康": "Pay attention to oral hygiene, teeth, and gastrointestinal digestion",
+      "財運": "Clear financial obstacles, make clear judgments on what to keep and what to discard"
+    },
+    "transformationTip": "Moving first line → Hexagram Zhen; Moving top line → Hexagram Li",
+    "notes": "",
+    "lines": [
+      {
+        "position": "Line 1 (Yang)",
+        "text": "Wearing stocks that cover the toes. No blame.",
+        "meaning": "A minor fault receives minor punishment; wearing shackles that hurt the toes. Early correction can prevent great disaster."
+      },
+      {
+        "position": "Line 2 (Yin)",
+        "text": "Biting through soft flesh, obscuring the nose. No blame.",
+        "meaning": "Biting through soft things, slightly overzealous, but no great blame."
+      },
+      {
+        "position": "Line 3 (Yin)",
+        "text": "Biting through dried meat, encountering poison. A little regret. No blame.",
+        "meaning": "Biting into poisoned dried meat, encountering difficulties, a little regret, but no great blame."
+      },
+      {
+        "position": "Line 4 (Yang)",
+        "text": "Biting through a dried bone with meat. Obtaining a metal arrow. Beneficial to be firm and persistent in difficulty. Auspicious.",
+        "meaning": "Biting through dried hard bone and meat, obtaining a golden arrow. Maintaining uprightness amidst hardship is auspicious."
+      },
+      {
+        "position": "Line 5 (Yin)",
+        "text": "Biting through dried meat. Obtaining yellow gold. Firmness brings peril. No blame.",
+        "meaning": "Biting through dried meat and obtaining gold. Upholding righteousness, though perilous, brings no blame."
+      },
+      {
+        "position": "Line 6 (Yang)",
+        "text": "Wearing stocks that cover the ears. Misfortune.",
+        "meaning": "A great fault receives great punishment. Shackles cover the ears, unaware of the need for repentance. Misfortune."
+      }
+    ]
+  },
+  "100110": {
+    "name": "Following (Sui Hexagram)",
+    "symbolInfo": "Upper Dui (Joyous, Lake) ☱, Lower Zhen (Arousing, Thunder) ☳",
+    "image": "Lake over Thunder",
+    "keywords": "Supreme success, favorable, firm and correct, no blame",
+    "coreMeaning": "Adapt to the times and circumstances, respond to changes; gentle cooperation ensures success everywhere.",
+    "aspects": {
+      "事業": "Adapt to the environment, respond flexibly",
+      "感情": "Go with the flow, emotional harmony",
+      "健康": "Pay attention to oral health and digestion",
+      "財運": "Act in accordance with the trend, follow the current"
+    },
+    "transformationTip": "Moving Line 1 → Hexagram Kun (Distress); Moving Line 6 → Hexagram Gu (Decay)",
+    "notes": "",
+    "lines": [
+      {
+        "position": "Line 1 (Yang)",
+        "text": "Officials have changes, correctness brings good fortune, going out to socialize yields merits",
+        "meaning": "There are changes in duty, steadfastness brings good fortune; going out and socializing will yield results"
+      },
+      {
+        "position": "Line 2 (Yin)",
+        "text": "Attached to a youngster, loses a true man",
+        "meaning": "Following petty individuals, loses true virtuous people; choices must be made with caution"
+      },
+      {
+        "position": "Line 3 (Yin)",
+        "text": "Attached to a true man, loses a youngster. Following, there is gain when sought. It is beneficial to remain firm and correct",
+        "meaning": "Following virtuous people, loses petty individuals; what is sought will be obtained. It is beneficial to abide in correctness"
+      },
+      {
+        "position": "Line 4 (Yang)",
+        "text": "Following, there is gain. Firmness brings misfortune. If there is sincerity on the way, how can there be blame with enlightenment?",
+        "meaning": "Following yields gains, but steadfastness can lead to misfortune; one must discern with sincerity"
+      },
+      {
+        "position": "Line 5 (Yang)",
+        "text": "Sincere to the excellent; auspicious",
+        "meaning": "Be sincere to good people; auspicious"
+      },
+      {
+        "position": "Line 6 (Yin)",
+        "text": "Bound and restrained, then follows and supports. The king uses it for offerings on the Western Mountain",
+        "meaning": "Being firmly bound, surrendering and following. The king uses this for sacrificial offerings on the Western Mountains"
+      }
+    ]
+  },
+  "100111": {
+    "name": "Hexagram of Innocence",
+    "symbolInfo": "Upper Qian ☰ Lower Zhen ☳",
+    "image": "Heaven Thunder",
+    "keywords": "Supreme success, favorable through perseverance. If not upright, there will be misfortune.",
+    "coreMeaning": "Act without pretense, align with Heaven and respond to people; honest and without deceit, naturally auspicious.",
+    "aspects": {
+      "事業": "Be down-to-earth, do not resort to speculation or clever tricks.",
+      "感情": "Treat each other with sincerity, and emotions will naturally develop.",
+      "健康": "Nourish health by following natural principles, do not blindly take medicine.",
+      "財運": "Manage finances properly, do not crave for lucky gains."
+    },
+    "transformationTip": "Moving Line 1 → Qian Hexagram; Moving Line 6 → Song Hexagram.",
+    "notes": "",
+    "lines": [
+      {
+        "position": "Line 1 (Yang)",
+        "text": "Without pretense, going forth is auspicious.",
+        "meaning": "Advancing without pretense or inappropriate action is auspicious."
+      },
+      {
+        "position": "Line 2 (Yin)",
+        "text": "Do not plow to reap, nor clear new land for cultivation, then it is beneficial to go forward.",
+        "meaning": "Do not be attached to the results of plowing and harvesting; let nature take its course, it is beneficial to proceed."
+      },
+      {
+        "position": "Line 3 (Yin)",
+        "text": "Calamity without pretense. Or a tied-up ox, a passerby obtains it, a calamity for the people of the town.",
+        "meaning": "Suffering disaster without cause, like a tied-up ox being taken by a passerby, implicating the innocent."
+      },
+      {
+        "position": "Line 4 (Yang)",
+        "text": "Perseverance is permissible, no blame.",
+        "meaning": "Uphold uprightness, then there will be no fault."
+      },
+      {
+        "position": "Line 5 (Yang)",
+        "text": "Illness without pretense, do not use medicine and there will be joy.",
+        "meaning": "Illness that comes without pretense, recovers naturally without medicine, there will be joy."
+      },
+      {
+        "position": "Line 6 (Yang)",
+        "text": "Acting without pretense, yet there is misfortune; nothing is beneficial.",
+        "meaning": "Acting without pretense yet still encountering misfortune; at this time, action is not beneficial, it is advisable to wait quietly."
+      }
+    ]
+  },
+  "101000": {
+    "name": "Darkening of the Light Hexagram",
+    "symbolInfo": "Upper Kun ☷ Lower Li ☲",
+    "image": "Earth over Fire",
+    "keywords": "Beneficial to persevere in difficulty",
+    "coreMeaning": "Light is damaged, in adverse circumstances; conceal one's brilliance, adhere to righteousness unyieldingly.",
+    "aspects": {
+      "事業": "Talent unappreciated, suitable for low-key forbearance",
+      "感情": "Emotional obstacles, requires patient waiting",
+      "健康": "Pay attention to eyes and heart, avoid overwork",
+      "財運": "Financial fortune hindered, be cautious and conservative"
+    },
+    "transformationTip": "Moving Line 1 → Hexagram Tai; Moving Line 6 → Hexagram Kun",
+    "notes": "",
+    "lines": [
+      {
+        "position": "Line 1 (Yang)",
+        "text": "Darkening of the light in flight, drooping its wings. The superior person on a journey, three days without food.",
+        "meaning": "Light is damaged, like a bird with drooping wings. A superior person travels three days without food, facing hardship."
+      },
+      {
+        "position": "Line 2 (Yin)",
+        "text": "Darkening of the light, injured in the left thigh. Using a strong horse to save oneself, auspicious.",
+        "meaning": "Injured in the left thigh, still able to escape on horseback, auspicious."
+      },
+      {
+        "position": "Line 3 (Yang)",
+        "text": "Darkening of the light in the southern hunt, captures the great leader. One must not be hasty in righteousness.",
+        "meaning": "Campaigning in the south, capturing the chief culprit. One must not be hasty in upholding righteousness."
+      },
+      {
+        "position": "Line 4 (Yin)",
+        "text": "Enters the left belly, grasps the heart of the darkening light. Then leaves the courtyard.",
+        "meaning": "Penetrates to the core, discerns the source of the darkness. Leaves the place of trouble."
+      },
+      {
+        "position": "Line 5 (Yin)",
+        "text": "The Darkening of the Light of Jizi. Beneficial to persevere.",
+        "meaning": "Like Jizi, concealing one's brilliance under a dark ruler. Upholding righteousness is beneficial."
+      },
+      {
+        "position": "Line 6 (Yin)",
+        "text": "Not bright, but obscured. First ascends to heaven, then enters the earth.",
+        "meaning": "Utter darkness. Initially rises high, eventually falls to the ground. Extremes lead to reversal."
+      }
+    ]
+  },
+  "101001": {
+    "name": "Adornment Hexagram",
+    "symbolInfo": "Upper Gen☶ Lower Li☲",
+    "image": "Mountain Fire",
+    "keywords": "Success, minor advantage in proceeding",
+    "coreMeaning": "Adornment and beauty, outward brilliance; focus on inner substance, splendid but not superficial.",
+    "aspects": {
+      "事業": "Favorable image and packaging, pay attention to detail and quality.",
+      "感情": "Romantic and atmospheric, beautiful relationship.",
+      "健康": "Pay attention to skin and eyes.",
+      "財運": "Small income, do not overly pursue superficial gains."
+    },
+    "transformationTip": "If the first line changes, it becomes the Li hexagram; if the top line changes, it becomes the Gen hexagram.",
+    "notes": "",
+    "lines": [
+      {
+        "position": "Line 1 (Yang)",
+        "text": "Adorning his toes, he gives up the carriage and walks.",
+        "meaning": "Adorning the toes, preferring to walk rather than ride in a carriage, taking simplicity as beauty."
+      },
+      {
+        "position": "Line 2 (Yin)",
+        "text": "Adorning his beard.",
+        "meaning": "Adorning the beard, dependent on others, moving with others."
+      },
+      {
+        "position": "Line 3 (Yang)",
+        "text": "Adorned and moist, perseverance brings good fortune.",
+        "meaning": "Decorated and lustrous, long-term adherence to correctness brings good fortune."
+      },
+      {
+        "position": "Line 4 (Yin)",
+        "text": "Adorned and white, like a soaring white horse. Not a robber, but a marriage.",
+        "meaning": "The beauty of plain white, white horses flying like, seemingly an enemy but actually a good match."
+      },
+      {
+        "position": "Line 5 (Yin)",
+        "text": "Adornment in the hill garden. A small bundle of silk. Regret, but ultimately good fortune.",
+        "meaning": "Decorating the hill garden, meager gifts. Though there is regret, it ultimately brings good fortune."
+      },
+      {
+        "position": "Line 6 (Yang)",
+        "text": "Plain adornment. No blame.",
+        "meaning": "Returning to simplicity, using plain white as adornment, no fault."
+      }
+    ]
+  },
+  "101010": {
+    "name": "Hexagram of the Family (Jia Ren)",
+    "symbolInfo": "Upper Wind (Xun ☴) Lower Fire (Li ☲)",
+    "image": "Wind over Fire",
+    "keywords": "Favorable for female perseverance",
+    "coreMeaning": "The family path is upright and orderly, each member maintaining their position; cultivate oneself and regulate the family, from within to without.",
+    "aspects": {
+      "事業": "Clear division of labor within the team, each performing their duties.",
+      "感情": "Family harmony, stable relationships.",
+      "健康": "Pay attention to the overall health of family members.",
+      "財運": "Stable family finances, joint planning."
+    },
+    "transformationTip": "Moving initial line transforms to Li hexagram; Moving top line transforms to Xun hexagram.",
+    "notes": "",
+    "lines": [
+      {
+        "position": "Line 1 (Yang)",
+        "text": "Establishing order in the family, regret vanishes.",
+        "meaning": "Establishing rules at the beginning of family formation, regret disappears."
+      },
+      {
+        "position": "Line 2 (Yin)",
+        "text": "Do not pursue external affairs; attend to domestic duties, perseverance brings good fortune.",
+        "meaning": "Do not strongly pursue external affairs, focus on domestic responsibilities; upholding rectitude brings auspiciousness."
+      },
+      {
+        "position": "Line 3 (Yang)",
+        "text": "The family is strict, regret is severe, auspicious; wives and children are joyful, ultimately regret.",
+        "meaning": "Though strict family rules may bring pressure, it ultimately leads to good fortune; excessive indulgence will ultimately lead to regret."
+      },
+      {
+        "position": "Line 4 (Yin)",
+        "text": "Enriching the family, great good fortune.",
+        "meaning": "Making the family wealthy, great good fortune."
+      },
+      {
+        "position": "Line 5 (Yang)",
+        "text": "The king approaches the family, no need to worry, good fortune.",
+        "meaning": "The way a king governs the family, no need for worry, auspicious."
+      },
+      {
+        "position": "Line 6 (Yang)",
+        "text": "Having sincerity and dignity, ultimately good fortune.",
+        "meaning": "Governing the family with sincerity and dignity, ultimately auspicious."
+      }
+    ]
+  },
+  "101011": {
+    "name": "Completion",
+    "symbolInfo": "Upper Kan ☵ Lower Li ☲",
+    "image": "Water over Fire",
+    "keywords": "Success, small advantages, auspicious at the beginning, chaotic at the end",
+    "coreMeaning": "All matters are accomplished, great tasks completed; think of danger in times of peace, prevent slackening.",
+    "aspects": {
+      "事業": "Goals achieved, must guard against arrogance and complacency.",
+      "感情": "Stable emotions, maintain freshness.",
+      "健康": "Good health status, continue maintenance.",
+      "財運": "Stable finances, prevent slackening and squandering."
+    },
+    "transformationTip": "Changing Line 1 → Li hexagram; Changing Line 6 → Kan hexagram",
+    "notes": "",
+    "lines": [
+      {
+        "position": "Line 1 (Yang)",
+        "text": "Drag its wheels, wet its tail, no blame.",
+        "meaning": "Drag the cart wheels to slow down, get the tail wet, proceed cautiously, no blame."
+      },
+      {
+        "position": "Line 2 (Yin)",
+        "text": "A woman loses her head-dress, do not pursue, it will be found in seven days.",
+        "meaning": "A woman loses her head-dress, do not rush to retrieve it, it will naturally be found after seven days."
+      },
+      {
+        "position": "Line 3 (Yang)",
+        "text": "Gao Zong attacks the land of ghosts (Gui Fang), overcomes it in three years, do not employ small men.",
+        "meaning": "Gao Zong conquers the barbarians, only winning after three years; after success, do not let small men gain power."
+      },
+      {
+        "position": "Line 4 (Yin)",
+        "text": "The silken garment has rags, be vigilant all day long.",
+        "meaning": "Even if clothing is damaged, remain vigilant all day, prevent problems before they grow."
+      },
+      {
+        "position": "Line 5 (Yang)",
+        "text": "The eastern neighbor slaughters an ox, it is not as good as the western neighbor's simple sacrifice, who truly receives blessings.",
+        "meaning": "An elaborate sacrifice is not as good as a sincere, simple offering; only sincerity brings blessings."
+      },
+      {
+        "position": "Line 6 (Yin)",
+        "text": "Wet its head, danger.",
+        "meaning": "Head is wet, gone too far, danger; a warning of prosperity turning to decline."
+      }
+    ]
+  },
+  "101100": {
+    "name": "Abundance (Feng)",
+    "symbolInfo": "Upper Zhen ☳ Lower Li ☲",
+    "image": "Thunder over Fire",
+    "keywords": "Success, the king approaches it, do not worry, appropriate at midday",
+    "coreMeaning": "Great abundance and prosperity, ultimate brightness; when prosperity reaches its peak, it declines; in times of peace, be mindful of danger.",
+    "aspects": {
+      "事業": "Career reaches its peak, pay attention to maintaining gains and stability.",
+      "感情": "Relationships are abundant, enjoy the present.",
+      "健康": "Full of energy, do not indulge excessively.",
+      "財運": "Financial fortune is prosperous, pay attention to changes after the peak."
+    },
+    "transformationTip": "Moving Line 1 (bottom line) → Hexagram Li; Moving Line 6 (top line) → Hexagram Zhen",
+    "notes": "",
+    "lines": [
+      {
+        "position": "Line 1 (Yang)",
+        "text": "Meeting one's matching lord, even for ten days, there is no blame, going forward has honor.",
+        "meaning": "Meeting a matching sovereign, even if only for ten days, there is no blame, going forward there is commendation."
+      },
+      {
+        "position": "Line 2 (Yin)",
+        "text": "Abundance is obscured, at midday seeing the Dipper, going forth incurs doubt and illness, with sincerity one will be revealed, auspicious.",
+        "meaning": "Abundance is obscured, at midday seeing the Big Dipper, going forth one is suspected, demonstrating sincerity will reveal one, auspicious."
+      },
+      {
+        "position": "Line 3 (Yang)",
+        "text": "Its abundance is overshadowed, at midday seeing tiny stars, breaking one's right arm, no blame.",
+        "meaning": "Abundance is more deeply overshadowed, at midday seeing small stars, the right arm is broken, but there is no blame."
+      },
+      {
+        "position": "Line 4 (Yang)",
+        "text": "Its abundance is obscured, at midday seeing the Dipper, meeting one's equal lord, auspicious.",
+        "meaning": "Abundance is obscured, at midday seeing the Dipper, meeting a lord of equal standing, auspicious."
+      },
+      {
+        "position": "Line 5 (Yin)",
+        "text": "One with virtue comes, bringing joyous reputation, auspicious.",
+        "meaning": "A person of virtue comes forward, bringing celebration and honor, auspicious."
+      },
+      {
+        "position": "Line 6 (Yin)",
+        "text": "Its house is abundant, its home is obscured, peeking into its door, it is quiet and empty, not seen for three years, ominous.",
+        "meaning": "The house is grand and abundant, the home is obscured, peeking into its doorway, it is empty with no one present, not seen for three years, ominous."
+      }
+    ]
+  },
+  "101101": {
+    "name": "Li Hexagram",
+    "symbolInfo": "Upper Li ☲ Lower Li ☲",
+    "image": "Fire",
+    "keywords": "Perseverance is beneficial, leading to success. Raising a female ox brings good fortune.",
+    "coreMeaning": "Brightness attaches itself, illuminating all directions; adhering to the righteous path leads to flourishing civilization.",
+    "aspects": {
+      "事業": "Talents are displayed, shining brightly.",
+      "感情": "Overflowing with passion, brilliant emotions.",
+      "健康": "Pay attention to the heart and eyes, do not overuse your eyes.",
+      "財運": "Financial fortune is clear, can be actively seized."
+    },
+    "transformationTip": "If the first line moves → Lü Hexagram (The Wanderer); If the top line moves → Dǐng Hexagram (The Cauldron).",
+    "notes": "",
+    "lines": [
+      {
+        "position": "Line 1 (Yang)",
+        "text": "Walking in disarray, be respectful, no blame.",
+        "meaning": "Steps are intertwined, be cautious and respectful, no fault."
+      },
+      {
+        "position": "Line 2 (Yin)",
+        "text": "Yellow Li, great good fortune.",
+        "meaning": "Attaching oneself to the path of the center and correctness, yellow is the color of the center, great good fortune."
+      },
+      {
+        "position": "Line 3 (Yang)",
+        "text": "Li at sunset; if one does not drum on jars and sing, then the lament of old age, misfortune.",
+        "meaning": "As the sun sets, if one does not know how to be content with fate, then there will only be vain lamentation, misfortune."
+      },
+      {
+        "position": "Line 4 (Yang)",
+        "text": "Sudden arrival, as if burnt, as if dead, as if abandoned.",
+        "meaning": "Sudden calamity, burning, death, abandonment."
+      },
+      {
+        "position": "Line 5 (Yin)",
+        "text": "Tears flow like a torrent, with sorrowful sighs, good fortune.",
+        "meaning": "Weeping bitterly and sighing sorrowfully; being able to recognize reality is auspicious instead."
+      },
+      {
+        "position": "Line 6 (Yang)",
+        "text": "The king goes forth on an expedition, auspiciously beheading the leader, capturing not those of his ilk, no blame.",
+        "meaning": "A king goes on an expedition, beheading the wicked chief, capturing those who are not of his kind, no blame."
+      }
+    ]
+  },
+  "101110": {
+    "name": "Hexagram Ge (Revolution)",
+    "symbolInfo": "Upper Dui ☱, Lower Li ☲",
+    "image": "Lake over Fire",
+    "keywords": "On the day of Ji, there is faith. Great success, beneficial perseverance. No remorse.",
+    "coreMeaning": "To abolish the old and establish the new, adapt to change; reform needs to be timely to succeed.",
+    "aspects": {
+      "事業": "Bold innovation, breaking old patterns.",
+      "感情": "Relationships need change, brave breakthroughs.",
+      "健康": "Change bad habits, rebuild health.",
+      "財運": "Investment direction transformation, embracing new opportunities."
+    },
+    "transformationTip": "Moving initial line → Hexagram Li; Moving top line → Hexagram Dui",
+    "notes": "",
+    "lines": [
+      {
+        "position": "Line 1 (Yang)",
+        "text": "Secure with the hide of a yellow ox.",
+        "meaning": "Use a yellow ox hide to consolidate and bind; the time is not yet ripe, first consolidate oneself."
+      },
+      {
+        "position": "Line 2 (Yin)",
+        "text": "On the day of Ji, institute change. Expeditions are auspicious, no blame.",
+        "meaning": "Change only when the time is ripe; advances are auspicious, no blame."
+      },
+      {
+        "position": "Line 3 (Yang)",
+        "text": "Expeditions are ominous, perseverance brings danger. Words of reform are confirmed three times, there is faith.",
+        "meaning": "Rash advances lead to misfortune, adhering to correctness brings danger. Words of reform must be repeatedly confirmed and implemented with sincerity."
+      },
+      {
+        "position": "Line 4 (Yang)",
+        "text": "Remorse vanishes. With sincerity, change the mandate (of Heaven), auspicious.",
+        "meaning": "Remorse disappears. With sincerity, reform the mandate of Heaven; auspicious."
+      },
+      {
+        "position": "Line 5 (Yang)",
+        "text": "The great person changes like a tiger. Without consulting the oracle, there is faith.",
+        "meaning": "The great person transforms like a tiger, no need for divination, naturally inspires trust."
+      },
+      {
+        "position": "Line 6 (Yin)",
+        "text": "The superior person changes like a leopard, the inferior person transforms their countenance. Expeditions are ominous, dwelling in perseverance is auspicious.",
+        "meaning": "The superior person makes minor changes like a leopard, the inferior person outwardly conforms. Advancing at this time is ominous; staying put and being firm is auspicious."
+      }
+    ]
+  },
+  "101111": {
+    "name": "Hexagram of Fellowship",
+    "symbolInfo": "Upper Qian ☰ Lower Li ☲",
+    "image": "Heaven over Fire",
+    "keywords": "Fellowship in the Open, Success, Favorable to cross the great river",
+    "coreMeaning": "Like-minded, moving forward hand in hand; broadly accepting talents, open and honest.",
+    "aspects": {
+      "事業": "Working together, building good relationships",
+      "感情": "Shared interests, sincere affection",
+      "健康": "Pay attention to heart and eyes",
+      "財運": "Partnerships are beneficial, open cooperation"
+    },
+    "transformationTip": "Line 1 (Yang) moving → Qian Hexagram; Top line moving → Pi Hexagram",
+    "notes": "",
+    "lines": [
+      {
+        "position": "Line 1 (Yang)",
+        "text": "Fellowship at the gate, no blame.",
+        "meaning": "Opening the door to interact with others, open and honest, no fault."
+      },
+      {
+        "position": "Line 2 (Yin)",
+        "text": "Fellowship in the clan, regret.",
+        "meaning": "Only interacting within a small circle of one's own clan, scope is too small, there is regret."
+      },
+      {
+        "position": "Line 3 (Yang)",
+        "text": "Hiding warriors in the thickets, ascending the high mound, for three years unsuccessful.",
+        "meaning": "Secretly deploying, waiting for the opportunity, prolonged dormancy makes it difficult to succeed."
+      },
+      {
+        "position": "Line 4 (Yang)",
+        "text": "Ascending his wall, unable to attack, auspicious.",
+        "meaning": "Although having an offensive posture, knowing the difficulty and retreating, not forcing it, auspicious."
+      },
+      {
+        "position": "Line 5 (Yang)",
+        "text": "Fellowship, first weeping then laughing; great masters meet.",
+        "meaning": "First there is painful separation, then joyous reunion; after experiencing hardships, finally able to reunite."
+      },
+      {
+        "position": "Line 6 (Yang)",
+        "text": "Fellowship in the suburbs, no regret.",
+        "meaning": "Interacting with people in the suburbs, although without grand ambitions, there is no regret and no blame."
+      }
+    ]
+  },
+  "110000": {
+    "name": "Lin Hexagram",
+    "symbolInfo": "Upper Kun ☷ Lower Dui ☱",
+    "image": "Earth over Lake",
+    "keywords": "Great success, benefiting from steadfastness; misfortune by the eighth month.",
+    "coreMeaning": "Approaching, being intimate; taking the initiative to care; seizing the present moment, do not miss the opportunity.",
+    "aspects": {
+      "事業": "Proactive and positive, seize good opportunities",
+      "感情": "Initiate friendliness, emotional progress is smooth",
+      "健康": "Body gradually improves, continue maintenance",
+      "財運": "Rising wealth, advisable to seize the opportunity"
+    },
+    "transformationTip": "First line moves → Shi Hexagram; Top line moves → Tai Hexagram",
+    "notes": "",
+    "lines": [
+      {
+        "position": "Line 1 (Yang)",
+        "text": "Approaching by feeling, firm and auspicious",
+        "meaning": "Approaching through influence, remaining correct brings good fortune"
+      },
+      {
+        "position": "Line 2 (Yang)",
+        "text": "Approaching by feeling, auspicious, nothing unfavorable",
+        "meaning": "Truly approaching through sincere feeling, auspicious with nothing unfavorable"
+      },
+      {
+        "position": "Line 3 (Yin)",
+        "text": "Sweetly approaching, without benefit. If one worries about it, there will be no blame.",
+        "meaning": "Approaching with sweet words brings no benefit. If one can be worried and vigilant, there will be no blame."
+      },
+      {
+        "position": "Line 4 (Yin)",
+        "text": "Reaching the approach, no blame",
+        "meaning": "Truly arriving at one's position, no fault"
+      },
+      {
+        "position": "Line 5 (Yin)",
+        "text": "Wise approach, proper for a great ruler, auspicious",
+        "meaning": "Approaching the people with wisdom, this is the proper way for a great ruler, auspicious"
+      },
+      {
+        "position": "Line 6 (Yin)",
+        "text": "Generous approach, auspicious, no blame",
+        "meaning": "Approaching with a magnanimous heart, auspicious and without blame"
+      }
+    ]
+  },
+  "110001": {
+    "name": "Sǔn (Decrease)",
+    "symbolInfo": "Upper Gen☶ Lower Dui☱",
+    "image": "Mountain over Lake",
+    "keywords": "Having sincerity, supreme good fortune, no blame, perseverance is beneficial",
+    "coreMeaning": "Decreasing the lower to benefit the upper; sacrificing the self; decrease is timely, decrease and decrease again to seek benefit.",
+    "aspects": {
+      "事業": "Short-term sacrifice for long-term gain",
+      "感情": "Moderate giving, do not overly compromise yourself",
+      "健康": "Moderate diet, reduce bad habits",
+      "財運": "Initial expenditure, subsequent income"
+    },
+    "transformationTip": "Moving Line 1 (bottom) leads to Dui Hexagram; Moving Line 6 (top) leads to Gen Hexagram",
+    "notes": "",
+    "lines": [
+      {
+        "position": "Line 1 (Yang)",
+        "text": "已事遄往，無咎，酌損之",
+        "meaning": "Having completed one's task, proceed swiftly, no blame, but carefully consider the decrease."
+      },
+      {
+        "position": "Line 2 (Yang)",
+        "text": "利貞，征凶，弗損益之",
+        "meaning": "Upholding rectitude is beneficial, venturing forth is ominous, only by not decreasing oneself can one benefit others."
+      },
+      {
+        "position": "Line 3 (Yin)",
+        "text": "三人行則損一人，一人行則得其友",
+        "meaning": "Three walking together are reduced to two; walking alone, one finds a true friend. Extremes reverse."
+      },
+      {
+        "position": "Line 4 (Yin)",
+        "text": "損其疾，使遄有喜，無咎",
+        "meaning": "Reduce illness, swiftly obtain joy, no blame."
+      },
+      {
+        "position": "Line 5 (Yin)",
+        "text": "或益之，十朋之龜弗克違，元吉",
+        "meaning": "Perhaps someone is added to; even precious turtle shells cannot defy this, great good fortune."
+      },
+      {
+        "position": "Line 6 (Yang)",
+        "text": "弗損益之，無咎，貞吉，利有攸往，得臣無家",
+        "meaning": "Instead of decreasing, one increases; no blame, upholding rectitude is good fortune, one may advance, obtain worthy officials without being partisan."
+      }
+    ]
+  },
+  "110010": {
+    "name": "Jie (Moderation)",
+    "symbolInfo": "Upper Kan ☵ Lower Dui ☱",
+    "image": "Water over Lake",
+    "keywords": "Success, bitter moderation is not favorable",
+    "coreMeaning": "Moderation with measure, just right; knowing how to moderate, too much is as bad as too little.",
+    "aspects": {
+      "事業": "Moderate resources, act with measure",
+      "感情": "Express moderately, neither overly suppress nor indulge",
+      "健康": "Moderate diet, regular routine",
+      "財運": "Control spending, live within one's means"
+    },
+    "transformationTip": "Moving initial line → Dui Hexagram; Moving top line → Kan Hexagram",
+    "notes": "",
+    "lines": [
+      {
+        "position": "Line 1 (Yang)",
+        "text": "Do not go out of the courtyard, no blame",
+        "meaning": "Do not easily go out, cautiously guard one's position, no blame"
+      },
+      {
+        "position": "Line 2 (Yang)",
+        "text": "Do not go out of the gate, misfortune",
+        "meaning": "Too conservative, not going out of the gate, leads to misfortune; excessive moderation is also unfavorable"
+      },
+      {
+        "position": "Line 3 (Yin)",
+        "text": "If not moderate, then one sighs, no blame",
+        "meaning": "Not knowing moderation, sighing afterwards, regret is useless, no blame"
+      },
+      {
+        "position": "Line 4 (Yin)",
+        "text": "Comfortable moderation, success",
+        "meaning": "Content with moderation, success; natural moderation is best"
+      },
+      {
+        "position": "Line 5 (Yang)",
+        "text": "Sweet moderation, auspicious, going forth has praise",
+        "meaning": "Willingly moderate, auspicious; going forth will be rewarded"
+      },
+      {
+        "position": "Line 6 (Yin)",
+        "text": "Bitter moderation, firm misfortune, regret vanishes",
+        "meaning": "Overly bitter moderation, even if righteous, is ominous; but if one repents, regret will disappear"
+      }
+    ]
+  },
+  "110011": {
+    "name": "Inner Truth Hexagram (Zhong Fu)",
+    "symbolInfo": "Upper Xun (Wind) ☴ Lower Dui (Lake) ☱",
+    "image": "Wind over Lake",
+    "keywords": "Pigs and fish are auspicious. Beneficial to cross the great river. Beneficial to persevere.",
+    "coreMeaning": "Inner sincerity influences all things; treating people with honesty leads to success in all endeavors.",
+    "aspects": {
+      "事業": "Build your career on sincerity and gain trust.",
+      "感情": "Treat each other with genuine affection; feelings will be sincere and moving.",
+      "健康": "Maintain a peaceful mindset for physical and mental health.",
+      "財運": "Sincerity as the foundation, wealth will flow abundantly."
+    },
+    "transformationTip": "Line 1 (bottom) moves → Dui Hexagram; Line 6 (top) moves → Xun Hexagram.",
+    "notes": "",
+    "lines": [
+      {
+        "position": "Line 1 (Yang)",
+        "text": "Safety is auspicious; if there are other intentions, there is no peace.",
+        "meaning": "Auspicious if sincerity is stable; if there are ulterior motives, there will be no peace."
+      },
+      {
+        "position": "Line 2 (Yang)",
+        "text": "A calling crane in the shade, its young ones harmonize with it. I have a good goblet, I will share it with you.",
+        "meaning": "Cranes call and respond in harmony; sincerity inspires attraction. Good wine is shared, true feelings are revealed."
+      },
+      {
+        "position": "Line 3 (Yin)",
+        "text": "Encounter an opponent; either advance with drums or retreat, either weep or sing.",
+        "meaning": "Encountering an opponent, one might attack or defend, be sad or joyful; emotions fluctuate with external circumstances."
+      },
+      {
+        "position": "Line 4 (Yin)",
+        "text": "The moon is nearly full; a team of horses is lost. No blame.",
+        "meaning": "The moon is nearing fullness; losing a team of horses. Giving up small gains in exchange for great trust, no blame."
+      },
+      {
+        "position": "Line 5 (Yang)",
+        "text": "Having inner truth, closely bound together. No blame.",
+        "meaning": "Sincerity is closely linked; no blame. The sincerity of the central and correct path is most precious."
+      },
+      {
+        "position": "Line 6 (Yang)",
+        "text": "The sound of a bird ascends to the sky; perseverance brings misfortune.",
+        "meaning": "Only sound flies to the sky, without substance. Even holding to correctness will be inauspicious. Sincerity must not become a mere formality."
+      }
+    ]
+  },
+  "110100": {
+    "name": "The Marrying Maiden Hexagram",
+    "symbolInfo": "Upper Zhen ☳ Lower Dui ☱",
+    "image": "Thunder over Lake",
+    "keywords": "Expedition is inauspicious, nothing is beneficial",
+    "coreMeaning": "Marriage and settlement, improper status; emotional impulsiveness easily leads to regret.",
+    "aspects": {
+      "事業": "In a subordinate position, one must scrupulously adhere to one's duties.",
+      "感情": "Emotional impulsiveness easily leads to regret; coolness is needed.",
+      "健康": "Pay attention to emotional fluctuations, avoid impulsiveness.",
+      "財運": "Impulsive investments easily lead to losses; think thrice before acting."
+    },
+    "transformationTip": "Moving Line 1 → Dui Hexagram; Moving Line 6 → Zhen Hexagram",
+    "notes": "",
+    "lines": [
+      {
+        "position": "Line 1 (Yang)",
+        "text": "The marrying maiden as a concubine, though lame, can walk; expedition is auspicious.",
+        "meaning": "Marrying as a concubine, though of low status, one can adhere to one's duties; advancement is auspicious."
+      },
+      {
+        "position": "Line 2 (Yang)",
+        "text": "Though one-eyed, can see; beneficial for a solitary person to be firm.",
+        "meaning": "Though vision is limited, one can see clearly; beneficial for recluses to maintain integrity."
+      },
+      {
+        "position": "Line 3 (Yin)",
+        "text": "The marrying maiden awaits; she returns as a concubine.",
+        "meaning": "Waiting to be married, eventually marries as a concubine, status is lowered."
+      },
+      {
+        "position": "Line 4 (Yang)",
+        "text": "The marrying maiden delays the time; a delayed marriage has its time.",
+        "meaning": "Marriage is delayed; it's better to marry later, waiting for the right time."
+      },
+      {
+        "position": "Line 5 (Yin)",
+        "text": "Emperor Yi marries his sister; the robe of the mistress is not as good as that of the concubine; the moon is almost full, auspicious.",
+        "meaning": "Emperor Yi gives his sister in marriage; the principal wife is not as beautiful as the concubine; the moon is near its fullness, auspicious."
+      },
+      {
+        "position": "Line 6 (Yin)",
+        "text": "The woman holds a basket with no fruit; the scholar slaughters a sheep with no blood; nothing is beneficial.",
+        "meaning": "The woman holds an empty basket, the scholar slaughters a sheep without blood; merely form without substance, no benefit."
+      }
+    ]
+  },
+  "110101": {
+    "name": "The Hexagram of Not Yet Complete",
+    "symbolInfo": "Upper Li ☲ Lower Kan ☵",
+    "image": "Fire over Water",
+    "keywords": "Success, the little fox is almost across, it wets its tail, no advantage",
+    "coreMeaning": "Not yet completed, continue to move forward; matters are not concluded, still require effort.",
+    "aspects": {
+      "事業": "Goals not yet achieved, continued effort is required",
+      "感情": "Emotions/relationships are still developing, requiring patient nurturing",
+      "健康": "Still requires recuperation, continuous effort for recovery",
+      "財運": "Financial goals not yet fulfilled, continue to accumulate",
+      "--": "--",
+      "**上乾☰**": "1 Qian",
+      "**上坤☷**": "12 Pi",
+      "**上震☳**": "25 Wu Wang",
+      "**上巽☴**": "44 Gou",
+      "**上坎☵**": "6 Song",
+      "**上離☲**": "13 Tong Ren",
+      "**上艮☶**": "33 Dun",
+      "**上兌☱**": "10 Lü",
+      "關鍵字": "Meaning",
+      "**元**": "Great auspiciousness, the beginning of all things, the highest level of good fortune",
+      "**亨**": "Smooth, everything goes well, no obstacles",
+      "**利**": "Beneficial, acting is advantageous, suitable for something",
+      "**貞**": "Uphold righteousness, adhere to the correct path, meaning for divination",
+      "**吝**": "Minor regret, requires caution",
+      "**厲**": "There is danger, meaning of vigilance",
+      "**咎**": "There is fault, requires self-reflection",
+      "**無咎**": "No fault, can rest assured",
+      "**凶**": "Inauspicious, requires extreme caution",
+      "日期": "Question"
+    },
+    "transformationTip": "If the first line changes → Kan Hexagram; If the top line changes → Li Hexagram",
+    "notes": "",
+    "lines": [
+      {
+        "position": "Line 1 (Yin)",
+        "text": "Wetting its tail, regret.",
+        "meaning": "Its tail gets wet, making a mistake at the start, there is regret, needs to start from the basics."
+      },
+      {
+        "position": "Line 2 (Yang)",
+        "text": "Dragging its wheels, perseverance brings good fortune.",
+        "meaning": "Holding back its wheels, upholding righteousness brings good fortune, cautiously accumulating strength."
+      },
+      {
+        "position": "Line 3 (Yin)",
+        "text": "Not yet complete, venturing forth is ominous, but beneficial to cross the great stream.",
+        "meaning": "Not yet complete, rushing forward is ominous, but it is beneficial to overcome great difficulties."
+      },
+      {
+        "position": "Line 4 (Yang)",
+        "text": "Perseverance brings good fortune, regret vanishes. It shakes and strikes the Ghost Fang, after three years there is reward from the great state.",
+        "meaning": "Upholding righteousness brings good fortune, regret disappears, striving to conquer, after three years receiving reward from a great state."
+      },
+      {
+        "position": "Line 5 (Yin)",
+        "text": "Perseverance brings good fortune, no regret. The light of the noble person, with sincerity, good fortune.",
+        "meaning": "Upholding righteousness brings good fortune, no regret, the radiance of the noble person shines with sincerity, auspicious."
+      },
+      {
+        "position": "Line 6 (Yang)",
+        "text": "With sincerity in drinking wine, no fault. If it wets its head, sincerity is lost.",
+        "meaning": "Sincere celebration with wine, no fault; if indulging excessively, sincerity is lost."
+      }
+    ]
+  },
+  "110110": {
+    "name": "Duì Hexagram",
+    "symbolInfo": "Upper Duì☱ Lower Duì☱",
+    "image": "Lake",
+    "keywords": "Prosperity, beneficial to be firm and correct",
+    "coreMeaning": "Joy and harmony, excellent eloquence; moving people with sincerity, delighting without offense.",
+    "aspects": {
+      "事業": "Smooth communication, pleasant cooperation",
+      "感情": "Sweet affection, joyful companionship",
+      "健康": "Pay attention to oral cavity and lungs; a cheerful mood benefits health",
+      "財運": "Financial luck improves through interpersonal relationships; communication is beneficial"
+    },
+    "transformationTip": "When the first line moves → Suí (Following); When the top line moves → Kùn (Adversity)",
+    "notes": "",
+    "lines": [
+      {
+        "position": "Line 1 (Yang)",
+        "text": "Harmonious joy, auspicious",
+        "meaning": "Harmony and joy, auspicious"
+      },
+      {
+        "position": "Line 2 (Yang)",
+        "text": "Sincere joy, auspicious, regret vanishes",
+        "meaning": "Joy of sincerity, auspicious, regret disappears"
+      },
+      {
+        "position": "Line 3 (Yin)",
+        "text": "Seeking joy from outside, inauspicious",
+        "meaning": "Seeking joy outwardly, indulging in pleasure, inauspicious"
+      },
+      {
+        "position": "Line 4 (Yang)",
+        "text": "Consulting for joy, but uneasy; a joyful outcome despite minor difficulty",
+        "meaning": "Deliberating on how to please, heart not at peace, but by adhering to rectitude and overcoming difficulties, there will be joy"
+      },
+      {
+        "position": "Line 5 (Yang)",
+        "text": "Sincerity towards what is stripping away, there is danger",
+        "meaning": "Sincerity towards exploitative people, there is danger; one needs to discern true from false joy"
+      },
+      {
+        "position": "Line 6 (Yin)",
+        "text": "Being led to joy",
+        "meaning": "Being enticed into joy, indulging in it, requires vigilance"
+      }
+    ]
+  },
+  "110111": {
+    "name": "Treading Hexagram",
+    "symbolInfo": "Upper Qian ☰ Lower Dui ☱",
+    "image": "Heaven over Lake",
+    "keywords": "Treading on the tiger's tail, it does not bite the man, success.",
+    "coreMeaning": "Act cautiously, proceed with propriety; as if treading on thin ice, caution is paramount.",
+    "aspects": {
+      "事業": "Conscientiously fulfill one's duties, follow rules and regulations.",
+      "感情": "Maintain a gentle and polite attitude, fostering harmonious relationships.",
+      "健康": "Pay attention to feet and oral health.",
+      "財運": "Manage finances prudently, do not take reckless risks."
+    },
+    "transformationTip": "Moving Line 1 (初爻動) → Hexagram Tong Ren (Fellowship); Moving Line 6 (上爻動) → Hexagram Xiao Chu (Small Accumulation).",
+    "notes": "",
+    "lines": [
+      {
+        "position": "Line 1 (Yang)",
+        "text": "素履往，無咎",
+        "meaning": "Proceed with a plain and genuine attitude, without fault."
+      },
+      {
+        "position": "Line 2 (Yang)",
+        "text": "履道坦坦，幽人貞吉",
+        "meaning": "Walking on a smooth, flat road; for a reclusive person, maintaining integrity brings good fortune."
+      },
+      {
+        "position": "Line 3 (Yin)",
+        "text": "眇能視，跛能履，履虎尾，咥人，凶",
+        "meaning": "Overestimating oneself, thinking one can succeed, but instead incurring harm. Inauspicious."
+      },
+      {
+        "position": "Line 4 (Yang)",
+        "text": "履虎尾，愬愬，終吉",
+        "meaning": "Although in a dangerous situation, being cautious and fearful leads to ultimate good fortune."
+      },
+      {
+        "position": "Line 5 (Yang)",
+        "text": "夬履，貞厲",
+        "meaning": "Proceeding decisively, maintaining integrity but facing danger; requiring extreme caution."
+      },
+      {
+        "position": "Line 6 (Yang)",
+        "text": "視履考祥，其旋元吉",
+        "meaning": "Reviewing the path taken, examining gains and losses, leading to complete and great good fortune."
+      }
+    ]
+  },
+  "111000": {
+    "name": "Tai Hexagram",
+    "symbolInfo": "Upper Kun ☷ Lower Qian ☰",
+    "image": "Earth Heaven",
+    "keywords": "The small departs, the great arrives; auspicious and penetrating",
+    "coreMeaning": "Heaven and Earth unite in peace, all things flow smoothly; Yin and Yang are in harmony, all endeavors are successful.",
+    "aspects": {
+      "事業": "Fortune is flourishing, proceed boldly",
+      "感情": "Emotions are smooth, relationships are harmonious",
+      "健康": "Physical condition is good, maintain habits",
+      "財運": "Financial luck is strong, investments are favorable"
+    },
+    "transformationTip": "Moving line 1 → Ming Yi Hexagram; Moving line 6 → Xu Hexagram",
+    "notes": "",
+    "lines": [
+      {
+        "position": "Line 1 (Yang)",
+        "text": "Plucking the rushes, they come forth with their roots; to go forth is auspicious",
+        "meaning": "Gentlemen work together with one heart, with common aspirations, proceeding together, which is auspicious."
+      },
+      {
+        "position": "Line 2 (Yang)",
+        "text": "Embracing the desolate, using a raft to cross a river, not leaving anyone far behind, losing friends, yet finding honor in the middle course",
+        "meaning": "Broadly tolerant, brave in taking on responsibilities, not abandoning those far away, acting with impartiality."
+      },
+      {
+        "position": "Line 3 (Yang)",
+        "text": "There is no plain that does not turn into a slope, no going that is not followed by returning. In difficulty, perseverance is without blame",
+        "meaning": "Plains will eventually have slopes, departures will eventually return; in difficult times, upholding righteousness brings no blame."
+      },
+      {
+        "position": "Line 4 (Yin)",
+        "text": "Fluttering, not rich, with its neighbors, not needing warning to be trusted",
+        "meaning": "Humble and not greedy for wealth, sharing with neighbors, interacting with sincerity and trust."
+      },
+      {
+        "position": "Line 5 (Yin)",
+        "text": "Di Yi gives his younger sister in marriage, bringing great good fortune and blessing",
+        "meaning": "Marrying with humility brings blessings and great auspiciousness."
+      },
+      {
+        "position": "Line 6 (Yin)",
+        "text": "The wall returns to the moat. Do not use the army. From one's own city, orders are issued. Perseverance brings regret",
+        "meaning": "Extreme peace gives rise to stagnation (P'i), city walls collapse. It is not advisable to send out troops at this time; even maintaining righteousness brings regret."
+      }
+    ]
+  },
+  "111001": {
+    "name": "Hexagram of Great Accumulation (Da Chu)",
+    "symbolInfo": "Upper Gen ☶ Lower Qian ☰",
+    "image": "Mountain over Heaven",
+    "keywords": "Beneficial to persevere, not eating at home is auspicious, beneficial to cross a great river.",
+    "coreMeaning": "Great accumulation, building up strength to be released; cultivating virtue, poised for action.",
+    "aspects": {
+      "事業": "Accumulate strength; when the time is ripe, you can achieve great things.",
+      "感情": "Settle emotions, cultivate a strong emotional foundation.",
+      "健康": "Pay attention to muscles and bones, strengthen physical accumulation/fitness.",
+      "財運": "Great accumulation, long-term investments are beneficial."
+    },
+    "transformationTip": "If the first line moves → Qian Hexagram; if the top line moves → Xiao Chu Hexagram.",
+    "notes": "",
+    "lines": [
+      {
+        "position": "Line 1 (Yang)",
+        "text": "There is danger, beneficial to stop.",
+        "meaning": "There is danger, it is advisable to stop action, accumulate and wait for the right time."
+      },
+      {
+        "position": "Line 2 (Yang)",
+        "text": "The wagon's spokes fall out.",
+        "meaning": "The wheel comes off its axle, progress is hindered, it is advisable to remain still and wait."
+      },
+      {
+        "position": "Line 3 (Yang)",
+        "text": "Good horses pursue, beneficial to persevere through hardship, practice charioting and defense, beneficial to proceed.",
+        "meaning": "Good horses gallop, maintain righteousness amidst hardship, practice driving and defense, then you can proceed."
+      },
+      {
+        "position": "Line 4 (Yin)",
+        "text": "The muzzling of a young bull, great auspiciousness.",
+        "meaning": "Restraining a young bull before its horns harden, preventing trouble before it arises, greatly auspicious."
+      },
+      {
+        "position": "Line 5 (Yin)",
+        "text": "The tusks of a gelded boar, auspicious.",
+        "meaning": "Removing the tusks of a castrated boar, removing danger through gentle means, auspicious."
+      },
+      {
+        "position": "Line 6 (Yang)",
+        "text": "Why the thoroughfare of heaven? Success.",
+        "meaning": "Reaching the heavenly path, moving freely without obstruction, success."
+      }
+    ]
+  },
+  "111010": {
+    "name": "Hexagram Xu (Waiting)",
+    "symbolInfo": "Upper Kan ☵ (Water), Lower Qian ☰ (Heaven)",
+    "image": "Water over Heaven",
+    "keywords": "Possessing sincerity, great success, righteous perseverance brings good fortune.",
+    "coreMeaning": "Wait for the opportune moment, conserve strength and energy; the time is not yet ripe, calmly wait for the clouds to clear and the sun to shine.",
+    "aspects": {
+      "事業": "The time is not yet ripe, it is advisable to wait and observe.",
+      "感情": "Fate/relationship needs time to develop, do not rush.",
+      "健康": "Pay attention to diet and daily routine, get sufficient rest.",
+      "財運": "Temporarily postpone action, calmly await a good opportunity."
+    },
+    "transformationTip": "Moving Line 1 leads to Hexagram Song (Conflict); Moving Line 6 leads to Hexagram Tai (Peace).",
+    "notes": "",
+    "lines": [
+      {
+        "position": "Line 1 (Yang)",
+        "text": "Waiting in the suburbs; it is beneficial to be steadfast; no blame.",
+        "meaning": "Waiting in the distant outskirts, maintain perseverance, no fault."
+      },
+      {
+        "position": "Line 2 (Yang)",
+        "text": "Waiting on the sand; there may be minor criticisms, but ultimately auspicious.",
+        "meaning": "Waiting on sandy ground, although there may be minor disputes, it will ultimately be auspicious."
+      },
+      {
+        "position": "Line 3 (Yang)",
+        "text": "Waiting in the mud; bandits may approach.",
+        "meaning": "Underestimating the situation and rashly advancing while waiting, will instead invite disaster."
+      },
+      {
+        "position": "Line 4 (Yin)",
+        "text": "Waiting in blood; escape from the cave.",
+        "meaning": "Being in a dangerous situation, one must cautiously extricate oneself from difficulty."
+      },
+      {
+        "position": "Line 5 (Yang)",
+        "text": "Waiting with wine and food; righteous perseverance brings good fortune.",
+        "meaning": "Waiting amidst abundance, with a peaceful mindset, adhering to righteousness brings good fortune."
+      },
+      {
+        "position": "Line 6 (Yin)",
+        "text": "Entering the cave; three uninvited guests arrive; treating them with respect ultimately brings good fortune.",
+        "meaning": "Unexpected visitors bring a turning point; treating them with courtesy will ultimately lead to good fortune."
+      }
+    ]
+  },
+  "111011": {
+    "name": "Small Accumulation",
+    "symbolInfo": "Upper Xun ☴ Lower Qian ☰",
+    "image": "Wind over Heaven",
+    "keywords": "Success, Dense clouds but no rain yet",
+    "coreMeaning": "Small accumulations, gathering momentum; the time is not yet ripe, accumulate energy.",
+    "aspects": {
+      "事業": "Accumulate resources, wait for the opportune moment for a breakthrough",
+      "感情": "Emotions progress gradually, do not rush",
+      "健康": "Pay attention to the respiratory system, moderate conditioning",
+      "財運": "Small accumulations, do not invest heavily"
+    },
+    "transformationTip": "Moving Line 1 → Qian hexagram; Moving Line 6 → Great Accumulation hexagram",
+    "notes": "",
+    "lines": [
+      {
+        "position": "Line 1 (Yang)",
+        "text": "Returning to one's own path, what blame is there? Auspicious.",
+        "meaning": "Return to the right path, what fault can there be? Auspicious."
+      },
+      {
+        "position": "Line 2 (Yang)",
+        "text": "Pulled back, auspicious.",
+        "meaning": "Being pulled back to the right track, auspicious."
+      },
+      {
+        "position": "Line 3 (Yang)",
+        "text": "The wagon's spokes fall out, husband and wife quarrel.",
+        "meaning": "Progress is blocked, husband and wife disagree, things are not as desired."
+      },
+      {
+        "position": "Line 4 (Yin)",
+        "text": "There is sincerity, blood recedes and fear departs, no blame.",
+        "meaning": "Resolve crisis with sincerity, escape fear, no blame."
+      },
+      {
+        "position": "Line 5 (Yang)",
+        "text": "There is sincerity, connected like a cord, rich with one's neighbors.",
+        "meaning": "Sincerity connects, share wealth with neighbors, generous sharing."
+      },
+      {
+        "position": "Line 6 (Yang)",
+        "text": "Already rained and settled, still relying on virtue, a woman's perseverance is perilous, the moon is nearly full, for a noble one to proceed is ominous.",
+        "meaning": "Accumulation is complete, after achievement it is best to maintain; excessive action will lead to danger."
+      }
+    ]
+  },
+  "111100": {
+    "name": "Da Zhuang Hexagram",
+    "symbolInfo": "Upper Zhen ☳ Lower Qian ☰",
+    "image": "Thunder over Heaven",
+    "keywords": "Beneficial to persevere",
+    "coreMeaning": "Yang energy is vigorous and majestic; strong and powerful, but requires adherence to the correct path.",
+    "aspects": {
+      "事業": "Momentum is strong, can boldly advance",
+      "感情": "Emotions are ardent, but need to be mindful of boundaries",
+      "健康": "Physical strength is abundant, but be careful not to overexert",
+      "財運": "Financial fortune is strong, advisable to be proactive but maintain integrity"
+    },
+    "transformationTip": "If the first line moves → Tai Hexagram; If the top line moves → Guai Hexagram",
+    "notes": "",
+    "lines": [
+      {
+        "position": "Line 1 (Yang)",
+        "text": "Strength in the toes, expedition leads to misfortune, but with sincerity",
+        "meaning": "Advancing only with the strength of the toes; reckless advance leads to misfortune, but sincerity still exists."
+      },
+      {
+        "position": "Line 2 (Yang)",
+        "text": "Perseverance brings good fortune",
+        "meaning": "Good fortune comes from maintaining correctness; especially during times of vigor, one must adhere to righteousness."
+      },
+      {
+        "position": "Line 3 (Yang)",
+        "text": "Small people use strength, noble people do not. Perseverance is perilous. A ram butts a fence, entangling its horns.",
+        "meaning": "Inferior people rely on strength, superior people see no need for it. Both carry danger, like a ram butting a fence and getting its horns entangled, in a dilemma."
+      },
+      {
+        "position": "Line 4 (Yang)",
+        "text": "Perseverance brings good fortune, remorse vanishes. The fence breaks, not entangled. Strength in the linchpin of a great chariot.",
+        "meaning": "Perseverance brings good fortune, regret disappears. The fence is broken, no longer confined. The axle of a great chariot is strong, allowing advance."
+      },
+      {
+        "position": "Line 5 (Yin)",
+        "text": "Losing a sheep in an easy place, no regret.",
+        "meaning": "Losing a sheep in an easy place; do not insist on retrieving it, no regret."
+      },
+      {
+        "position": "Line 6 (Yin)",
+        "text": "A ram butts a fence, unable to retreat, unable to advance. No advantage whatsoever. Difficulty brings good fortune.",
+        "meaning": "A ram butts a fence, in a dilemma, unable to retreat or advance. Forcing the issue now brings no advantage. Difficult perseverance brings good fortune."
+      }
+    ]
+  },
+  "111101": {
+    "name": "Great Possession Hexagram",
+    "symbolInfo": "Trigram Li (Fire) above, Trigram Qian (Heaven) below",
+    "image": "Fire over Heaven",
+    "keywords": "Primal success",
+    "coreMeaning": "Achieve great gains, abundant and prosperous; possess both virtue and talent, bright and upright.",
+    "aspects": {
+      "事業": "Successful career, great fame",
+      "感情": "Rich emotional life, loved by others",
+      "健康": "Full of energy, but be careful not to be overly arrogant",
+      "財運": "Wide financial sources, great harvest"
+    },
+    "transformationTip": "If Line 1 moves, it becomes Qian Hexagram; if Line 6 moves, it becomes Kui Hexagram",
+    "notes": "",
+    "lines": [
+      {
+        "position": "Line 1 (Yang)",
+        "text": "Without harm in interaction, no fault; if one strives carefully, there will be no fault.",
+        "meaning": "In the early stage, there is no interaction yet, no harm; if one acts prudently, there will be no transgression."
+      },
+      {
+        "position": "Line 2 (Yang)",
+        "text": "A great carriage for loading, having somewhere to go, no fault.",
+        "meaning": "Ability is sufficient to undertake great responsibilities, moving forward without fault."
+      },
+      {
+        "position": "Line 3 (Yang)",
+        "text": "The Duke offers to the Son of Heaven; the petty person cannot accomplish this.",
+        "meaning": "Princes and nobles offer tribute to the Son of Heaven; a petty person cannot bear such honor."
+      },
+      {
+        "position": "Line 4 (Yang)",
+        "text": "Not boastful in its abundance, no fault.",
+        "meaning": "Not arrogant or showy, humble and self-restrained, without fault."
+      },
+      {
+        "position": "Line 5 (Yin)",
+        "text": "His sincerity is like interaction, his dignity is like power; auspicious.",
+        "meaning": "Interacting with sincerity, possessing both dignity and authority, auspicious."
+      },
+      {
+        "position": "Line 6 (Yang)",
+        "text": "Assisted by Heaven, auspicious and nothing is disadvantageous.",
+        "meaning": "Blessed by Heaven, auspicious and nothing is unfavorable."
+      }
+    ]
+  },
+  "111110": {
+    "name": "Guai Hexagram (Breakthrough)",
+    "symbolInfo": "Upper Dui ☱ (Lake) Lower Qian ☰ (Heaven)",
+    "image": "Lake over Heaven",
+    "keywords": "Proclaimed in the royal court, sincere appeal, there is danger",
+    "coreMeaning": "Decisive and courageous, eliminate villains; suppress evil with righteousness, act with firm resolution.",
+    "aspects": {
+      "事業": "Decisive decision-making, remove obstacles",
+      "感情": "Express feelings decisively, do not procrastinate",
+      "健康": "Pay attention to oral cavity and lungs",
+      "財運": "Act decisively, seize the opportunity"
+    },
+    "transformationTip": "First line moving → Qian Hexagram; Top line moving → Gou Hexagram",
+    "notes": "",
+    "lines": [
+      {
+        "position": "Line 1 (Yang)",
+        "text": "Strength at the front toes; advancing without being capable leads to misfortune",
+        "meaning": "Rushing forward with the strength of the toes; if strength is insufficient, advancing will certainly lead to fault"
+      },
+      {
+        "position": "Line 2 (Yang)",
+        "text": "Vigilant call; even if there are troops at night, do not worry",
+        "meaning": "Be alert and call out; even if there are soldiers in the middle of the night, there is no need to worry, as preparedness prevents trouble"
+      },
+      {
+        "position": "Line 3 (Yang)",
+        "text": "Strength in the cheekbones brings misfortune. The superior person resolutely makes decisions, travels alone and encounters rain; though wet and annoyed, there will be no blame",
+        "meaning": "Being overly strong in expression brings misfortune; the superior person makes firm decisions, and even if they encounter difficulties and get soaked, there will ultimately be no blame"
+      },
+      {
+        "position": "Line 4 (Yang)",
+        "text": "The hips have no skin; action is hesitant. Leading a sheep away, regret vanishes. Not believing what is heard",
+        "meaning": "Restless, slow in action; if guided, regret will disappear, but do not easily believe others' words"
+      },
+      {
+        "position": "Line 5 (Yang)",
+        "text": "Amaranth is severed decisively; acting with moderation brings no blame",
+        "meaning": "Decisively remove petty people/villains; acting with uprightness brings no blame"
+      },
+      {
+        "position": "Line 6 (Yin)",
+        "text": "Without a call (warning); ultimately there will be misfortune",
+        "meaning": "Silent and unnoticeable, not crying out a warning; ultimately there will be misfortune"
+      }
+    ]
+  },
+  "111111": {
+    "name": "Qian Hexagram",
+    "symbolInfo": "Upper Qian ☰ Lower Qian ☰",
+    "image": "Heaven",
+    "keywords": "Sublime, Success, Advantage, Firmness",
+    "coreMeaning": "Strong and vigorous self-improvement, capable of great achievements; the noble person should emulate the Way of Heaven, striving tirelessly.",
+    "aspects": {
+      "事業": "Actively strive forward, seize opportunities, be proactive in action.",
+      "感情": "Actively pursue relationships, leading to positive development.",
+      "健康": "Energetic and full of vitality, but beware of overwork.",
+      "財運": "Prosperous financial fortune, seize good opportunities."
+    },
+    "transformationTip": "If the first line moves → Gou Hexagram; If the sixth line moves → Guai Hexagram.",
+    "notes": "",
+    "lines": [
+      {
+        "position": "Line 1 (Yang)",
+        "text": "Hidden dragon, do not act.",
+        "meaning": "The time is not yet ripe; it is advisable to conceal one's brilliance, cultivate oneself, accumulate strength, and not act rashly."
+      },
+      {
+        "position": "Line 2 (Yang)",
+        "text": "Dragon appearing in the field, beneficial to see the great person.",
+        "meaning": "Beginning to show one's talent; it is advisable to seek the support of noble persons, and one can achieve something."
+      },
+      {
+        "position": "Line 3 (Yang)",
+        "text": "The noble person strives diligently all day, and at night is watchful, as if in danger. No blame.",
+        "meaning": "In a crucial transitional period, one needs to be diligent and cautious, striving during the day and reflecting at night."
+      },
+      {
+        "position": "Line 4 (Yang)",
+        "text": "Or leaping in the deep. No blame.",
+        "meaning": "At a crossroads, when it's difficult to advance or retreat, one must assess the situation. One can advance or retreat; there is no fixed answer."
+      },
+      {
+        "position": "Line 5 (Yang)",
+        "text": "Flying dragon in the sky, beneficial to see the great person.",
+        "meaning": "The most auspicious line, in the best state, talents fully displayed, capable of great achievements."
+      },
+      {
+        "position": "Line 6 (Yang)",
+        "text": "Arrogant dragon will have cause for regret.",
+        "meaning": "Extreme prosperity inevitably leads to decline; reaching the peak makes one prone to fall. It is advisable to be humble, retreat, and be content."
+      }
+    ]
+  },
+  "000000": {
+    "name": "Kun Hexagram",
+    "symbolInfo": "Upper Kun ☷ Lower Kun ☷",
+    "image": "Earth",
+    "keywords": "Originating, penetrating, furthering, the perseverance of a mare is profitable.",
+    "coreMeaning": "Gentle and compliant, bearing and sustaining; nurturing virtue to carry all things. It is advisable to maintain and not to advance; follow the prevailing trend.",
+    "aspects": {
+      "事業": "Suitable for assisting and cooperating; do not try to take the lead.",
+      "感情": "Gentle and inclusive; relationships are stable and long-lasting.",
+      "健康": "Pay attention to the spleen and stomach; avoid overwork.",
+      "財運": "Steady and conservative management; not advisable to act rashly or speculate."
+    },
+    "transformationTip": "First line changing → Fu Hexagram; Top line changing → Bo Hexagram",
+    "notes": "",
+    "lines": [
+      {
+        "position": "Line 1 (Yin)",
+        "text": "Treading on hoar-frost, hard ice is at hand.",
+        "meaning": "Be alert to subtle signs; if small problems are ignored, they will evolve into big troubles."
+      },
+      {
+        "position": "Line 2 (Yin)",
+        "text": "Straight, square, and great; without the repetition of effort, there will be nothing not advantageous.",
+        "meaning": "Nature is upright and magnanimous; act in accordance with natural tendencies, and naturally there will be nothing disadvantageous."
+      },
+      {
+        "position": "Line 3 (Yin)",
+        "text": "Keeping its elegant brilliance hidden, it may be advantageous to persevere. If one should follow a king's business, he will not accomplish anything, but will have a good end.",
+        "meaning": "Talent is kept restrained; assisting others. Although without primary merit, there will be a good outcome."
+      },
+      {
+        "position": "Line 4 (Yin)",
+        "text": "Tying up the mouth of the bag. There will be no error and no praise.",
+        "meaning": "Cautious and low-key; holding back from speaking. Although there is no fame, one can avoid calamity."
+      },
+      {
+        "position": "Line 5 (Yin)",
+        "text": "Yellow lower garment. There will be great good fortune.",
+        "meaning": "Occupying a central and appropriate position; humble and compliant. Subduing people with virtue; great good fortune."
+      },
+      {
+        "position": "Top Line (Yin)",
+        "text": "Dragons fighting in the wild. Their blood is dark and yellow.",
+        "meaning": "When Yin reaches its extreme, it contends with Yang, resulting in mutual harm. It is advisable to restrain oneself in due course."
+      }
+    ]
+  },
+  "010001": {
+    "name": "Meng (Youthful Folly)",
+    "symbolInfo": "Upper Gen (Mountain) ☶ Lower Kan (Water) ☵",
+    "image": "Mountain over Water",
+    "keywords": "Success, it is not I who seeks the youthful fool, but the youthful fool who seeks me",
+    "coreMeaning": "Enlightenment education, humble learning; only by being eager for knowledge can wisdom be opened.",
+    "aspects": {
+      "事業": "It is advisable to study and advance, seeking guidance from teachers and elders.",
+      "感情": "Requires more communication and understanding, do not be conceited.",
+      "健康": "Pay attention to ears and eyes, maintain a regular routine.",
+      "財運": "Investment requires caution, it is advisable to consult experts."
+    },
+    "transformationTip": "Moving Line 1 → Hexagram Huan (Dispersion); Moving Top Line → Hexagram Shi (The Army).",
+    "notes": "",
+    "lines": [
+      {
+        "position": "Line 1 (Yin)",
+        "text": "To issue forth from obscurity. It is profitable to apply punishment, to loose the fetters. If one acts thus, there will be regret.",
+        "meaning": "At the beginning of enlightenment, rules must be established; discipline is the foundation of opening the mind."
+      },
+      {
+        "position": "Line 2 (Yang)",
+        "text": "To be tolerant of the ignorant brings good fortune. To take a wife brings good fortune. The son manages the household.",
+        "meaning": "To be inclusive of ignorant people, and to teach with gentle methods, the family enterprise can prosper."
+      },
+      {
+        "position": "Line 3 (Yin)",
+        "text": "Do not take a maiden who, when she sees a man of gold, gives up her person. There will be nothing advantageous.",
+        "meaning": "To forget righteousness for profit, to be frivolous and undisciplined, nothing will be advantageous."
+      },
+      {
+        "position": "Line 4 (Yin)",
+        "text": "Encompassed in ignorance. Regret.",
+        "meaning": "Stubbornly closed-minded, unwilling to be taught, the future is obstructed."
+      },
+      {
+        "position": "Line 5 (Yin)",
+        "text": "Childlike ignorance. Good fortune.",
+        "meaning": "To study with the pure and innocent heart of a child, naturally brings good fortune."
+      },
+      {
+        "position": "Line 6 (Yang)",
+        "text": "To strike the ignorant. It is not favorable to act as a robber; it is favorable to ward off robbers.",
+        "meaning": "To correct ignorance with severe methods; it is beneficial for defense, but not for offense."
+      }
+    ]
+  },
+  "010111": {
+    "name": "Hexagram of Conflict/Litigation",
+    "symbolInfo": "Upper Qian ☰ Lower Kan ☵",
+    "image": "Heaven over Water",
+    "keywords": "Having sincerity, apprehension, middle good fortune, ultimate misfortune",
+    "coreMeaning": "Disputes and conflicts; it is best to seek reconciliation. Stubborn contention leads to mutual harm.",
+    "aspects": {
+      "事業": "Avoid direct confrontation, replace conflict with negotiation",
+      "感情": "Constant disputes, requires calm handling",
+      "健康": "High emotional stress, pay attention to cardiovascular health",
+      "財運": "Avoid legal disputes, sign contracts cautiously"
+    },
+    "transformationTip": "Moving initial line → Hexagram of Waiting; Moving top line → Hexagram of Fellowship",
+    "notes": "",
+    "lines": [
+      {
+        "position": "Line 1 (Yin)",
+        "text": "Do not prolong the matter, there may be minor words, but ultimately auspicious.",
+        "meaning": "Do not escalate the dispute; although there may be minor verbal conflicts, it will ultimately be auspicious."
+      },
+      {
+        "position": "Line 2 (Yang)",
+        "text": "Cannot overcome the litigation; return and escape. For the three hundred households in one's town, there will be no misfortune.",
+        "meaning": "Unable to win the lawsuit, withdraw early, preserve one's small family business, and avoid disaster."
+      },
+      {
+        "position": "Line 3 (Yin)",
+        "text": "Feed on old virtue; persistence is perilous, but ultimately auspicious. Or, if one follows the king's affairs, there will be no achievement.",
+        "meaning": "Maintain old endeavors without contention; though perilous, it is ultimately auspicious. Assisting others yields no primary achievement."
+      },
+      {
+        "position": "Line 4 (Yang)",
+        "text": "Cannot overcome the litigation; return to one's lot, change. Tranquil persistence brings good fortune.",
+        "meaning": "Do not force the dispute, return to one's proper place, change one's attitude, and abide by the righteous path for good fortune."
+      },
+      {
+        "position": "Line 5 (Yang)",
+        "text": "Conflict, supremely auspicious.",
+        "meaning": "Being impartial and just, upholding fairness, brings great auspiciousness."
+      },
+      {
+        "position": "Top Line (Yang)",
+        "text": "One may be granted a leather belt, but in a single morning, it will be thrice stripped away.",
+        "meaning": "Though the dispute may be won, the honor gained is lost in a day; conflict ultimately brings no benefit."
+      }
+    ]
+  },
+  "010000": {
+    "name": "Shi Hexagram (The Army / The Host)",
+    "symbolInfo": "Upper Kun ☷ Lower Kan ☵",
+    "image": "Earth over Water",
+    "keywords": "Righteousness, Elder (Leader), Good Fortune, No Blame",
+    "coreMeaning": "Commanding an army, discipline comes first; winning people over with virtue, united in purpose.",
+    "aspects": {
+      "事業": "Teamwork is advisable, obey leadership.",
+      "感情": "Relationships need to be clear, avoid ambiguity.",
+      "健康": "Pay attention to muscles, bones, and kidneys; avoid overexertion.",
+      "財運": "Partnership investments require caution, clear regulations."
+    },
+    "transformationTip": "Moving initial line transforms into Lin Hexagram; moving top line transforms into Bi Hexagram.",
+    "notes": "",
+    "lines": [
+      {
+        "position": "Line 1 (Yin)",
+        "text": "The army goes forth with discipline; if not, disaster.",
+        "meaning": "The army must have discipline, otherwise it will surely fail."
+      },
+      {
+        "position": "Line 2 (Yang)",
+        "text": "In the midst of the army, good fortune, no blame; the king bestows commands thrice.",
+        "meaning": "Occupying a central and upright position, receiving significant trust from the king."
+      },
+      {
+        "position": "Line 3 (Yin)",
+        "text": "The army perhaps carries corpses; disaster.",
+        "meaning": "Improper command, multiple people in charge, certain defeat."
+      },
+      {
+        "position": "Line 4 (Yin)",
+        "text": "The army encamps on the left; no blame.",
+        "meaning": "Temporarily retreat, preserve strength, no fault."
+      },
+      {
+        "position": "Line 5 (Yin)",
+        "text": "There is game in the field; it is beneficial to speak up; no blame. The eldest son leads the army, the younger brother carries corpses; perseverance leads to disaster.",
+        "meaning": "It is auspicious to deploy troops with proper justification; a wise general should be used, not an incompetent one."
+      },
+      {
+        "position": "Line 6 (Yin)",
+        "text": "The great ruler has a command: establish states and inherit families; small men should not be employed.",
+        "meaning": "Reward merits, establish states and confer titles, but by no means allow petty individuals to gain power."
+      }
+    ]
+  },
+  "000010": {
+    "name": "Bi Hexagram",
+    "symbolInfo": "Upper Kan ☵ Lower Kun ☷",
+    "image": "Water over Earth",
+    "keywords": "Auspicious, primal divination, eternally firm and upright, no blame.",
+    "coreMeaning": "Intimate mutual support, cooperative and gregarious; widely build good connections, treat with sincerity.",
+    "aspects": {
+      "事業": "Cooperation for mutual benefit, building connections",
+      "感情": "Harmonious relationship, mutual support",
+      "健康": "Pay attention to kidneys and blood circulation",
+      "財運": "Cooperative financial management is beneficial, pay attention to integrity"
+    },
+    "transformationTip": "Moving Line 1 → Shi Hexagram; Moving Line 6 → Xu Hexagram",
+    "notes": "",
+    "lines": [
+      {
+        "position": "Line 1 (Yin)",
+        "text": "Possessing sincerity, draw close to it, no blame. Sincerity fills the jar, in the end, there will be other auspiciousness.",
+        "meaning": "Approaching others with sincerity and trustworthiness, with sincerity overflowing, naturally attracts others."
+      },
+      {
+        "position": "Line 2 (Yin)",
+        "text": "Drawing close from within, firm and upright brings good fortune.",
+        "meaning": "Sincere closeness originating from the heart, adhering to uprightness brings good fortune."
+      },
+      {
+        "position": "Line 3 (Yin)",
+        "text": "Drawing close to unsuitable people.",
+        "meaning": "Befriending unsuitable people, dangerous."
+      },
+      {
+        "position": "Line 4 (Yin)",
+        "text": "Drawing close outwardly, firm and upright brings good fortune.",
+        "meaning": "Widely building good connections outwardly, adhering to uprightness brings good fortune."
+      },
+      {
+        "position": "Line 5 (Yang)",
+        "text": "Manifest closeness. The king uses three drives, letting go of the game in front. The people of the city are not cautioned. Auspicious.",
+        "meaning": "Openly benevolent, not forceful, following nature, auspicious."
+      },
+      {
+        "position": "Line 6 (Yin)",
+        "text": "Drawing close without a leader. Inauspicious.",
+        "meaning": "Without a backbone, following without direction, dangerous."
+      }
+    ]
+  },
+  "000111": {
+    "name": "Hexagram of Stagnation (Pǐ)",
+    "symbolInfo": "Upper Qían ☰ Lower Kūn ☷",
+    "image": "Heaven and Earth",
+    "keywords": "Obstruction to the ignoble; unfavorable for the perseverance of the noble person",
+    "coreMeaning": "Heaven and Earth do not connect, all things are blocked; in times of adversity, uphold integrity and await the opportune moment.",
+    "aspects": {
+      "事業": "Career/Business: Luck is stagnant, it is advisable to guard/maintain rather than advance.",
+      "感情": "Relationships/Emotions: Communication is not smooth, requires patient resolution.",
+      "健康": "Health: Pay attention to emotions and the digestive system.",
+      "財運": "Financial Luck: Financial luck is poor, be cautious and conservative."
+    },
+    "transformationTip": "If the first line moves, it transforms into Hexagram Fellowship (Tóng Rén); if the top line moves, it transforms into Hexagram Gathering (Cuì).",
+    "notes": "",
+    "lines": [
+      {
+        "position": "Line 1 (Yin)",
+        "text": "Pulling up rushes, by their roots, brings good fortune and success.",
+        "meaning": "Those of the same kind gather to uphold integrity, jointly facing adversity, bringing auspiciousness and success."
+      },
+      {
+        "position": "Line 2 (Yin)",
+        "text": "Embracing/supporting, the small person is auspicious; the great person experiences obstruction, yet succeeds.",
+        "meaning": "Small-minded people profit by conforming to the system; noble persons in a state of obstruction can conversely achieve success."
+      },
+      {
+        "position": "Line 3 (Yin)",
+        "text": "Embracing shame.",
+        "meaning": "Feeling internal shame, acting improperly, requires self-reflection."
+      },
+      {
+        "position": "Line 4 (Yang)",
+        "text": "There is a command, no blame, companions share in the blessing.",
+        "meaning": "Acting on command, without fault, companions share in the well-being."
+      },
+      {
+        "position": "Line 5 (Yang)",
+        "text": "Cessation of obstruction, the great person is auspicious. 'Perish, perish!' (Be ever vigilant), fastened to a clump of mulberry trees.",
+        "meaning": "Obstruction ends, the great person is auspicious. Be ever vigilant, only then can the foundation be stable."
+      },
+      {
+        "position": "Line 6 (Yang)",
+        "text": "Overthrowing obstruction. First obstruction, then joy.",
+        "meaning": "When obstruction reaches its extreme, prosperity comes. First there is difficulty, then joy, ultimately things will improve."
+      }
+    ]
+  },
+  "001000": {
+    "name": "Hexagram of Modesty",
+    "symbolInfo": "Upper Kun ☷ Lower Gen ☶",
+    "image": "Earth over Mountain",
+    "keywords": "Success, the noble person has a good ending",
+    "coreMeaning": "Maintain modesty and self-restraint, do not dwell on achievements; live discreetly, and ultimately achieve good results.",
+    "aspects": {
+      "事業": "Treat people with modesty, accumulate strength and release it gradually",
+      "感情": "Gentle and considerate, do not force things",
+      "健康": "Peace of mind and body, pay attention to the digestive system",
+      "財運": "Accumulate wealth discreetly, like a steady stream"
+    },
+    "transformationTip": "Movement in the first line → Bo Hexagram; Movement in the top line → Sheng Hexagram",
+    "notes": "",
+    "lines": [
+      {
+        "position": "Line 1 (Yin)",
+        "text": "A truly modest noble person, venturing into a great river, auspicious.",
+        "meaning": "A noble person who is modest to the end can pass through even great difficulties auspiciously."
+      },
+      {
+        "position": "Line 2 (Yin)",
+        "text": "Modesty proclaimed, perseverance auspicious.",
+        "meaning": "The reputation for modesty is widely known; upholding correctness leads to auspiciousness."
+      },
+      {
+        "position": "Line 3 (Yang)",
+        "text": "Modesty amidst labor (achievements), the noble person has a good ending, auspicious.",
+        "meaning": "Having achievements yet remaining modest, the noble person starts well and ends well, auspicious."
+      },
+      {
+        "position": "Line 4 (Yin)",
+        "text": "Nothing is disadvantageous, manifesting modesty.",
+        "meaning": "Applying the way of modesty, nothing is unfavorable."
+      },
+      {
+        "position": "Line 5 (Yin)",
+        "text": "Not enriched by its neighbors, it is advantageous to invade/attack, nothing is unfavorable.",
+        "meaning": "Does not oppress people with wealth, inspires with modesty, even campaigns/conquests are not unfavorable."
+      },
+      {
+        "position": "Line 6 (Yin)",
+        "text": "Modesty proclaimed, advantageous to mobilize armies, to conquer the dependent state.",
+        "meaning": "The reputation for modesty spreads afar; it can be used to rectify discipline and conquer dependent states."
+      }
+    ]
+  },
+  "000100": {
+    "name": "Hexagram Yu (Enthusiasm)",
+    "symbolInfo": "Upper Zhen☳ Lower Kun☷",
+    "image": "Thunder over Earth",
+    "keywords": "Favorable to establish feudal lords and mobilize armies",
+    "coreMeaning": "Joyful and inspired, moving with the current; making preparations in advance, issuing commands to the multitude.",
+    "aspects": {
+      "事業": "The time is ripe; you can fully display your abilities.",
+      "感情": "Emotions are pleasant, the atmosphere is harmonious.",
+      "健康": "Pay attention to the liver and gallbladder; do not indulge excessively.",
+      "財運": "Wealth luck is prosperous; you can act proactively."
+    },
+    "transformationTip": "If the first line moves → Qian Hexagram (Modesty); If the top line moves → Xiao Guo Hexagram (Preponderance of the Small).",
+    "notes": "",
+    "lines": [
+      {
+        "position": "Line 1 (Yin)",
+        "text": "Ming Yu, ominous",
+        "meaning": "Carried away by success, boasting loudly, will surely invite disaster."
+      },
+      {
+        "position": "Line 2 (Yin)",
+        "text": "Jie Yu Shi, not for a full day, perseverance auspicious.",
+        "meaning": "Willpower is firm as a rock; retreat early when the opportunity arises; uphold what is correct brings good fortune."
+      },
+      {
+        "position": "Line 3 (Yin)",
+        "text": "Xu Yu, regret, belated regret.",
+        "meaning": "Looking up and flattering to seek pleasure, leads to regret; hesitation and indecision lead to even greater regret."
+      },
+      {
+        "position": "Line 4 (Yang)",
+        "text": "You Yu, great gain, do not doubt, friends gather.",
+        "meaning": "People are joyful because of you; there is great gain; do not doubt; friends gather."
+      },
+      {
+        "position": "Line 5 (Yin)",
+        "text": "Perseverance in sickness, always not dying.",
+        "meaning": "Although there is sickness, by upholding what is correct and persevering, one will not perish."
+      },
+      {
+        "position": "Line 6 (Yin)",
+        "text": "Ming Yu, if accomplished there is change, no blame.",
+        "meaning": "Indulging in pleasure without realizing it; if one can change in time, there will be no blame."
+      }
+    ]
+  },
+  "011001": {
+    "name": "Gu Hexagram",
+    "symbolInfo": "Upper Gen☶ Lower Xun☴",
+    "image": "Mountain Wind",
+    "keywords": "Supreme success, advantageous to cross the great river",
+    "coreMeaning": "Long-standing problems have accumulated, requiring reform and renewal; abolishing the old and establishing the new, rebuilding order.",
+    "aspects": {
+      "事業": "Requires reform and rectification, solving accumulated problems.",
+      "感情": "Old problems need to be faced directly, communicate frankly.",
+      "健康": "Pay attention to the digestive system and liver, requires conditioning.",
+      "財運": "Organize finances, clear accumulated problems."
+    },
+    "transformationTip": "Moving Line 1 → Sheng Hexagram; Moving Line 6 → Sui Hexagram",
+    "notes": "",
+    "lines": [
+      {
+        "position": "Line 1 (Yin)",
+        "text": "Dealing with the corruption of the father, having a virtuous son, no blame, though dangerous, ultimately auspicious.",
+        "meaning": "Rectifying the accumulated problems left by the father's generation, with a virtuous son to inherit, though dangerous, ultimately auspicious."
+      },
+      {
+        "position": "Line 2 (Yang)",
+        "text": "Dealing with the corruption of the mother, it is not advisable to be unyielding.",
+        "meaning": "Rectifying the mother's accumulated problems requires a gentle approach, not a rigid one."
+      },
+      {
+        "position": "Line 3 (Yang)",
+        "text": "Dealing with the corruption of the father, there is minor regret, but no major blame.",
+        "meaning": "Rectifying the accumulated problems of the father's generation, though there are minor regrets, there are no major faults."
+      },
+      {
+        "position": "Line 4 (Yin)",
+        "text": "Indulging in the corruption of the father, going forward will lead to regret.",
+        "meaning": "Being overly lenient and indulgent towards the father's accumulated problems, continuing will lead to regret."
+      },
+      {
+        "position": "Line 5 (Yin)",
+        "text": "Dealing with the corruption of the father, thereby gaining praise.",
+        "meaning": "Rectifying the accumulated problems of the father's generation, thereby gaining honor and reputation."
+      },
+      {
+        "position": "Line 6 (Yang)",
+        "text": "Does not serve kings and nobles, upholding lofty principles in one's affairs.",
+        "meaning": "Does not serve kings and nobles, cultivating oneself with noble aspirations."
+      }
+    ]
+  },
+  "000011": {
+    "name": "Guan (Contemplation)",
+    "symbolInfo": "Upper Xun ☴ Lower Kun ☷",
+    "image": "Wind over Earth",
+    "keywords": "Washing without offering, with sincerity and reverence",
+    "coreMeaning": "Calmly observe changes, gain insight into the whole situation; lead by example, reflect upon oneself.",
+    "aspects": {
+      "事業": "Observe calmly, do not act rashly for now.",
+      "感情": "Observe the other person, act after careful consideration.",
+      "健康": "Beware of wind-cold evils, pay attention to overall health.",
+      "財運": "Observe the market calmly, wait for the right opportunity."
+    },
+    "transformationTip": "If Line 1 moves → Hexagram Pi (Stagnation); If Line 6 moves → Hexagram Bo (Splitting Apart).",
+    "notes": "",
+    "lines": [
+      {
+        "position": "Line 1 (Yin)",
+        "text": "Childish observation. For the small person, no blame. For the superior person, regret.",
+        "meaning": "Observing superficially like a child; no harm for the petty person, but regret for the noble person."
+      },
+      {
+        "position": "Line 2 (Yin)",
+        "text": "Peeping observation. Beneficial for the persistence of a woman.",
+        "meaning": "Peeking through a crack, with limited vision; beneficial for those who are gentle and upright."
+      },
+      {
+        "position": "Line 3 (Yin)",
+        "text": "Observing my life, advancing or retreating.",
+        "meaning": "Observe one's own actions, carefully decide whether to advance or retreat."
+      },
+      {
+        "position": "Line 4 (Yin)",
+        "text": "Observing the glory of the nation. It is beneficial to be a guest of the king.",
+        "meaning": "Observe the national character; it is beneficial to meet the ruler, to offer talents and serve the country."
+      },
+      {
+        "position": "Line 5 (Yang)",
+        "text": "Observing one's own life/influence. For the superior person, no blame.",
+        "meaning": "Observe one's own influence and conduct; for the noble person, there is no fault."
+      },
+      {
+        "position": "Line 6 (Yang)",
+        "text": "Observing others' lives/states. For the superior person, no blame.",
+        "meaning": "Observe the life states of others; the noble person maintains detachment and is without blame."
+      }
+    ]
+  },
+  "000001": {
+    "name": "Stripping Hexagram",
+    "symbolInfo": "Upper Gen☶ Lower Kun☷",
+    "image": "Mountain on Earth",
+    "keywords": "Not favorable to proceed",
+    "coreMeaning": "Yin is strong, Yang is weak; things are peeling off. Remain still and wait for the right time, adapt to natural growth and decline.",
+    "aspects": {
+      "事業": "Fortune is declining, it is advisable to maintain rather than advance.",
+      "感情": "Relationship is gradually cooling down, requires careful maintenance.",
+      "健康": "Body is weak, pay attention to muscles, bones, and spine.",
+      "財運": "Financial fortune is poor, carefully guard against losses."
+    },
+    "transformationTip": "If the first line moves → Guan Hexagram; If the top line moves → Kun Hexagram.",
+    "notes": "",
+    "lines": [
+      {
+        "position": "Line 1 (Yin)",
+        "text": "Stripping the bed at its feet, disregarding righteousness, ominous.",
+        "meaning": "The stripping begins from the bed's feet, destroying the foundation. Even upholding righteousness is difficult, ominous."
+      },
+      {
+        "position": "Line 2 (Yin)",
+        "text": "Stripping the bed at its frame, disregarding righteousness, ominous.",
+        "meaning": "The stripping reaches the bed frame, the foundation's instability deepens, ominous."
+      },
+      {
+        "position": "Line 3 (Yin)",
+        "text": "Being stripped, no blame.",
+        "meaning": "Although in the midst of stripping, one can cooperate with those above, thus no blame."
+      },
+      {
+        "position": "Line 4 (Yin)",
+        "text": "Stripping the bed to the skin, ominous.",
+        "meaning": "The stripping reaches the bed surface, already harming the body. Danger is near."
+      },
+      {
+        "position": "Line 5 (Yin)",
+        "text": "Like strung fish, favored by palace women, nothing is unfavorable.",
+        "meaning": "Like fish strung together, leading the multitude to submit, gaining the favor of the ruler. Nothing is unfavorable."
+      },
+      {
+        "position": "Line 6 (Yang)",
+        "text": "The large fruit is not eaten; the noble person receives carriage, the petty person strips his dwelling.",
+        "meaning": "Only a great fruit remains uneaten. The noble person gains public support, while the petty person destroys his own home."
+      }
+    ]
+  },
+  "011110": {
+    "name": "Hexagram of Great Preponderance",
+    "symbolInfo": "Upper Dui ☱ Lower Xun ☴",
+    "image": "Lake over Wind",
+    "keywords": "Ridgepole sags, beneficial to have a direction to go, smooth success",
+    "coreMeaning": "Exceeding the norm, overloaded; in extraordinary times, extraordinary measures are required.",
+    "aspects": {
+      "事業": "Excessive pressure, strategies need adjustment.",
+      "感情": "Overly attached emotionally, need to relax appropriately.",
+      "健康": "Overworked, pay attention to lower back and liver.",
+      "財運": "High financial pressure, avoid excessive leverage."
+    },
+    "transformationTip": "Moving Line 1 → Xun Hexagram; Moving Line 6 → Dui Hexagram.",
+    "notes": "",
+    "lines": [
+      {
+        "position": "Line 1 (Yin)",
+        "text": "Using white rushes as cushion, no blame.",
+        "meaning": "Using white rushes as a cushion, acting cautiously, no fault."
+      },
+      {
+        "position": "Line 2 (Yang)",
+        "text": "A withered willow sprouts shoots, an old husband gets a young wife, nothing disadvantageous.",
+        "meaning": "A withered willow reborn, an old husband gets a young wife; although unusual, there is nothing disadvantageous."
+      },
+      {
+        "position": "Line 3 (Yang)",
+        "text": "The ridgepole sags, inauspicious.",
+        "meaning": "The ridgepole bends, unable to bear weight, will inevitably collapse, inauspicious."
+      },
+      {
+        "position": "Line 4 (Yang)",
+        "text": "The ridgepole is firm, auspicious, but there is regret if depending on others.",
+        "meaning": "The ridgepole is strong and firm, auspicious, but if there are other dependencies, there will be regret."
+      },
+      {
+        "position": "Line 5 (Yang)",
+        "text": "A withered willow blossoms, an old wife gets a young husband, no blame and no praise.",
+        "meaning": "A withered willow blossoms, an old wife gets a young husband; although there is no fault, there is no honor either."
+      },
+      {
+        "position": "Line 6 (Yin)",
+        "text": "Crossing too deeply, head submerged, inauspicious, but no blame.",
+        "meaning": "Wading too deeply and submerging the head; though inauspicious, it is for a righteous cause, so no blame."
+      }
+    ]
+  },
+  "010010": {
+    "name": "The Abysmal (Kan)",
+    "symbolInfo": "Upper Kan (Water) ☵ Lower Kan (Water) ☵",
+    "image": "Water",
+    "keywords": "Repeated Abysmal, Sincerity, Inner Breakthrough",
+    "coreMeaning": "Repeated obstacles and dangers; break through with sincerity; remain firm in will, survive amidst danger.",
+    "aspects": {
+      "事業": "Many difficulties; need firm belief to break through.",
+      "感情": "Relationship ups and downs; need genuine maintenance.",
+      "健康": "Pay attention to kidneys and blood; guard against cold and dampness.",
+      "財運": "Financial fortune is difficult; caution and conservatism are key."
+    },
+    "transformationTip": "Changing Line 1 leads to Hexagram Jie (Limitation); Changing Line 6 leads to Hexagram Jing (The Well).",
+    "notes": "",
+    "lines": [
+      {
+        "position": "Line 1 (Yin)",
+        "text": "Repeatedly abysmal, entering a deep pit, ominous.",
+        "meaning": "Accustomed to danger, yet falling into a deep pit, ominous."
+      },
+      {
+        "position": "Line 2 (Yang)",
+        "text": "The Abysmal has danger, seek small gains.",
+        "meaning": "Trapped in danger, can only achieve small gains; do not expect too much."
+      },
+      {
+        "position": "Line 3 (Yin)",
+        "text": "Coming from the abysmal, dangerous and resting, entering a deep pit, do not act.",
+        "meaning": "Danger before and after; not advisable to take any action at this time."
+      },
+      {
+        "position": "Line 4 (Yin)",
+        "text": "A jar of wine, two bowls, use earthenware; send a simple message through the window; ultimately no blame.",
+        "meaning": "Associate with simplicity and sincerity; though in a dangerous situation, ultimately no fault."
+      },
+      {
+        "position": "Line 5 (Yang)",
+        "text": "The abyss is not yet full, but it is already stable; no blame.",
+        "meaning": "The dangerous pit is not yet filled, but it is tending towards stability; no blame."
+      },
+      {
+        "position": "Line 6 (Yin)",
+        "text": "Tied with ropes, placed among thorny bushes; for three years unable to get out, ominous.",
+        "meaning": "Heavily bound and trapped in thorns; unable to escape for three years, ominous."
+      }
+    ]
+  },
+  "001110": {
+    "name": "Xian Hexagram (Influence)",
+    "symbolInfo": "Upper Dui ☱ Lower Gen ☶",
+    "image": "Lake over Mountain",
+    "keywords": "Success, advantageous to persist, taking a wife is auspicious",
+    "coreMeaning": "Mutual influence and interaction, men and women delight in each other; humble influence, all things connect.",
+    "aspects": {
+      "事業": "Smooth interpersonal communication, pleasant cooperation",
+      "感情": "Sweet emotions, mutual attraction",
+      "健康": "Pay attention to the spleen, stomach, and joints",
+      "財運": "Financial fortune improves due to interpersonal relationships"
+    },
+    "transformationTip": "Moving Line 1 → Dun Hexagram; Moving Line 6 → Sun Hexagram",
+    "notes": "",
+    "lines": [
+      {
+        "position": "Line 1 (Yin)",
+        "text": "Influence on the big toe",
+        "meaning": "Influence starts from the big toe, still in its nascent stage, with minimal impact"
+      },
+      {
+        "position": "Line 2 (Yin)",
+        "text": "Influence on the calf, ominous; staying still is auspicious",
+        "meaning": "Influence reaches the calf, acting impulsively is ominous; remaining still is auspicious"
+      },
+      {
+        "position": "Line 3 (Yang)",
+        "text": "Influence on the thigh, holding onto followers, proceeding brings regret",
+        "meaning": "Influence reaches the thigh, only knowing how to follow, proceeding will bring regret"
+      },
+      {
+        "position": "Line 4 (Yang)",
+        "text": "Persevering brings good fortune, regret vanishes; wavering back and forth, friends follow your thoughts",
+        "meaning": "Maintaining righteousness brings auspiciousness and eliminates regret; if one's thoughts are unstable, friends will also come and go with those thoughts"
+      },
+      {
+        "position": "Line 5 (Yang)",
+        "text": "Influence on the back, no regret",
+        "meaning": "Influence reaches the back, selfless and free of desires, no regret"
+      },
+      {
+        "position": "Line 6 (Yin)",
+        "text": "Influence on the gums, cheeks, and tongue",
+        "meaning": "Influence only reaches the mouth and tongue, merely verbal interactions, superficial"
+      }
+    ]
+  },
+  "011100": {
+    "name": "Hexagram of Duration (Heng)",
+    "symbolInfo": "Upper Zhen ☳ Lower Xun ☴",
+    "image": "Thunder over Wind",
+    "keywords": "Success, blameless, beneficial for perseverance, beneficial to have a destination",
+    "coreMeaning": "Persevere with constancy, remain consistent from beginning to end; only through long-term steadfastness can achievement be made.",
+    "aspects": {
+      "事業": "Persistent and unremitting effort, long-term cultivation will surely lead to success.",
+      "感情": "Stable and long-lasting, mutual support.",
+      "健康": "Maintain a regular routine, consistent self-care.",
+      "財運": "Long-term investment, steady and sustained."
+    },
+    "transformationTip": "If the first line moves → Xun Hexagram; If the top line moves → Zhen Hexagram.",
+    "notes": "",
+    "lines": [
+      {
+        "position": "Line 1 (Yin)",
+        "text": "To delve deep into constancy, to persist in what is upright is ominous, no advantage.",
+        "meaning": "Demanding too much depth and duration from the start; even upholding correctness is ominous, with no benefit."
+      },
+      {
+        "position": "Line 2 (Yang)",
+        "text": "Regret vanishes.",
+        "meaning": "Regret disappears; the way of constancy brings everything to a state of stability."
+      },
+      {
+        "position": "Line 3 (Yang)",
+        "text": "Not constant in one's virtue, perhaps inheriting shame; persistence leads to regret.",
+        "meaning": "Virtue is not constant, leading to humiliation; even upholding correctness brings regret."
+      },
+      {
+        "position": "Line 4 (Yang)",
+        "text": "The field has no game.",
+        "meaning": "Persisting in the wrong place, like hunting without a catch, wasted effort."
+      },
+      {
+        "position": "Line 5 (Yin)",
+        "text": "Constant in virtue, perseverance. For a woman, auspicious; for a man, inauspicious.",
+        "meaning": "Constantly upholding one virtue; for a woman, persistence is auspicious; for a man, excessive yielding is disadvantageous."
+      },
+      {
+        "position": "Line 6 (Yin)",
+        "text": "To agitate constancy, ominous.",
+        "meaning": "Seeking constancy through restless means, it cannot last, ominous."
+      }
+    ]
+  },
+  "001111": {
+    "name": "The Hexagram of Retreat (Dùn)",
+    "symbolInfo": "Upper Qian ☰ Lower Gen ☶",
+    "image": "Heaven over Mountain",
+    "keywords": "Success; beneficial for small perseverance",
+    "coreMeaning": "Timely retreat, using retreat as a way to advance; knowing when to advance and when to retreat, preserving strength.",
+    "aspects": {
+      "事業": "Temporary concession, preserving strength",
+      "感情": "Do not force, appropriately maintain distance",
+      "健康": "Rest and recuperation, stay away from stress",
+      "財運": "Timely withdrawal, avoid losses"
+    },
+    "transformationTip": "Moving initial line → Pǐ Hexagram (Obstruction); Moving top line → Qián Hexagram (The Creative)",
+    "notes": "",
+    "lines": [
+      {
+        "position": "Line 1 (Yin)",
+        "text": "Retreating at the tail, perilous. Do not undertake anything.",
+        "meaning": "Falling behind others in retreat, dangerous. It is not advisable to act at this time."
+      },
+      {
+        "position": "Line 2 (Yin)",
+        "text": "Holding it with the hide of a yellow ox; no one can untie it.",
+        "meaning": "Firmly bound with yellow ox hide, no one can break free; resolute will."
+      },
+      {
+        "position": "Line 3 (Yang)",
+        "text": "Being held back from retreating, with illness and danger. If one only manages domestic affairs, it is auspicious.",
+        "meaning": "Being held back and unable to retreat, with illness and danger. If one only manages domestic affairs, it is auspicious."
+      },
+      {
+        "position": "Line 4 (Yang)",
+        "text": "Good retreat. For the noble person, auspicious; for the petty person, adverse.",
+        "meaning": "Voluntary retreat. Auspicious for the noble person, difficult for the petty person to achieve."
+      },
+      {
+        "position": "Line 5 (Yang)",
+        "text": "Appreciated retreat. Perseverance brings good fortune.",
+        "meaning": "A beautiful retreat. Adhering to rectitude brings good fortune."
+      },
+      {
+        "position": "Line 6 (Yang)",
+        "text": "A graceful and affluent retreat. Nothing that is not beneficial.",
+        "meaning": "A graceful and affluent retreat. Nothing is unfavorable."
+      }
+    ]
+  },
+  "000101": {
+    "name": "Hexagram Jin (Progress)",
+    "symbolInfo": "Upper Li ☲ (Fire) Lower Kun ☷ (Earth)",
+    "image": "Fire over Earth",
+    "keywords": "Marquis Kang uses gifts of numerous horses, receiving them three times a day",
+    "coreMeaning": "The sun rises in the east, gradually ascending; following the trend, progressing, and gaining recognition from others.",
+    "aspects": {
+      "事業": "Opportunities for promotion arise, actively strive for them.",
+      "感情": "Emotional relationships progress smoothly, warming up.",
+      "健康": "Full of vigor, moderate activity.",
+      "財運": "Financial luck is rising, investment yields profit."
+    },
+    "transformationTip": "Moving Line 1 (初爻) → Hexagram Cui (Gathering Together); Moving Line 6 (上爻) → Hexagram Da You (Great Possession)",
+    "notes": "",
+    "lines": [
+      {
+        "position": "Line 1 (Yin)",
+        "text": "Advancing, yet hindered; perseverance brings good fortune. Though not trusted, generosity prevents blame.",
+        "meaning": "Advancing is obstructed, upholding righteousness brings good fortune. Although not trusted, generosity prevents misfortune."
+      },
+      {
+        "position": "Line 2 (Yin)",
+        "text": "Advancing with sorrow; perseverance brings good fortune. Receiving this great blessing from the Queen Mother.",
+        "meaning": "Advancing with worry; upholding righteousness brings good fortune. Receiving blessings from the Queen Mother."
+      },
+      {
+        "position": "Line 3 (Yin)",
+        "text": "Gaining the approval of the multitude, regret vanishes.",
+        "meaning": "Gaining recognition from the multitude, regret dissipates."
+      },
+      {
+        "position": "Line 4 (Yang)",
+        "text": "Advancing like a shih-shu (rat/vole); perseverance is perilous.",
+        "meaning": "Greedily advancing like a shih-shu; even with righteousness, there is danger."
+      },
+      {
+        "position": "Line 5 (Yin)",
+        "text": "Regret vanishes. Do not worry about gain or loss. Going forth is auspicious, with nothing unfavorable.",
+        "meaning": "Regret disappears. No need to worry about gain or loss. Advancing is auspicious and nothing is unfavorable."
+      },
+      {
+        "position": "Line 6 (Yang)",
+        "text": "Advancing to its horns (utmost point). It is used to attack cities (rectify internal affairs). Perilous yet auspicious, without blame. Perseverance leads to regret.",
+        "meaning": "Advancing to the highest point. Can be used to rectify internal affairs. Although perilous, it is auspicious and without blame."
+      }
+    ]
+  },
+  "010101": {
+    "name": "Kui (Opposition)",
+    "symbolInfo": "Upper Li ☲, Lower Dui ☱",
+    "image": "Fire over Lake",
+    "keywords": "Auspicious for small matters",
+    "coreMeaning": "Mutual opposition and separation; seeking common ground amidst differences; despite divergences, small matters can be accomplished.",
+    "aspects": {
+      "事業": "Differences in opinion; it is advisable to seek common ground while preserving differences.",
+      "感情": "Personality clashes; requires tolerance and adaptation.",
+      "健康": "Pay attention to eyes and heart.",
+      "財運": "Partnerships are prone to disagreements; handle with caution."
+    },
+    "transformationTip": "Moving initial line → Dui Hexagram; Moving top line → Li Hexagram.",
+    "notes": "",
+    "lines": [
+      {
+        "position": "Line 1 (Yang)",
+        "text": "Remorse vanishes. If you lose your horse, do not pursue it; it will return by itself. If you encounter evil people, there will be no blame.",
+        "meaning": "Regret disappears; if a horse is lost, do not chase it, it will return on its own; facing evil people calmly brings no blame."
+      },
+      {
+        "position": "Line 2 (Yang)",
+        "text": "Meeting the master in an alley; no blame.",
+        "meaning": "Meeting the lord in a secluded alley; although not formal, there is no blame."
+      },
+      {
+        "position": "Line 3 (Yin)",
+        "text": "Seeing a carriage being pulled with difficulty, its ox constrained, and the person branded and his nose cut off; there is no beginning but there is an end.",
+        "meaning": "The carriage is stuck, the ox is restrained, the person is punished; though the beginning is difficult, there will ultimately be a result."
+      },
+      {
+        "position": "Line 4 (Yang)",
+        "text": "Isolated in opposition; encountering a genuine man; trusting each other; danger but no blame.",
+        "meaning": "Amidst isolation, meeting a sincere person; interacting with sincerity; though dangerous, there is no blame."
+      },
+      {
+        "position": "Line 5 (Yin)",
+        "text": "Remorse vanishes. One's relatives gnaw on the flesh. What blame is there in going?",
+        "meaning": "Regret disappears; kinship and closeness; what fault is there in proceeding?"
+      },
+      {
+        "position": "Line 6 (Yang)",
+        "text": "Isolated in opposition; seeing a pig carrying mud, a cart laden with ghosts; first drawing the bow, then unstringing the bow; not robbers but marriage; going and meeting rain brings good fortune.",
+        "meaning": "Extreme isolation and suspicion, seeing ghosts due to excessive doubt; after letting go of suspicion, finding it to be a good marriage; auspicious when encountering rain."
+      }
+    ]
+  },
+  "001010": {
+    "name": "Jian Hexagram (Obstruction)",
+    "symbolInfo": "Upper Kan (Water) ☵, Lower Gen (Mountain) ☶",
+    "image": "Water over Mountain",
+    "keywords": "Favorable in the Southwest, unfavorable in the Northeast, favorable to see great people, perseverance brings good fortune.",
+    "coreMeaning": "The journey is difficult, progress is arduous; it is advisable to seek help from noble individuals and to reflect on oneself.",
+    "aspects": {
+      "事業": "Many obstacles, need to seek external assistance.",
+      "感情": "Relationships face difficulties, need to resolve with patience.",
+      "健康": "Pay attention to kidneys and legs/feet, avoid accidents.",
+      "財運": "Financial path is blocked, postpone actions."
+    },
+    "transformationTip": "Moving Line 1 → Xian Hexagram; Moving Line 6 → Kan Hexagram",
+    "notes": "",
+    "lines": [
+      {
+        "position": "Line 1 (Yin)",
+        "text": "Going forward encounters difficulty, coming back gains praise.",
+        "meaning": "Advancing leads to trouble, but retreating earns praise; knowing when to retreat from difficulty is wisdom."
+      },
+      {
+        "position": "Line 2 (Yin)",
+        "text": "The king's minister encounters difficulty after difficulty, but not for selfish reasons.",
+        "meaning": "The minister loyally faces hardship, not for personal gain, but out of duty."
+      },
+      {
+        "position": "Line 3 (Yang)",
+        "text": "Going forward encounters difficulty, returning means turning back.",
+        "meaning": "Advancing is difficult, so turn back and retreat to the original position."
+      },
+      {
+        "position": "Line 4 (Yin)",
+        "text": "Going forward encounters difficulty, coming together to unite.",
+        "meaning": "Advancing is difficult, unite with others to face it together."
+      },
+      {
+        "position": "Line 5 (Yang)",
+        "text": "Great difficulty, friends come.",
+        "meaning": "Facing great difficulty, like-minded individuals come to assist."
+      },
+      {
+        "position": "Line 6 (Yin)",
+        "text": "Going forward encounters difficulty, coming back with great reward, auspicious, favorable to see great people.",
+        "meaning": "Advancing is difficult, but returning yields abundant harvest, auspicious, favorable to see noble individuals."
+      }
+    ]
+  },
+  "010100": {
+    "name": "Deliverance",
+    "symbolInfo": "Upper Zhen ☳ Lower Kan ☵",
+    "image": "Thunder over Water",
+    "keywords": "Beneficial in the southwest. If there is no going forth, to return brings good fortune.",
+    "coreMeaning": "Resolving difficulties, melting away like ice; seize the opportunity, act swiftly.",
+    "aspects": {
+      "事業": "Difficulties resolved, swiftly seize good opportunities.",
+      "感情": "Misunderstandings cleared, relationships return to the right track.",
+      "健康": "Condition improves, recovery is imminent.",
+      "財運": "Financial difficulties resolved, able to start anew."
+    },
+    "transformationTip": "Moving Line 1 transforms into Hexagram Kan; Moving Line 6 transforms into Hexagram Zhen.",
+    "notes": "",
+    "lines": [
+      {
+        "position": "Line 1 (Yin)",
+        "text": "No blame.",
+        "meaning": "Just freed from difficulties, calm and without blame."
+      },
+      {
+        "position": "Line 2 (Yang)",
+        "text": "Hunting in the field, obtains three foxes. Gains a yellow arrow. Perseverance brings good fortune.",
+        "meaning": "Hunting in the field, obtains three foxes. Gains a golden arrow. Perseverance brings good fortune, removing petty people."
+      },
+      {
+        "position": "Line 3 (Yin)",
+        "text": "Carrying burdens and riding in a carriage, inviting bandits. Perseverance brings regret.",
+        "meaning": "Unsuited for the position yet occupying a high rank, inviting robbers. Even with perseverance, there is regret."
+      },
+      {
+        "position": "Line 4 (Yang)",
+        "text": "Untie the big toe. Friends will then arrive and be trusted.",
+        "meaning": "Sever ties with petty people (or those who hold you back like a toe). True friends will then arrive."
+      },
+      {
+        "position": "Line 5 (Yin)",
+        "text": "The noble person alone can deliver. Good fortune. Commands trust even from petty people.",
+        "meaning": "The noble person can be delivered from bondage. Good fortune. Can also inspire trust in petty people."
+      },
+      {
+        "position": "Line 6 (Yin)",
+        "text": "The prince shoots a falcon on a high wall. Catches it. Nothing is not advantageous.",
+        "meaning": "Shooting down a large hawk from a high wall. Clear and decisive in purpose. Nothing is disadvantageous."
+      }
+    ]
+  },
+  "011111": {
+    "name": "Hexagram Gou",
+    "symbolInfo": "Upper Qian ☰ Lower Xun ☴",
+    "image": "Heaven Wind",
+    "keywords": "The strong woman, do not take this woman",
+    "coreMeaning": "Accidental encounter, the nascent yin; guard against petty people, interact cautiously.",
+    "aspects": {
+      "事業": "Unexpected opportunities, require cautious judgment",
+      "感情": "Chance encounter, need to observe clearly before deciding",
+      "健康": "Pay attention to respiratory system, guard against external pathogens",
+      "財運": "Unexpected sources of wealth, require careful evaluation"
+    },
+    "transformationTip": "If the first line moves → Hexagram Xun; if the last line moves → Hexagram Qian",
+    "notes": "",
+    "lines": [
+      {
+        "position": "Line 1 (Yin)",
+        "text": "係于金柅，貞吉，有攸往，見凶，羸豕孚蹢躅",
+        "meaning": "Firmly bound with metal constraints; adherence to uprightness brings good fortune. Rushing forward will lead to misfortune."
+      },
+      {
+        "position": "Line 2 (Yang)",
+        "text": "包有魚，無咎，不利賓",
+        "meaning": "There is a fish in the package, no blame; but it is not suitable for entertaining guests."
+      },
+      {
+        "position": "Line 3 (Yang)",
+        "text": "臀無膚，其行次且，厲，無大咎",
+        "meaning": "Sitting uneasily, moving slowly; there is danger, but no great fault."
+      },
+      {
+        "position": "Line 4 (Yang)",
+        "text": "包無魚，起凶",
+        "meaning": "No fish in the package, loss of support; misfortune is rising."
+      },
+      {
+        "position": "Line 5 (Yang)",
+        "text": "以杞包瓜，含章，有隕自天",
+        "meaning": "Wrapping a melon with mulberry leaves; inner virtue is contained, blessings fall from heaven."
+      },
+      {
+        "position": "Line 6 (Yang)",
+        "text": "姤其角，吝，無咎",
+        "meaning": "Encountering at the farthest corner; though there is regret, there is no great fault."
+      }
+    ]
+  },
+  "000110": {
+    "name": "Cui Hexagram",
+    "symbolInfo": "Upper Dui ☱, Lower Kun ☷",
+    "image": "Lake over Earth",
+    "keywords": "Success, The King approaches the ancestral temple, Favorable to see the great person, Success, Favorable to persevere",
+    "coreMeaning": "Gathering and convergence, many people united achieve great things; widely recruit talent, condense strength.",
+    "aspects": {
+      "事業": "Team gathering, working together collaboratively",
+      "感情": "Many connections converge, romance flourishes",
+      "健康": "Pay attention to spleen and stomach, guard against infection in crowded places",
+      "財運": "Capital accumulation, favorable for investment"
+    },
+    "transformationTip": "Moving Line 1 → Hexagram Kun (Distress); Moving Line 6 → Hexagram Pi (Stagnation)",
+    "notes": "",
+    "lines": [
+      {
+        "position": "Line 1 (Yin)",
+        "text": "If trust is not maintained to the end, then there is disorder and scatteredness. If one cries out, and then gathers with a smile, have no worries. Going forth brings no blame.",
+        "meaning": "If sincerity cannot last, there will be chaos. If one can call out and gather, turning sorrow into joy, going forth brings no blame."
+      },
+      {
+        "position": "Line 2 (Yin)",
+        "text": "Being led is auspicious, no blame. Sincerity then makes the simple sacrifice beneficial.",
+        "meaning": "Being led to gather, auspicious and no blame. A simple sacrifice made with sincerity is sufficient."
+      },
+      {
+        "position": "Line 3 (Yin)",
+        "text": "Gathering with sighs and lamentations, no advantage. Going forth brings no blame, but there is a slight regret.",
+        "meaning": "There are sighs and lamentations within the gathering, no advantage. Going forth brings no blame, but there is a slight regret."
+      },
+      {
+        "position": "Line 4 (Yang)",
+        "text": "Great auspiciousness, no blame.",
+        "meaning": "Great auspiciousness, no fault."
+      },
+      {
+        "position": "Line 5 (Yang)",
+        "text": "Gathering in a position, no blame. If not trusted, maintain primal, eternal perseverance, regret vanishes.",
+        "meaning": "Gathering in a proper position, no blame. If not trusted, maintain righteousness for a long time, regret will vanish."
+      },
+      {
+        "position": "Line 6 (Yin)",
+        "text": "Weeping, sighing, shedding tears; no blame.",
+        "meaning": "Weeping and sighing, though sad, there is no blame. Emotions are genuinely expressed."
+      }
+    ]
+  },
+  "011000": {
+    "name": "Ascent",
+    "symbolInfo": "Upper Kūn ☷ Lower Xùn ☴",
+    "image": "Earth over Wind",
+    "keywords": "Great prosperity; favorable to see the great man; do not be anxious; going south brings good fortune",
+    "coreMeaning": "Proceed in an orderly and gradual manner, rising step by step; accumulate virtue, and naturally achieve higher levels.",
+    "aspects": {
+      "事業": "Steady promotion, gradual progress",
+      "感情": "Feelings gradually warm up, stable development",
+      "健康": "Physical strength gradually increases, continue to recuperate",
+      "財運": "Financial fortune gradually rises, steady growth"
+    },
+    "transformationTip": "If the first line moves, it transforms into the Xùn (Wind) hexagram; if the sixth line moves, it transforms into the Kūn (Earth) hexagram.",
+    "notes": "",
+    "lines": [
+      {
+        "position": "Line 1 (Yin)",
+        "text": "Sincere ascent, great good fortune.",
+        "meaning": "Rising with sincerity and trustworthiness, great good fortune."
+      },
+      {
+        "position": "Line 2 (Yang)",
+        "text": "With sincerity, it is beneficial to use a simple sacrifice; no blame.",
+        "meaning": "With sincerity, offer a simple sacrifice; no blame; sincerity is better than formality."
+      },
+      {
+        "position": "Line 3 (Yang)",
+        "text": "Ascending to an empty city.",
+        "meaning": "Entering an empty and uninhabited city, moving freely without obstruction."
+      },
+      {
+        "position": "Line 4 (Yin)",
+        "text": "The King uses it to make offerings at Mount Qi; good fortune, no blame.",
+        "meaning": "The King makes offerings at Mount Qi; auspicious and without blame; ascending by the right path."
+      },
+      {
+        "position": "Line 5 (Yin)",
+        "text": "Perseverance brings good fortune; ascending the steps.",
+        "meaning": "Adhering to correctness brings good fortune; ascending step by step, making steady progress one step at a time."
+      },
+      {
+        "position": "Line 6 (Yin)",
+        "text": "Ascending in darkness; favorable for unceasing perseverance.",
+        "meaning": "Continuously ascending in obscurity/darkness; favorable for unceasing adherence to correctness."
+      }
+    ]
+  },
+  "010110": {
+    "name": "Hexagram of Adversity",
+    "symbolInfo": "Upper Dui ☱ Lower Kan ☵",
+    "image": "Lake over Water",
+    "keywords": "Success, perseverance, good fortune for the great man, no blame",
+    "coreMeaning": "Trapped in adversity, words are not trusted; a noble person, when in adversity, maintains integrity without wavering.",
+    "aspects": {
+      "事業": "Difficult circumstances, requires adhering to principles.",
+      "感情": "Emotions are distressed, requires patience to break through.",
+      "健康": "Mentally and physically exhausted, requires ample rest and recuperation.",
+      "財運": "Lack of funds, need to cautiously overcome difficulties."
+    },
+    "transformationTip": "If the first line moves → Kan hexagram; if the top line moves → Dui hexagram",
+    "notes": "",
+    "lines": [
+      {
+        "position": "Line 1 (Yin)",
+        "text": "The buttocks are stuck on a stump, entering a dark valley, for three years unseen",
+        "meaning": "Trapped beneath a withered tree, fallen into a dark, secluded valley, for three years no light is seen."
+      },
+      {
+        "position": "Line 2 (Yang)",
+        "text": "Distressed by wine and food, a high-ranking official is about to arrive. It is favorable to offer sacrifices. Campaigning is inauspicious, but there will be no blame.",
+        "meaning": "Distressed by wine and food, a high official will arrive. It is beneficial for offerings and sacrifices; marching forward is ominous."
+      },
+      {
+        "position": "Line 3 (Yin)",
+        "text": "Distressed by rocks, leaning on caltrops. Entering one's palace, one does not see one's wife. Inauspicious.",
+        "meaning": "Trapped by a boulder, leaning on thorny caltrops, returning home yet not seeing one's wife; ominous."
+      },
+      {
+        "position": "Line 4 (Yang)",
+        "text": "Comes slowly, distressed by a golden carriage. Regret, but there will be an end.",
+        "meaning": "Coming slowly, trapped by a golden carriage; though there is regret, there will be a resolution."
+      },
+      {
+        "position": "Line 5 (Yang)",
+        "text": "Nose cut off and feet amputated. Distressed by a red sash. Gradually there is joy. It is favorable to offer sacrifices.",
+        "meaning": "Suffering penal mutilation, trapped in a high position, then slowly finding release; it is beneficial for sacrifices."
+      },
+      {
+        "position": "Line 6 (Yin)",
+        "text": "Distressed by creepers, in an unstable situation. If one repents and acts, there will be regret, but campaigning will be auspicious.",
+        "meaning": "Trapped by creeping vines, in a precarious and unstable state. If one repents and acts, marching forward will be auspicious."
+      }
+    ]
+  },
+  "011010": {
+    "name": "The Well Hexagram",
+    "symbolInfo": "Upper Kan☵ Lower Xun☴",
+    "image": "Water over Wind",
+    "keywords": "The city may be changed, but the well cannot be changed; there is no loss and no gain.",
+    "coreMeaning": "The nourishment of the well is inexhaustible, nourishing all beings; cultivate oneself to benefit others, and virtue will last forever.",
+    "aspects": {
+      "事業": "Utilize professional skills, contribute silently.",
+      "感情": "Stable nourishment, long-lasting companionship.",
+      "健康": "Pay attention to water intake, kidney care.",
+      "財運": "Stable income, a steady flow."
+    },
+    "transformationTip": "Movement in the first line → Hexagram Xun; Movement in the top line → Hexagram Kan",
+    "notes": "",
+    "lines": [
+      {
+        "position": "Line 1 (Yin)",
+        "text": "The well mud cannot be eaten; the old well has no birds.",
+        "meaning": "The muddy bottom of the well is unusable for drinking; an abandoned well, not even birds or beasts come to it, indicating discarded talent."
+      },
+      {
+        "position": "Line 2 (Yang)",
+        "text": "Water from the well valley can only shoot minnows; the jar is broken and leaks.",
+        "meaning": "The well water is only enough for shooting fish; the water bucket is broken and leaks, indicating talent not being well utilized."
+      },
+      {
+        "position": "Line 3 (Yang)",
+        "text": "The well is clean, but no one drinks from it; this grieves my heart. It can be drawn from. If a king is enlightened, all will receive its blessings.",
+        "meaning": "The well water is clear but no one draws from it, which is heartbreaking. An enlightened ruler can recognize and utilize talent."
+      },
+      {
+        "position": "Line 4 (Yin)",
+        "text": "The well is bricked; no blame.",
+        "meaning": "Repairing the well wall, no blame; self-cultivation and enrichment."
+      },
+      {
+        "position": "Line 5 (Yang)",
+        "text": "The well is clear; cold spring water is drunk.",
+        "meaning": "The well water is clear and pure, cool sweet spring water for people to drink; talent and virtue are widely spread."
+      },
+      {
+        "position": "Line 6 (Yin)",
+        "text": "The well is completed; do not cover it. There is sincerity; great good fortune.",
+        "meaning": "The well is finished; do not cover it. Let sincerity flow freely; great auspiciousness."
+      }
+    ]
+  },
+  "011101": {
+    "name": "The Cauldron Hexagram",
+    "symbolInfo": "Upper Li ☲, Lower Xun ☴",
+    "image": "Fire over Wind",
+    "keywords": "Great auspiciousness, success",
+    "coreMeaning": "The cauldron is used for cooking, symbolizing innovative achievements; stable foundations, and flourishing civilization.",
+    "aspects": {
+      "事業": "Career is stable, fruitful achievements",
+      "感情": "Relationship is stable, mutually nourishing",
+      "健康": "Pay attention to diet and conditioning, strengthen physique",
+      "財運": "Wealth accumulation is stable, beneficial in the long term"
+    },
+    "transformationTip": "Moving primary line → Xun hexagram; Moving top line → Li hexagram",
+    "notes": "",
+    "lines": [
+      {
+        "position": "Line 1 (Yin)",
+        "text": "The cauldron is overturned, beneficial to pour out what is stale, obtain a concubine and her son, no blame.",
+        "meaning": "The cauldron's legs are pointing upwards, pouring out stale things, removing the old and bringing in the new, no blame."
+      },
+      {
+        "position": "Line 2 (Yang)",
+        "text": "The cauldron has substance, my enemy has an illness, unable to approach me, auspicious.",
+        "meaning": "The cauldron is full, the opponent is sick and cannot harm me, auspicious."
+      },
+      {
+        "position": "Line 3 (Yang)",
+        "text": "The cauldron's ears are altered, its movement is hindered, pheasant fat is not eaten, temporary regret due to rain, ultimately auspicious.",
+        "meaning": "The cauldron's ears are changed, actions are blocked, pheasant fat cannot be eaten temporarily, eventually auspicious."
+      },
+      {
+        "position": "Line 4 (Yang)",
+        "text": "The cauldron breaks its leg, overturning the duke's broth, its form is drenched, inauspicious.",
+        "meaning": "The cauldron's leg breaks, the delicious food is overturned, looking disheveled, inauspicious."
+      },
+      {
+        "position": "Line 5 (Yin)",
+        "text": "The cauldron has yellow ears and golden suspension rods, beneficial to be firm and correct.",
+        "meaning": "The cauldron has golden ears and golden suspension rods, adhering to correctness is beneficial, virtue and talent are matched."
+      },
+      {
+        "position": "Line 6 (Yang)",
+        "text": "The cauldron has jade suspension rods, great auspiciousness, nothing disadvantageous.",
+        "meaning": "The cauldron has jade suspension rods, a symbol of supreme honor, great auspiciousness with nothing disadvantageous."
+      }
+    ]
+  },
+  "001001": {
+    "name": "Keeping Still (Gèn)",
+    "symbolInfo": "Upper Gèn☶ Lower Gèn☶",
+    "image": "Mountain",
+    "keywords": "Keeping still at his back, he does not obtain his person. He walks in his courtyard and does not see his people. No blame.",
+    "coreMeaning": "Stillness and immobility, stopping at the right time; knowing when to stop brings peace, wisdom arises from stillness.",
+    "aspects": {
+      "事業": "Stop at the right time, do not advance rashly.",
+      "感情": "Maintain appropriate distance, quietly await fate.",
+      "健康": "Rest and recuperate, pay attention to muscles, bones, and spine.",
+      "財運": "Pause investments, observe changes quietly."
+    },
+    "transformationTip": "Line 1 changes → Modesty (Qiān) Hexagram; Line 6 changes → The Wanderer (Lǚ) Hexagram.",
+    "notes": "",
+    "lines": [
+      {
+        "position": "Line 1 (Yin)",
+        "text": "Keeping still at his toes, no blame, advantageous for perpetual perseverance.",
+        "meaning": "Stopping at the toes, stopping early, no blame, perpetual uprightness is advantageous."
+      },
+      {
+        "position": "Line 2 (Yin)",
+        "text": "Keeping still at his calves, he cannot save his follower, his heart is displeased.",
+        "meaning": "Stopping at the calves, unable to rescue companions, feeling unhappy in one's heart."
+      },
+      {
+        "position": "Line 3 (Yang)",
+        "text": "Keeping still at his waist, splitting his spine, danger consumes his heart.",
+        "meaning": "Stopping at the waist, spine splitting apart, danger makes one anxious."
+      },
+      {
+        "position": "Line 4 (Yin)",
+        "text": "Keeping still at his trunk/body, no blame.",
+        "meaning": "Stopping with the whole body, complete stillness, no blame."
+      },
+      {
+        "position": "Line 5 (Yin)",
+        "text": "Keeping still at his jaw/mouth, words have order, regret vanishes.",
+        "meaning": "Stopping at the jaw/mouth, words are orderly, regret disappears."
+      },
+      {
+        "position": "Line 6 (Yang)",
+        "text": "Magnanimous stillness, auspicious.",
+        "meaning": "Stopping with profound sincerity, auspicious, substantial stillness brings stability."
+      }
+    ]
+  },
+  "001011": {
+    "name": "Gradual Progress Hexagram (Jian)",
+    "symbolInfo": "Upper Xun☴ Lower Gen☶",
+    "image": "Wind Over Mountain",
+    "keywords": "The maiden's marriage is auspicious; beneficial to be firm and upright.",
+    "coreMeaning": "Proceed step by step, follow established procedures; advance steadily, and success will come naturally.",
+    "aspects": {
+      "事業": "Advance steadily, do not be impetuous",
+      "感情": "Emotional development is gradual, resulting in beauty",
+      "健康": "Slowly recuperate, continuously improve",
+      "財運": "Gradual accumulation, steady growth"
+    },
+    "transformationTip": "If the first line moves → Gen Hexagram; If the top line moves → Xun Hexagram",
+    "notes": "",
+    "lines": [
+      {
+        "position": "Line 1 (Yin)",
+        "text": "The wild goose gradually advances to the shallow bank; the young one is in danger; though there are criticisms, there is no blame.",
+        "meaning": "The wild goose gradually approaches the water's edge; the young one is in danger; although there is talk, there is no fault."
+      },
+      {
+        "position": "Line 2 (Yin)",
+        "text": "The wild goose gradually advances to the rock; it eats and drinks joyfully; auspicious.",
+        "meaning": "The wild goose gradually approaches the solid rock; it eats and drinks peacefully and contentedly; auspicious."
+      },
+      {
+        "position": "Line 3 (Yang)",
+        "text": "The wild goose gradually advances to the dry land; the husband goes on an expedition and does not return; the wife is pregnant but does not give birth; inauspicious. It is advantageous to guard against robbers.",
+        "meaning": "The wild goose gradually approaches the land; the husband leaves and does not return; the wife is pregnant but finds it difficult to bear children; inauspicious. But it is advantageous to defend against external enemies."
+      },
+      {
+        "position": "Line 4 (Yin)",
+        "text": "The wild goose gradually advances to the trees; perhaps it finds a suitable branch; no blame.",
+        "meaning": "The wild goose gradually approaches the trees; perhaps it finds a suitable branch to perch on; no blame."
+      },
+      {
+        "position": "Line 5 (Yang)",
+        "text": "The wild goose gradually advances to the high mound; the wife does not conceive for three years; ultimately, no one can hinder this; auspicious.",
+        "meaning": "The wild goose gradually approaches the high mound; the woman does not conceive for three years; ultimately, no one can hinder this; auspicious."
+      },
+      {
+        "position": "Line 6 (Yang)",
+        "text": "The wild goose gradually advances to the high land; its feathers can be used for ceremonial adornment; auspicious.",
+        "meaning": "The wild goose gradually approaches a high place; its feathers can be used for ceremonial decorations; auspicious."
+      }
+    ]
+  },
+  "001101": {
+    "name": "The Wanderer (Lü) Hexagram",
+    "symbolInfo": "Upper Li ☲ Lower Gen ☶",
+    "image": "Fire on the Mountain",
+    "keywords": "Slight success; travel is auspicious if righteous.",
+    "coreMeaning": "Wandering on a journey, dwelling as a stranger in a foreign land; act cautiously, be content with circumstances.",
+    "aspects": {
+      "事業": "Developing outside, seeking jobs in other places is beneficial.",
+      "感情": "Frequent separation, need to maintain long-distance relationships.",
+      "健康": "Pay attention to travel fatigue, keep warm to prevent illness.",
+      "財運": "Income from other places, small gains."
+    },
+    "transformationTip": "Moving initial line → Gen Hexagram; Moving top line → Li Hexagram",
+    "notes": "",
+    "lines": [
+      {
+        "position": "Line 1 (Yin)",
+        "text": "The wanderer is petty, thus inviting calamity upon himself.",
+        "meaning": "Being petty and calculating during the journey, inviting disaster upon oneself."
+      },
+      {
+        "position": "Line 2 (Yin)",
+        "text": "The wanderer reaches a lodging, holding his resources, obtains a young servant, righteous.",
+        "meaning": "Obtaining lodging during the journey, keeping money and property, getting a servant, maintaining righteousness."
+      },
+      {
+        "position": "Line 3 (Yang)",
+        "text": "The wanderer's lodging is burned, he loses his young servant, righteousness is perilous.",
+        "meaning": "The travel lodging is burned, losing the servant, even maintaining righteousness is dangerous."
+      },
+      {
+        "position": "Line 4 (Yang)",
+        "text": "The wanderer is in a place, obtains resources and axes, but my heart is not pleased.",
+        "meaning": "Obtaining a place to settle and resources during the journey, but still feeling uneasy in the heart."
+      },
+      {
+        "position": "Line 5 (Yin)",
+        "text": "Shooting a pheasant, one arrow is lost, eventually achieving a reputation of honor.",
+        "meaning": "Shooting a wild pheasant, losing an arrow, ultimately gaining a destiny of honor."
+      },
+      {
+        "position": "Line 6 (Yang)",
+        "text": "The bird's nest is burned, the wanderer first laughs then wails, loses a cow in an easy place, inauspicious.",
+        "meaning": "The bird's nest is burned, the wanderer first laughs then cries, losing a cow in an easy place, inauspicious."
+      }
+    ]
+  },
+  "011011": {
+    "name": "Xùn Hexagram",
+    "symbolInfo": "Upper Xùn☴ Lower Xùn☴",
+    "image": "Wind",
+    "keywords": "Small success, advantageous to have a direction, advantageous to see great person",
+    "coreMeaning": "Gentle and subtle, like the wind bending the grass; humility penetrates, subtly influencing.",
+    "aspects": {
+      "事業": "Overcoming the rigid with gentleness, responding flexibly",
+      "感情": "Gentle and considerate, subtly influencing and moving the other person",
+      "健康": "Pay attention to the respiratory system and liver/gallbladder",
+      "財運": "Flexible cash flow, small profits"
+    },
+    "transformationTip": "Moving Line 1 (bottom) transforms to Jǐng Hexagram; Moving Line 6 (top) transforms to Dǐng Hexagram",
+    "notes": "",
+    "lines": [
+      {
+        "position": "Line 1 (Yin)",
+        "text": "Advance or retreat, beneficial for the steadfastness of a warrior",
+        "meaning": "Indecisive advance or retreat, beneficial for a warrior to maintain uprightness; requires a resolute mind"
+      },
+      {
+        "position": "Line 2 (Yang)",
+        "text": "Gentleness under the bed, using historians and shamans in abundance; auspicious, no blame",
+        "meaning": "Humbly prostrating under the bed, seeking prayer through spiritual practitioners; auspicious, no blame"
+      },
+      {
+        "position": "Line 3 (Yang)",
+        "text": "Frequent gentleness, regrettable",
+        "meaning": "Repeated humility, excessive submissiveness, leads to regret"
+      },
+      {
+        "position": "Line 4 (Yin)",
+        "text": "Regret vanishes, the field yields three kinds of game",
+        "meaning": "Regret disappears, hunting yields three types of game, there is gain"
+      },
+      {
+        "position": "Line 5 (Yang)",
+        "text": "Righteousness brings auspiciousness, regret vanishes, nothing is unfavorable, without beginning but with an end, three days before Geng, three days after Geng, auspicious",
+        "meaning": "Upholding righteousness brings auspiciousness, regret disappears, nothing is unfavorable; though without a beginning, there is a good ending"
+      },
+      {
+        "position": "Line 6 (Yang)",
+        "text": "Gentleness under the bed, losing one's resources and axe, righteousness brings misfortune",
+        "meaning": "Excessive humility prostrating under the bed, losing resources; even upholding righteousness brings misfortune"
+      }
+    ]
+  },
+  "010011": {
+    "name": "Huan Hexagram",
+    "symbolInfo": "Upper Xun ☴ Lower Kan ☵",
+    "image": "Wind over Water",
+    "keywords": "Success, the king approaches the temple, favorable to cross the great river, favorable to persist",
+    "coreMeaning": "Dispersion and disintegration, dissolving cohesion; attracting with sincerity, re-cohering people's hearts.",
+    "aspects": {
+      "事業": "Integrate scattered resources, re-cohere the team.",
+      "感情": "Emotions are estranged, requires active repair.",
+      "健康": "Pay attention to kidneys and blood circulation.",
+      "財運": "Wealth is dispersed, requires re-integration."
+    },
+    "transformationTip": "Moving initial line → Kan trigram; Moving top line → Xun trigram.",
+    "notes": "",
+    "lines": [
+      {
+        "position": "Line 1 (Yin)",
+        "text": "Using strong horses to rescue, auspicious.",
+        "meaning": "Using strong horses for rescue, auspicious, stopping dispersion early."
+      },
+      {
+        "position": "Line 2 (Yang)",
+        "text": "In dispersion, hastening to what one relies on, regret vanishes.",
+        "meaning": "In dispersion, hastening towards reliance, regret disappears."
+      },
+      {
+        "position": "Line 3 (Yin)",
+        "text": "Dispelling one's personal desires, no regret.",
+        "meaning": "Dispelling one's personal desires, no regret, public-spirited and forgetting oneself."
+      },
+      {
+        "position": "Line 4 (Yin)",
+        "text": "Dispelling small groups, supremely auspicious, forming a mound (larger gathering), beyond ordinary comprehension.",
+        "meaning": "Dispelling small gatherings, forming a larger aggregation, supremely auspicious, beyond ordinary imagination."
+      },
+      {
+        "position": "Line 5 (Yang)",
+        "text": "Like sweat dispersing, a great command is issued; the king's residence is dispersed (rebuilt), no blame.",
+        "meaning": "Issuing a loud command like sweat dispersing, the king's residence is dispersed (rebuilt), no blame."
+      },
+      {
+        "position": "Line 6 (Yang)",
+        "text": "Dispelling one's blood (harm/fear), going far away, no blame.",
+        "meaning": "Dispelling harm and fear, keeping away from danger, no blame."
+      }
+    ]
+  },
+  "001100": {
+    "name": "Minor Excess Hexagram",
+    "symbolInfo": "Upper Zhen ☳ Lower Gen ☶",
+    "image": "Thunder over Mountain",
+    "keywords": "Success, favorable for perseverance, suitable for small matters, not suitable for big matters",
+    "coreMeaning": "Slight excess, caution and prudence are necessary; suitable for small matters, not for large ones, maintaining boundaries is important.",
+    "aspects": {
+      "事業": "Suitable for handling small matters, do not aim too high or be overly ambitious.",
+      "感情": "Be cautious and careful, do not act too hastily.",
+      "健康": "Minor ailments need attention, do not ignore small symptoms.",
+      "財運": "Small-scale investments are appropriate, do not take big risks."
+    },
+    "transformationTip": "Moving initial line → Gen Hexagram; Moving top line → Zhen Hexagram",
+    "notes": "",
+    "lines": [
+      {
+        "position": "Line 1 (Yin)",
+        "text": "Flying bird brings misfortune",
+        "meaning": "A flying bird flies too high; haste makes waste, misfortune."
+      },
+      {
+        "position": "Line 2 (Yin)",
+        "text": "Passes by his grandfather, meets his grandmother; does not reach his ruler, meets his minister; no blame.",
+        "meaning": "Overlooks the grandfather, meets the grandmother; does not reach the ruler, meets the minister; remaining content in one's place, no blame."
+      },
+      {
+        "position": "Line 3 (Yang)",
+        "text": "Does not exceed but guards against it; following may lead to harm, misfortune.",
+        "meaning": "Without precaution, one will suffer harm; misfortune."
+      },
+      {
+        "position": "Line 4 (Yang)",
+        "text": "No blame. Does not exceed but meets it. Going brings danger, must be cautious. Do not use perpetual perseverance.",
+        "meaning": "No blame. Stop when appropriate. Going forward carries danger, must be cautious. Cannot hold on forever."
+      },
+      {
+        "position": "Line 5 (Yin)",
+        "text": "Dense clouds without rain, from our western suburbs. The duke shoots and takes a bird in its nest.",
+        "meaning": "Dense clouds without rain, coming from the west. The duke shoots a bird in its nest; the time is not yet ripe."
+      },
+      {
+        "position": "Line 6 (Yin)",
+        "text": "Does not meet but exceeds it. The flying bird leaves it. Misfortune. This is called calamity and disaster.",
+        "meaning": "Exceeding but failing to meet; the flying bird departs. Misfortune. This is called calamity."
+      }
+    ]
+  }
+}

@@ -9,46 +9,57 @@ import { performChange } from './lib/iching';
 function App() {
   const { t, i18n } = useTranslation();
   // Game State
-  const [lines, setLines] = useState([]); // Array of 0-6 numbers
-  const [currentStalks, setCurrentStalks] = useState(49); // Starts at 49 (after Taiji removed)
-  const [changeCount, setChangeCount] = useState(0); // 0, 1, 2
-  const [history, setHistory] = useState([]); // Log of steps for debug/display
+  const [gameState, setGameState] = useState({
+    lines: [],          // Array of 0-6 numbers
+    currentStalks: 49,  // Starts at 49 (after Taiji removed)
+    changeCount: 0,     // 0, 1, 2
+    history: []         // Log of steps for debug/display
+  });
   const [isStarted, setIsStarted] = useState(false);
   const [question, setQuestion] = useState("");
 
+  const { lines, currentStalks, changeCount, history } = gameState;
+
   // Handlers
   const handleSplit = (ratio) => {
-    if (lines.length >= 6) return;
+    setGameState(prev => {
+      if (prev.lines.length >= 6) return prev;
 
-    // Perform one change
-    const result = performChange(currentStalks, ratio);
+      // Perform one change
+      const result = performChange(prev.currentStalks, ratio);
 
-    // Update state
-    const nextStalks = result.remaining;
-    const nextChangeCount = changeCount + 1;
+      // Update state
+      const nextStalks = result.remaining;
+      const nextChangeCount = prev.changeCount + 1;
 
-    setHistory(prev => [...prev, result]);
-
-    if (nextChangeCount === 3) {
-      // Line Complete!
-      const lineValue = nextStalks / 4;
-      setLines(prev => [...prev, lineValue]);
-
-      // Reset for next line (start with 49 again)
-      setCurrentStalks(49);
-      setChangeCount(0);
-    } else {
-      // Continue to next change
-      setCurrentStalks(nextStalks);
-      setChangeCount(nextChangeCount);
-    }
+      if (nextChangeCount === 3) {
+        // Line Complete!
+        const lineValue = nextStalks / 4;
+        return {
+          lines: [...prev.lines, lineValue],
+          currentStalks: 49,
+          changeCount: 0,
+          history: [...prev.history, result]
+        };
+      } else {
+        // Continue to next change
+        return {
+          ...prev,
+          currentStalks: nextStalks,
+          changeCount: nextChangeCount,
+          history: [...prev.history, result]
+        };
+      }
+    });
   };
 
   const handleReset = () => {
-    setLines([]);
-    setCurrentStalks(49);
-    setChangeCount(0);
-    setHistory([]);
+    setGameState({
+      lines: [],
+      currentStalks: 49,
+      changeCount: 0,
+      history: []
+    });
     setIsStarted(false);
     setQuestion("");
   };

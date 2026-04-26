@@ -2,16 +2,18 @@ import React, { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { getHexagramKey } from '../lib/iching';
 
-import ichingData from '../data/iching_reference.json';
+import ichingDataZh from '../data/iching_reference.json';
+import ichingDataEn from '../data/iching_reference_en.json';
 
 export function ResultPanel({ lines, question }) {
-    const { t } = useTranslation();
+    const { t, i18n } = useTranslation();
     const [interpretation, setInterpretation] = useState(null);
     const [aiResult, setAiResult] = useState('');
     const [isAiLoading, setIsAiLoading] = useState(false);
     const hexKey = getHexagramKey(lines);
 
     useEffect(() => {
+        const ichingData = i18n.language === 'en' ? (ichingDataEn && Object.keys(ichingDataEn).length > 0 ? ichingDataEn : ichingDataZh) : ichingDataZh;
         if (lines.length === 6) {
             const data = ichingData[hexKey];
             setInterpretation(data);
@@ -20,7 +22,7 @@ export function ResultPanel({ lines, question }) {
             setInterpretation(null);
             setAiResult('');
         }
-    }, [lines, hexKey]);
+    }, [lines, hexKey, i18n.language]);
 
     const handleGenerateAI = async () => {
         if (!interpretation) return;
@@ -36,10 +38,15 @@ export function ResultPanel({ lines, question }) {
                     movingLines.push(interpretation.lines[i].position);
                 }
             }
-            const movingStr = movingLines.length > 0 ? movingLines.join('、') : '無變爻';
-            const reqQuestion = question ? `問題：「${question}」` : '這個卦象';
-            
-            const prompt = `你在這裡是易經專家。針對${reqQuestion}，本卦為「${hexName}」，變爻為「${movingStr}」，請給出一段簡短、專業且具體的易經解析與建議。`;
+            const movingStr = movingLines.length > 0 ? movingLines.join('、') : t('result.noMovingLines');
+            let prompt = '';
+            if (i18n.language === 'en') {
+                const reqQ = question ? `the question "${question}"` : 'this hexagram';
+                prompt = `You are an I Ching expert. Regarding ${reqQ}, the original hexagram is "${hexName}", and the moving lines are "${movingStr}". Please provide a brief, professional, and specific I Ching interpretation and advice in English.`;
+            } else {
+                const reqQ = question ? `問題：「${question}」` : '這個卦象';
+                prompt = `你在這裡是易經專家。針對${reqQ}，本卦為「${hexName}」，變爻為「${movingStr}」，請給出一段簡短、專業且具體的易經解析與建議。`;
+            }
             
             const response = await fetch('/api/gemini', {
                 method: 'POST',
@@ -74,7 +81,7 @@ export function ResultPanel({ lines, question }) {
             }
         } catch (error) {
             console.error("AI Generation Error:", error);
-            setAiResult(`抱歉，AI 產生解析時發生錯誤：${error.message || error}\n請確認您的 API 金鑰是否有效且網路連線正常。`);
+            setAiResult(t('result.errorFetching', { error: error.message || error }));
         } finally {
             setIsAiLoading(false);
         }
@@ -95,7 +102,7 @@ export function ResultPanel({ lines, question }) {
             {question && (
                 <div className="mb-4 p-4 bg-stone-100/50 rounded-lg border border-stone-200/60">
                     <span className="text-stone-500 text-sm font-bold block mb-1">
-                        {t("result.questionAsked", "所問之事")}
+                        {t("result.questionAsked")}
                     </span>
                     <p className="text-stone-800 font-medium text-lg">{question}</p>
                 </div>
@@ -104,14 +111,14 @@ export function ResultPanel({ lines, question }) {
             {interpretation && (
                 <div className="mb-4 p-4 bg-stone-100/50 rounded-lg border border-stone-200/60">
                     <span className="text-stone-500 text-sm font-bold block mb-1">
-                        {t("result.hexagramResult", "卦象")}
+                        {t("result.hexagramResult")}
                     </span>
                     <p className="text-stone-800 font-medium text-lg mb-1">
-                        <span className="text-stone-500 text-base font-normal mr-2">本卦</span>
+                        <span className="text-stone-500 text-base font-normal mr-2">{t("result.originalHexagram")}</span>
                         {t(`hexagrams.${hexKey}`)}
                     </p>
                     <p className="text-stone-800 font-medium text-lg">
-                        <span className="text-stone-500 text-base font-normal mr-2">變爻</span>
+                        <span className="text-stone-500 text-base font-normal mr-2">{t("result.movingLines")}</span>
                         {(() => {
                             const moving = [];
                             for (let i = 5; i >= 0; i--) {
@@ -119,7 +126,7 @@ export function ResultPanel({ lines, question }) {
                                     moving.push(interpretation.lines[i].position);
                                 }
                             }
-                            return moving.length > 0 ? moving.join('、') : '無（以本卦卦辭為主）';
+                            return moving.length > 0 ? moving.join('、') : t("result.noMovingLines");
                         })()}
                     </p>
                 </div>
@@ -131,7 +138,7 @@ export function ResultPanel({ lines, question }) {
                     <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3">
                         <span className="text-amber-800 font-bold flex items-center gap-2">
                             <svg className="w-5 h-5 text-amber-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
-                            解析選項
+                            {t("result.analysisOptions")}
                         </span>
                         
                         <div className="flex flex-col sm:flex-row gap-2 w-full sm:w-auto">
@@ -143,9 +150,9 @@ export function ResultPanel({ lines, question }) {
                                         movingLines.push(interpretation.lines[i].position);
                                     }
                                 }
-                                const movingStr = movingLines.length > 0 ? movingLines.join('、') : '無變爻';
-                                const reqQuestion = question ? ` 問題：「${question}」` : '';
-                                const searchQuery = `易經 ${hexName} 變爻 ${movingStr}${reqQuestion} AI 解析`;
+                                const movingStr = movingLines.length > 0 ? movingLines.join('、') : t('result.noMovingLines');
+                                const reqQuestion = question ? ` ${t('result.questionAsked')}：「${question}」` : '';
+                                const searchQuery = `${t('app.title')} ${hexName} ${t('result.movingLines')} ${movingStr}${reqQuestion} AI 解析`;
                                 const googleSearchUrl = `https://www.google.com/search?q=${encodeURIComponent(searchQuery)}&udm=50`;
                                 
                                 return (
@@ -156,7 +163,7 @@ export function ResultPanel({ lines, question }) {
                                         className="px-4 py-2 bg-white/80 border border-amber-300 text-amber-800 rounded-lg font-medium hover:bg-white hover:shadow-sm transition-all flex items-center justify-center gap-2 text-sm w-full sm:w-auto"
                                     >
                                         <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
-                                        透過 Google 搜尋
+                                        {t("result.searchGoogle")}
                                     </a>
                                 );
                             })()}
@@ -172,17 +179,17 @@ export function ResultPanel({ lines, question }) {
                                             <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
                                             <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
                                         </svg>
-                                        解析中...
+                                        {t("result.analyzing")}
                                     </>
                                 ) : aiResult ? (
                                     <>
                                         <svg className="w-4 h-4 mr-1 text-amber-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path></svg>
-                                        解析完成
+                                        {t("result.analysisComplete")}
                                     </>
                                 ) : (
                                     <>
                                         <svg className="w-4 h-4 mr-1 text-amber-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
-                                        AI 解析
+                                        {t("result.aiAnalysis")}
                                     </>
                                 )}
                             </button>
@@ -199,26 +206,27 @@ export function ResultPanel({ lines, question }) {
             {interpretation ? (
                 <div className="mt-4 space-y-6">
                     <div>
-                        <h4 className="font-bold text-stone-800 border-b border-stone-200 pb-1 mb-2">卦辭關鍵字</h4>
+                        <h4 className="font-bold text-stone-800 border-b border-stone-200 pb-1 mb-2">{t("result.keywords")}</h4>
                         <p className="text-stone-700">{interpretation.keywords}</p>
                     </div>
                     
                     <div>
-                        <h4 className="font-bold text-stone-800 border-b border-stone-200 pb-1 mb-2">核心意涵</h4>
+                        <h4 className="font-bold text-stone-800 border-b border-stone-200 pb-1 mb-2">{t("result.coreMeaning")}</h4>
                         <p className="text-stone-700">{interpretation.coreMeaning}</p>
                     </div>
 
                     <div>
-                        <h4 className="font-bold text-stone-800 border-b border-stone-200 pb-1 mb-2">各面向提示</h4>
+                        <h4 className="font-bold text-stone-800 border-b border-stone-200 pb-1 mb-2">{t("result.aspectHints")}</h4>
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                            {['事業', '感情', '健康', '財運'].map(aspect => (
-                                interpretation.aspects[aspect] ? (
+                            {['事業', '感情', '健康', '財運'].map(aspect => {
+                                const aspectKey = aspect === '事業' ? 'career' : aspect === '感情' ? 'love' : aspect === '健康' ? 'health' : 'wealth';
+                                return interpretation.aspects[aspect] ? (
                                     <div key={aspect} className="bg-white p-3 rounded-lg border border-stone-200 shadow-sm">
-                                        <h5 className="font-bold text-stone-700 mb-1">{aspect}</h5>
+                                        <h5 className="font-bold text-stone-700 mb-1">{t(`result.${aspectKey}`)}</h5>
                                         <p className="text-stone-600 text-sm">{interpretation.aspects[aspect]}</p>
                                     </div>
                                 ) : null
-                            ))}
+                            })}
                         </div>
                     </div>
 
@@ -226,7 +234,7 @@ export function ResultPanel({ lines, question }) {
 
                     {interpretation.lines && interpretation.lines.length > 0 && (
                         <div>
-                            <h4 className="font-bold text-stone-800 border-b border-stone-200 pb-1 mb-2">六爻解析</h4>
+                            <h4 className="font-bold text-stone-800 border-b border-stone-200 pb-1 mb-2">{t("result.lineAnalysis")}</h4>
                             <div className="space-y-3">
                                 {interpretation.lines.map((lineData, i) => {
                                     // lines is an array from App.jsx, bottom to top.
