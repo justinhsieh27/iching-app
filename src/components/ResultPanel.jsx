@@ -63,22 +63,7 @@ export function ResultPanel({ lines, question }) {
             const aiText = data.text;
             setAiResult(aiText);
             
-            // 寫入本地日誌
-            try {
-                await fetch('/api/log', {
-                    method: 'POST',
-                    headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({
-                        time: new Date().toLocaleString('zh-TW'),
-                        question: question,
-                        hexName: hexName,
-                        movingStr: movingStr,
-                        aiResult: aiText
-                    })
-                });
-            } catch (err) {
-                console.error("Logging Error:", err);
-            }
+
         } catch (error) {
             console.error("AI Generation Error:", error);
             setAiResult(t('result.errorFetching', { error: error.message || error }));
