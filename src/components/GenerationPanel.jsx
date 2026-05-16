@@ -4,7 +4,7 @@ import clsx from 'clsx';
 import { useTranslation } from 'react-i18next';
 import { OLD_YIN, OLD_YANG, YOUNG_YIN, YOUNG_YANG } from '../lib/iching';
 
-export function GenerationPanel({ lines, currentChange, currentStalks }) {
+export function GenerationPanel({ lines, currentStalks }) {
     const { t } = useTranslation();
     // Lines are drawn bottom to top.
     // We use flex-col-reverse to render index 0 at the bottom.
