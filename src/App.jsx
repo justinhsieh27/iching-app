@@ -18,7 +18,7 @@ function App() {
   const [isStarted, setIsStarted] = useState(false);
   const [question, setQuestion] = useState("");
 
-  const { lines, currentStalks, changeCount, history } = gameState;
+  const { lines, currentStalks, changeCount } = gameState;
 
   // Handlers
   const handleSplit = (ratio) => {

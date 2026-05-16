@@ -1,11 +1,9 @@
 
-import React, { useRef, useState, useEffect } from 'react';
+import React, { useRef, useState } from 'react';
 import clsx from 'clsx';
 import { useTranslation } from 'react-i18next';
-import { performChange } from '../lib/iching';
 
 export function ControlPanel({
-    stage, // 'start', 'split', 'count' -> we actually just need to know if we can split
     stalksCount,
     lines,
     changeCount,
@@ -32,12 +30,15 @@ export function ControlPanel({
         if (!containerRef.current) return;
         const rect = containerRef.current.getBoundingClientRect();
         const width = rect.width;
+        if (width <= 0 || lines.length >= 6) return;
         // ratio 0..1
-        const ratio = Math.max(0.02, Math.min(0.98, hoverX / width));
+        const x = hoverX ?? width / 2;
+        const ratio = Math.max(0.02, Math.min(0.98, x / width));
         onSplit(ratio);
     };
 
-    const activeStalks = Array.from({ length: stalksCount });
+    const safeStalksCount = Number.isFinite(stalksCount) ? Math.max(0, Math.floor(stalksCount)) : 0;
+    const activeStalks = Array.from({ length: safeStalksCount });
 
     return (
         <div className="flex flex-col h-full bg-stone-100 p-6 rounded-xl shadow-sm relative overflow-hidden">

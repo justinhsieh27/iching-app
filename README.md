@@ -16,31 +16,80 @@
 
 ## 安裝與執行說明
 
-請依照以下步驟在本地環境設定並執行此專案：
+請依照以下步驟在本地環境設定並執行此專案。此專案提供 `install.sh` 和 `run.sh`，從 GitHub 下載後可以用腳本完成安裝與啟動。
 
 ### 1. 取得專案原始碼
 
 將此專案目錄下載或使用 Git 複製 (Clone) 到您的本地電腦，並透過終端機 (Terminal) 進入專案根目錄。
 
-### 2. 安裝依賴套件
+### 2. 安裝專案
 
-在專案根目錄下，執行以下指令來安裝所有必需的 Node.js 套件：
+在專案根目錄下執行：
 
 ```bash
-npm install
+./install.sh
 ```
 
-### 3. 啟動開發伺服器
+`install.sh` 會檢查 Node.js 與 npm、安裝所有 Node.js 依賴套件，並執行一次 production build 確認專案可以正常建置。
 
-依賴套件安裝完畢後，執行以下指令以啟動 Vite 本地開發伺服器：
+如果您的系統顯示權限不足，請先執行：
 
 ```bash
-npm run dev
+chmod +x install.sh run.sh
+```
+
+再重新執行 `./install.sh`。
+
+### 3. 一鍵啟動程式
+
+安裝完成後，在專案根目錄下執行：
+
+```bash
+./run.sh
+```
+
+`run.sh` 會使用固定 port `5173` 啟動程式，並以背景模式執行。預設會 listen `0.0.0.0`，因此同一個網路中的其他裝置可以透過此電腦的 IP 連線。
+
+```text
+http://<此電腦的 IP>:5173/
+```
+
+如果 port `5173` 已被其他程式佔用，`run.sh` 會先終止佔用該 port 的程序，再啟動此應用程式。
+
+啟動後，log 會寫入：
+
+```text
+logs/iching-app.log
+```
+
+查看 log：
+
+```bash
+tail -f logs/iching-app.log
+```
+
+停止背景程序：
+
+```bash
+kill $(cat iching-app.pid)
 ```
 
 ### 4. 開啟應用程式
 
-伺服器啟動後，終端機會顯示一個本地端的網址（預設通常為 `http://localhost:5173`）。請在網頁瀏覽器中開啟該網址，即可開始使用易經占卜應用程式。
+伺服器啟動後，本機可開啟 `http://127.0.0.1:5173/`。外部裝置請開啟 `http://<此電腦的 IP>:5173/`。
+
+如果外部裝置無法連線，請確認作業系統防火牆、路由器或雲端主機安全群組已允許 TCP port `5173`。
+
+### npm 指令
+
+您也可以直接使用 npm scripts：
+
+```bash
+npm run setup
+npm run start
+```
+
+`npm run start`、`npm run dev` 和 `npm run preview` 都會固定使用 `0.0.0.0:5173`，可供外部網路連線。
 
 ## 建置生產版本 (Production Build)
 

@@ -52,6 +52,8 @@ const resources = {
         "love": "Love",
         "health": "Health",
         "wealth": "Wealth",
+        "lineFallback": "Line {{line}}",
+        "emptyAiResponse": "The AI service returned an empty response.",
         "errorFetching": "Sorry, an error occurred while generating analysis: {{error}}"
       },
       "hexagrams": {
@@ -172,6 +174,8 @@ const resources = {
         "love": "感情",
         "health": "健康",
         "wealth": "財運",
+        "lineFallback": "第 {{line}} 爻",
+        "emptyAiResponse": "AI 服務回傳空白結果。",
         "errorFetching": "抱歉，AI 產生解析時發生錯誤：{{error}}"
       },
       "hexagrams": {

@@ -1,22 +1,46 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { getHexagramKey } from '../lib/iching';
 
 import ichingDataZh from '../data/iching_reference.json';
 import ichingDataEn from '../data/iching_reference_en.json';
 
+const ASPECTS = [
+    ['事業', 'career'],
+    ['感情', 'love'],
+    ['健康', 'health'],
+    ['財運', 'wealth'],
+];
+
+function getMovingLinePositions(lines, interpretation, fallback) {
+    const sourceLines = Array.isArray(interpretation?.lines) ? interpretation.lines : [];
+    const movingLines = [];
+
+    for (let i = 5; i >= 0; i--) {
+        if (lines[i] === 6 || lines[i] === 9) {
+            movingLines.push(sourceLines[i]?.position || fallback(i + 1));
+        }
+    }
+
+    return movingLines;
+}
+
 export function ResultPanel({ lines, question }) {
     const { t, i18n } = useTranslation();
     const [interpretation, setInterpretation] = useState(null);
     const [aiResult, setAiResult] = useState('');
     const [isAiLoading, setIsAiLoading] = useState(false);
+    const aiRequestRef = useRef(null);
     const hexKey = getHexagramKey(lines);
 
     useEffect(() => {
+        aiRequestRef.current?.abort();
+        setIsAiLoading(false);
+
         const ichingData = i18n.language === 'en' ? (ichingDataEn && Object.keys(ichingDataEn).length > 0 ? ichingDataEn : ichingDataZh) : ichingDataZh;
         if (lines.length === 6) {
             const data = ichingData[hexKey];
-            setInterpretation(data);
+            setInterpretation(data || null);
             setAiResult('');
         } else {
             setInterpretation(null);
@@ -24,20 +48,23 @@ export function ResultPanel({ lines, question }) {
         }
     }, [lines, hexKey, i18n.language]);
 
+    useEffect(() => {
+        return () => aiRequestRef.current?.abort();
+    }, []);
+
     const handleGenerateAI = async () => {
         if (!interpretation) return;
         
+        aiRequestRef.current?.abort();
+        const controller = new AbortController();
+        aiRequestRef.current = controller;
+
         setIsAiLoading(true);
         setAiResult('');
         
         try {
             const hexName = t(`hexagrams.${hexKey}`);
-            const movingLines = [];
-            for (let i = 5; i >= 0; i--) {
-                if (lines[i] === 6 || lines[i] === 9) {
-                    movingLines.push(interpretation.lines[i].position);
-                }
-            }
+            const movingLines = getMovingLinePositions(lines, interpretation, (line) => t('result.lineFallback', { line }));
             const movingStr = movingLines.length > 0 ? movingLines.join('、') : t('result.noMovingLines');
             let prompt = '';
             if (i18n.language === 'en') {
@@ -51,7 +78,8 @@ export function ResultPanel({ lines, question }) {
             const response = await fetch('/api/gemini', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ prompt })
+                body: JSON.stringify({ prompt }),
+                signal: controller.signal
             });
             
             if (!response.ok) {
@@ -60,15 +88,22 @@ export function ResultPanel({ lines, question }) {
             }
             
             const data = await response.json();
-            const aiText = data.text;
+            const aiText = typeof data.text === 'string' ? data.text : '';
+            if (!aiText) {
+                throw new Error(t('result.emptyAiResponse'));
+            }
             setAiResult(aiText);
             
 
         } catch (error) {
+            if (error.name === 'AbortError') return;
             console.error("AI Generation Error:", error);
             setAiResult(t('result.errorFetching', { error: error.message || error }));
         } finally {
-            setIsAiLoading(false);
+            if (aiRequestRef.current === controller) {
+                aiRequestRef.current = null;
+                setIsAiLoading(false);
+            }
         }
     };
 
@@ -105,12 +140,7 @@ export function ResultPanel({ lines, question }) {
                     <p className="text-stone-800 font-medium text-lg">
                         <span className="text-stone-500 text-base font-normal mr-2">{t("result.movingLines")}</span>
                         {(() => {
-                            const moving = [];
-                            for (let i = 5; i >= 0; i--) {
-                                if (lines[i] === 6 || lines[i] === 9) {
-                                    moving.push(interpretation.lines[i].position);
-                                }
-                            }
+                            const moving = getMovingLinePositions(lines, interpretation, (line) => t('result.lineFallback', { line }));
                             return moving.length > 0 ? moving.join('、') : t("result.noMovingLines");
                         })()}
                     </p>
@@ -129,12 +159,7 @@ export function ResultPanel({ lines, question }) {
                         <div className="flex flex-col sm:flex-row gap-2 w-full sm:w-auto">
                             {(() => {
                                 const hexName = t(`hexagrams.${hexKey}`);
-                                const movingLines = [];
-                                for (let i = 5; i >= 0; i--) {
-                                    if (lines[i] === 6 || lines[i] === 9) {
-                                        movingLines.push(interpretation.lines[i].position);
-                                    }
-                                }
+                                const movingLines = getMovingLinePositions(lines, interpretation, (line) => t('result.lineFallback', { line }));
                                 const movingStr = movingLines.length > 0 ? movingLines.join('、') : t('result.noMovingLines');
                                 const reqQuestion = question ? ` ${t('result.questionAsked')}：「${question}」` : '';
                                 const searchQuery = `${t('app.title')} ${hexName} ${t('result.movingLines')} ${movingStr}${reqQuestion} AI 解析`;
@@ -203,12 +228,12 @@ export function ResultPanel({ lines, question }) {
                     <div>
                         <h4 className="font-bold text-stone-800 border-b border-stone-200 pb-1 mb-2">{t("result.aspectHints")}</h4>
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                            {['事業', '感情', '健康', '財運'].map(aspect => {
-                                const aspectKey = aspect === '事業' ? 'career' : aspect === '感情' ? 'love' : aspect === '健康' ? 'health' : 'wealth';
-                                return interpretation.aspects[aspect] ? (
+                            {ASPECTS.map(([aspect, aspectKey]) => {
+                                const aspectText = interpretation.aspects?.[aspect];
+                                return aspectText ? (
                                     <div key={aspect} className="bg-white p-3 rounded-lg border border-stone-200 shadow-sm">
                                         <h5 className="font-bold text-stone-700 mb-1">{t(`result.${aspectKey}`)}</h5>
-                                        <p className="text-stone-600 text-sm">{interpretation.aspects[aspect]}</p>
+                                        <p className="text-stone-600 text-sm">{aspectText}</p>
                                     </div>
                                 ) : null
                             })}
@@ -217,7 +242,7 @@ export function ResultPanel({ lines, question }) {
 
                     {/* Removed transformationTip section */}
 
-                    {interpretation.lines && interpretation.lines.length > 0 && (
+                    {Array.isArray(interpretation.lines) && interpretation.lines.length > 0 && (
                         <div>
                             <h4 className="font-bold text-stone-800 border-b border-stone-200 pb-1 mb-2">{t("result.lineAnalysis")}</h4>
                             <div className="space-y-3">

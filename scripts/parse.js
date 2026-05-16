@@ -26,7 +26,7 @@ const newJson = { ...oldJson };
 for (let i = 0; i < linesArray.length; i++) {
   const line = linesArray[i];
   
-  // match ### 第一卦　乾卦 ䷀
+  // match ### 第一卦 乾卦 ䷀
   const hexMatch = line.match(/^### 第[一二三四五六七八九十百]+卦\s+(.*卦)/);
   if (hexMatch) {
     currentName = hexMatch[1].trim();

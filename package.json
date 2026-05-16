@@ -4,10 +4,12 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "setup": "npm install",
+    "dev": "vite --host 0.0.0.0 --port 5173 --strictPort",
+    "start": "vite --host 0.0.0.0 --port 5173 --strictPort",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview --host 0.0.0.0 --port 5173 --strictPort"
   },
   "dependencies": {
     "@google/generative-ai": "^0.24.1",
