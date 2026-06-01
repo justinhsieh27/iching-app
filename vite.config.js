@@ -1,7 +1,5 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
-import fs from 'fs'
-import { GoogleGenerativeAI } from '@google/generative-ai'
 
 function apiPlugin() {
   return {
@@ -30,7 +28,7 @@ function apiPlugin() {
         });
 
         req.on('error', err => {
-          console.error("Gemini API Proxy Request Error:", err);
+          console.error("AI API Proxy Request Error:", err);
           sendJson(400, { error: 'Request stream failed.' });
         });
 
@@ -52,29 +50,52 @@ function apiPlugin() {
               return;
             }
 
-            let apiKey = '';
+            // Dynamically discover the correct Gemma4 model name from Ollama
+            let modelName = 'iaprofesseur/SuperGemma4-26b-uncensored-Q4:latest';
             try {
-              apiKey = fs.readFileSync('./API_Key', 'utf-8').trim();
-            } catch {
-              sendJson(500, { error: 'Gemini API key file is missing.' });
-              return;
+              const tagsResponse = await fetch('http://mac-studio:11434/api/tags');
+              if (tagsResponse.ok) {
+                const tagsData = await tagsResponse.json();
+                const matchedModel = tagsData.models?.find(m => 
+                  m.name.toLowerCase().includes('gemma4') || 
+                  m.model.toLowerCase().includes('gemma4') ||
+                  m.details?.family?.toLowerCase() === 'gemma4' ||
+                  m.details?.families?.some(f => f.toLowerCase() === 'gemma4')
+                );
+                if (matchedModel) {
+                  modelName = matchedModel.name;
+                }
+              }
+            } catch (tagsErr) {
+              console.warn("Failed to dynamically fetch Ollama tags:", tagsErr.message);
             }
 
-            if (!apiKey) {
-              sendJson(500, { error: 'Gemini API key is empty.' });
-              return;
+            const ollamaUrl = 'http://mac-studio:11434/api/generate';
+            const response = await fetch(ollamaUrl, {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({
+                model: modelName,
+                prompt: data.prompt,
+                stream: false
+              })
+            });
+
+            if (!response.ok) {
+              throw new Error(`Ollama API error: ${response.status} ${response.statusText}`);
             }
 
-            const genAI = new GoogleGenerativeAI(apiKey);
-            const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
+            const ollamaData = await response.json();
+            const aiText = typeof ollamaData.response === 'string' ? ollamaData.response : '';
 
-            const result = await model.generateContent(data.prompt);
-            const aiText = result.response.text();
+            if (!aiText) {
+              throw new Error('Empty response from Ollama.');
+            }
 
             sendJson(200, { text: aiText });
           } catch (err) {
             const message = err instanceof SyntaxError ? 'Invalid JSON request body.' : err.message;
-            console.error("Gemini API Proxy Error:", err);
+            console.error("Ollama API Proxy Error:", err);
             sendJson(err instanceof SyntaxError ? 400 : 500, { error: message });
           }
         });
