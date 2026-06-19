@@ -50,20 +50,22 @@ function apiPlugin() {
               return;
             }
 
-            // Dynamically discover the correct Gemma4 model name from Ollama
-            let modelName = 'iaprofesseur/SuperGemma4-26b-uncensored-Q4:latest';
+            // Dynamically discover the correct model name from Ollama (Qwen 3.5 distill model)
+            let modelName = 'RogerBen/qwen3.5-35b-opus-distill:latest';
             try {
               const tagsResponse = await fetch('http://mac-studio:11434/api/tags');
               if (tagsResponse.ok) {
                 const tagsData = await tagsResponse.json();
                 const matchedModel = tagsData.models?.find(m => 
-                  m.name.toLowerCase().includes('gemma4') || 
-                  m.model.toLowerCase().includes('gemma4') ||
-                  m.details?.family?.toLowerCase() === 'gemma4' ||
-                  m.details?.families?.some(f => f.toLowerCase() === 'gemma4')
+                  m.name.toLowerCase().includes('qwen') || 
+                  m.model.toLowerCase().includes('qwen') ||
+                  m.details?.family?.toLowerCase().includes('qwen') ||
+                  m.details?.families?.some(f => f.toLowerCase().includes('qwen'))
                 );
                 if (matchedModel) {
                   modelName = matchedModel.name;
+                } else if (tagsData.models && tagsData.models.length > 0) {
+                  modelName = tagsData.models[0].name;
                 }
               }
             } catch (tagsErr) {
@@ -86,11 +88,14 @@ function apiPlugin() {
             }
 
             const ollamaData = await response.json();
-            const aiText = typeof ollamaData.response === 'string' ? ollamaData.response : '';
+            let aiText = typeof ollamaData.response === 'string' ? ollamaData.response : '';
 
             if (!aiText) {
               throw new Error('Empty response from Ollama.');
             }
+
+            // Strip <think>...</think> tags and content if present
+            aiText = aiText.replace(/<think>[\s\S]*?(?:<\/think>|$)/g, '').trim();
 
             sendJson(200, { text: aiText });
           } catch (err) {

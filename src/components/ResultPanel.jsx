@@ -479,10 +479,10 @@ export function ResultPanel({ lines, question }) {
             let prompt = '';
             if (i18n.language === 'en') {
                 const reqQ = question ? `the question "${question}"` : 'this hexagram';
-                prompt = `You are an I Ching expert. Regarding ${reqQ}, the original hexagram is "${hexName}", and the moving lines are "${movingStr}". Please provide a brief, professional, and specific I Ching interpretation and advice in English.`;
+                prompt = `You are an I Ching expert. Regarding ${reqQ}, the original hexagram is "${hexName}", and the moving lines are "${movingStr}". Please provide a brief, professional, and specific I Ching interpretation and advice in English. Do not output any thinking process or <think> tags, start directly with the interpretation.`;
             } else {
                 const reqQ = question ? `問題：「${question}」` : '這個卦象';
-                prompt = `你在這裡是易經專家。針對${reqQ}，本卦為「${hexName}」，變爻為「${movingStr}」，請給出一段簡短、專業且具體的易經解析與建議。`;
+                prompt = `你在這裡是易經專家。針對${reqQ}，本卦為「${hexName}」，變爻為「${movingStr}」，請給出一段簡短、專業且具體的易經解析與建議。請直接給出解析，不要包含任何思考過程或 <think> 標籤。`;
             }
             
             const response = await fetch('/api/gemini', {
