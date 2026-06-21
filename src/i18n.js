@@ -94,8 +94,8 @@ const resources = {
         "111100": "大壯 (Dà Zhuàng) - The Power of the Great",
         "000101": "晉 (Jìn) - Progress",
         "101000": "明夷 (Míng Yí) - Darkening of the Light",
-        "101010": "家人 (Jiā Rén) - The Family",
-        "010101": "睽 (Kuí) - Opposition",
+        "101011": "家人 (Jiā Rén) - The Family",
+        "110101": "睽 (Kuí) - Opposition",
         "001010": "蹇 (Jiǎn) - Obstruction",
         "010100": "解 (Xiè) - Deliverance",
         "110001": "損 (Sǔn) - Decrease",
@@ -120,8 +120,8 @@ const resources = {
         "110010": "節 (Jié) - Limitation",
         "110011": "中孚 (Zhōng Fú) - Inner Truth",
         "001100": "小過 (Xiǎo Guò) - Preponderance of the Small",
-        "101011": "既濟 (Jì Jì) - After Completion",
-        "110101": "未濟 (Wèi Jì) - Before Completion",
+        "101010": "既濟 (Jì Jì) - After Completion",
+        "010101": "未濟 (Wèi Jì) - Before Completion",
         "unknown": "Unknown Hexagram"
       }
     }
@@ -217,8 +217,8 @@ const resources = {
         "111100": "大壯 - 壯者當正",
         "000101": "晉 - 求進發展",
         "101000": "明夷 - 晦暗之初",
-        "101010": "家人 - 誠威治業",
-        "010101": "睽 - 異中求同",
+        "101011": "家人 - 誠威治業",
+        "110101": "睽 - 異中求同",
         "001010": "蹇 - 險阻在前",
         "010100": "解 - 柔道致治",
         "110001": "損 - 損己利人",
@@ -243,8 +243,8 @@ const resources = {
         "110010": "節 - 萬物有節",
         "110011": "中孚 - 誠信和順",
         "001100": "小過 - 過而留滯",
-        "101011": "既濟 - 功德完滿",
-        "110101": "未濟 - 事業未竟",
+        "101010": "既濟 - 功德完滿",
+        "010101": "未濟 - 事業未竟",
         "unknown": "未知的卦象"
       }
     }

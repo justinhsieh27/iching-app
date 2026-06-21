@@ -124,8 +124,8 @@ const HEXAGRAM_NAMES = {
     "111100": "大壯 (Dà Zhuàng) - The Power of the Great",
     "000101": "晉 (Jìn) - Progress",
     "101000": "明夷 (Míng Yí) - Darkening of the Light",
-    "101010": "家人 (Jiā Rén) - The Family",
-    "010101": "睽 (Kuí) - Opposition",
+    "101011": "家人 (Jiā Rén) - The Family",
+    "110101": "睽 (Kuí) - Opposition",
     "001010": "蹇 (Jiǎn) - Obstruction",
     "010100": "解 (Xiè) - Deliverance",
     "110001": "損 (Sǔn) - Decrease",
@@ -150,8 +150,8 @@ const HEXAGRAM_NAMES = {
     "110010": "節 (Jié) - Limitation",
     "110011": "中孚 (Zhōng Fú) - Inner Truth",
     "001100": "小過 (Xiǎo Guò) - Preponderance of the Small",
-    "101011": "既濟 (Jì Jì) - After Completion",
-    "110101": "未濟 (Wèi Jì) - Before Completion",
+    "101010": "既濟 (Jì Jì) - After Completion",
+    "010101": "未濟 (Wèi Jì) - Before Completion",
 };
 
 /**

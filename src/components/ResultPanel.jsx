@@ -33,6 +33,30 @@ const drawRoundRect = (ctx, x, y, width, height, radius) => {
     }
 };
 
+const getFormattedHexName = (interpretation, hexKey, i18n, t) => {
+    if (i18n.language === 'en' || !interpretation) {
+        return t(`hexagrams.${hexKey}`);
+    }
+    const { name, image } = interpretation;
+    if (image && name) {
+        if (image.length === 1) {
+            const pureNames = {
+                '天': '乾為天卦',
+                '地': '坤為地卦',
+                '雷': '震為雷卦',
+                '風': '巽為風卦',
+                '水': '坎為水卦',
+                '火': '離為火卦',
+                '山': '艮為山卦',
+                '澤': '兌為澤卦'
+            };
+            return pureNames[image] || `${image}${name}`;
+        }
+        return `${image}${name}`;
+    }
+    return t(`hexagrams.${hexKey}`);
+};
+
 const drawReport = (ctx, { lines, question, interpretation, hexKey, aiResult, t, i18n }, dryRun) => {
     const width = 750;
     const padding = 50;
@@ -233,7 +257,7 @@ const drawReport = (ctx, { lines, question, interpretation, hexKey, aiResult, t,
     // --- 3. HEXAGRAM RESULT ---
     y = drawSectionTitle(i18n.language === 'en' ? 'Divined Hexagram' : '占得卦象', y);
 
-    const hexName = t(`hexagrams.${hexKey}`);
+    const hexName = getFormattedHexName(interpretation, hexKey, i18n, t);
     if (!dryRun) {
         ctx.font = 'bold 32px "PingFang SC", "Microsoft JhengHei", sans-serif';
         ctx.fillStyle = '#2b2621';
@@ -473,7 +497,7 @@ export function ResultPanel({ lines, question }) {
         setAiResult('');
         
         try {
-            const hexName = t(`hexagrams.${hexKey}`);
+            const hexName = getFormattedHexName(interpretation, hexKey, i18n, t);
             const movingLines = getMovingLinePositions(lines, interpretation, (line) => t('result.lineFallback', { line }));
             const movingStr = movingLines.length > 0 ? movingLines.join('、') : t('result.noMovingLines');
             let prompt = '';
@@ -515,7 +539,7 @@ export function ResultPanel({ lines, question }) {
                 setIsAiLoading(false);
             }
         }
-    }, [interpretation, lines, hexKey, question, i18n.language, t]);
+    }, [interpretation, lines, hexKey, question, i18n, t]);
 
     useEffect(() => {
         if (interpretation && !aiResult && !isAiLoading) {
@@ -545,8 +569,10 @@ export function ResultPanel({ lines, question }) {
         try {
             const dataUrl = canvas.toDataURL('image/png');
             const link = document.createElement('a');
-            const hexName = t(`hexagrams.${hexKey}`).split(' ')[0]; // get the first character (e.g. 乾, 坤)
-            link.download = `易經占卦_${hexName}_${new Date().toISOString().slice(0, 10)}.png`;
+            const hexName = getFormattedHexName(interpretation, hexKey, i18n, t);
+            link.download = i18n.language === 'en'
+                ? `iching_${hexKey}_${new Date().toISOString().slice(0, 10)}.png`
+                : `易經占卦_${hexName}_${new Date().toISOString().slice(0, 10)}.png`;
             link.href = dataUrl;
             document.body.appendChild(link);
             link.click();
@@ -567,7 +593,9 @@ export function ResultPanel({ lines, question }) {
 
     return (
         <div className="h-full bg-stone-50 p-6 rounded-xl border border-stone-200 overflow-y-auto">
-            <h3 className="text-2xl font-sans font-bold text-stone-900 mb-2">{t(`hexagrams.${hexKey}`)}</h3>
+            <h3 className="text-2xl font-sans font-bold text-stone-900 mb-2">
+                {getFormattedHexName(interpretation, hexKey, i18n, t)}
+            </h3>
 
             {question && (
                 <div className="mb-4 p-4 bg-stone-100/50 rounded-lg border border-stone-200/60">
@@ -585,7 +613,7 @@ export function ResultPanel({ lines, question }) {
                     </span>
                     <p className="text-stone-800 font-medium text-lg mb-1">
                         <span className="text-stone-500 text-base font-normal mr-2">{t("result.originalHexagram")}</span>
-                        {t(`hexagrams.${hexKey}`)}
+                        {getFormattedHexName(interpretation, hexKey, i18n, t)}
                     </p>
                     <p className="text-stone-800 font-medium text-lg">
                         <span className="text-stone-500 text-base font-normal mr-2">{t("result.movingLines")}</span>

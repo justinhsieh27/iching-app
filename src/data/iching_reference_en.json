@@ -470,53 +470,6 @@
     ]
   },
   "101010": {
-    "name": "Hexagram of the Family (Jia Ren)",
-    "symbolInfo": "Upper Wind (Xun ☴) Lower Fire (Li ☲)",
-    "image": "Wind over Fire",
-    "keywords": "Favorable for female perseverance",
-    "coreMeaning": "The family path is upright and orderly, each member maintaining their position; cultivate oneself and regulate the family, from within to without.",
-    "aspects": {
-      "事業": "Clear division of labor within the team, each performing their duties.",
-      "感情": "Family harmony, stable relationships.",
-      "健康": "Pay attention to the overall health of family members.",
-      "財運": "Stable family finances, joint planning."
-    },
-    "transformationTip": "Moving initial line transforms to Li hexagram; Moving top line transforms to Xun hexagram.",
-    "notes": "",
-    "lines": [
-      {
-        "position": "Line 1 (Yang)",
-        "text": "Establishing order in the family, regret vanishes.",
-        "meaning": "Establishing rules at the beginning of family formation, regret disappears."
-      },
-      {
-        "position": "Line 2 (Yin)",
-        "text": "Do not pursue external affairs; attend to domestic duties, perseverance brings good fortune.",
-        "meaning": "Do not strongly pursue external affairs, focus on domestic responsibilities; upholding rectitude brings auspiciousness."
-      },
-      {
-        "position": "Line 3 (Yang)",
-        "text": "The family is strict, regret is severe, auspicious; wives and children are joyful, ultimately regret.",
-        "meaning": "Though strict family rules may bring pressure, it ultimately leads to good fortune; excessive indulgence will ultimately lead to regret."
-      },
-      {
-        "position": "Line 4 (Yin)",
-        "text": "Enriching the family, great good fortune.",
-        "meaning": "Making the family wealthy, great good fortune."
-      },
-      {
-        "position": "Line 5 (Yang)",
-        "text": "The king approaches the family, no need to worry, good fortune.",
-        "meaning": "The way a king governs the family, no need for worry, auspicious."
-      },
-      {
-        "position": "Line 6 (Yang)",
-        "text": "Having sincerity and dignity, ultimately good fortune.",
-        "meaning": "Governing the family with sincerity and dignity, ultimately auspicious."
-      }
-    ]
-  },
-  "101011": {
     "name": "Completion",
     "symbolInfo": "Upper Kan ☵ Lower Li ☲",
     "image": "Water over Fire",
@@ -560,6 +513,53 @@
         "position": "Line 6 (Yin)",
         "text": "Wet its head, danger.",
         "meaning": "Head is wet, gone too far, danger; a warning of prosperity turning to decline."
+      }
+    ]
+  },
+  "101011": {
+    "name": "Hexagram of the Family (Jia Ren)",
+    "symbolInfo": "Upper Wind (Xun ☴) Lower Fire (Li ☲)",
+    "image": "Wind over Fire",
+    "keywords": "Favorable for female perseverance",
+    "coreMeaning": "The family path is upright and orderly, each member maintaining their position; cultivate oneself and regulate the family, from within to without.",
+    "aspects": {
+      "事業": "Clear division of labor within the team, each performing their duties.",
+      "感情": "Family harmony, stable relationships.",
+      "健康": "Pay attention to the overall health of family members.",
+      "財運": "Stable family finances, joint planning."
+    },
+    "transformationTip": "Moving initial line transforms to Li hexagram; Moving top line transforms to Xun hexagram.",
+    "notes": "",
+    "lines": [
+      {
+        "position": "Line 1 (Yang)",
+        "text": "Establishing order in the family, regret vanishes.",
+        "meaning": "Establishing rules at the beginning of family formation, regret disappears."
+      },
+      {
+        "position": "Line 2 (Yin)",
+        "text": "Do not pursue external affairs; attend to domestic duties, perseverance brings good fortune.",
+        "meaning": "Do not strongly pursue external affairs, focus on domestic responsibilities; upholding rectitude brings auspiciousness."
+      },
+      {
+        "position": "Line 3 (Yang)",
+        "text": "The family is strict, regret is severe, auspicious; wives and children are joyful, ultimately regret.",
+        "meaning": "Though strict family rules may bring pressure, it ultimately leads to good fortune; excessive indulgence will ultimately lead to regret."
+      },
+      {
+        "position": "Line 4 (Yin)",
+        "text": "Enriching the family, great good fortune.",
+        "meaning": "Making the family wealthy, great good fortune."
+      },
+      {
+        "position": "Line 5 (Yang)",
+        "text": "The king approaches the family, no need to worry, good fortune.",
+        "meaning": "The way a king governs the family, no need for worry, auspicious."
+      },
+      {
+        "position": "Line 6 (Yang)",
+        "text": "Having sincerity and dignity, ultimately good fortune.",
+        "meaning": "Governing the family with sincerity and dignity, ultimately auspicious."
       }
     ]
   },
@@ -987,69 +987,49 @@
     ]
   },
   "110101": {
-    "name": "The Hexagram of Not Yet Complete",
-    "symbolInfo": "Upper Li ☲ Lower Kan ☵",
-    "image": "Fire over Water",
-    "keywords": "Success, the little fox is almost across, it wets its tail, no advantage",
-    "coreMeaning": "Not yet completed, continue to move forward; matters are not concluded, still require effort.",
+    "name": "Kui (Opposition)",
+    "symbolInfo": "Upper Li ☲, Lower Dui ☱",
+    "image": "Fire over Lake",
+    "keywords": "Auspicious for small matters",
+    "coreMeaning": "Mutual opposition and separation; seeking common ground amidst differences; despite divergences, small matters can be accomplished.",
     "aspects": {
-      "事業": "Goals not yet achieved, continued effort is required",
-      "感情": "Emotions/relationships are still developing, requiring patient nurturing",
-      "健康": "Still requires recuperation, continuous effort for recovery",
-      "財運": "Financial goals not yet fulfilled, continue to accumulate",
-      "--": "--",
-      "**上乾☰**": "1 Qian",
-      "**上坤☷**": "12 Pi",
-      "**上震☳**": "25 Wu Wang",
-      "**上巽☴**": "44 Gou",
-      "**上坎☵**": "6 Song",
-      "**上離☲**": "13 Tong Ren",
-      "**上艮☶**": "33 Dun",
-      "**上兌☱**": "10 Lü",
-      "關鍵字": "Meaning",
-      "**元**": "Great auspiciousness, the beginning of all things, the highest level of good fortune",
-      "**亨**": "Smooth, everything goes well, no obstacles",
-      "**利**": "Beneficial, acting is advantageous, suitable for something",
-      "**貞**": "Uphold righteousness, adhere to the correct path, meaning for divination",
-      "**吝**": "Minor regret, requires caution",
-      "**厲**": "There is danger, meaning of vigilance",
-      "**咎**": "There is fault, requires self-reflection",
-      "**無咎**": "No fault, can rest assured",
-      "**凶**": "Inauspicious, requires extreme caution",
-      "日期": "Question"
+      "事業": "Differences in opinion; it is advisable to seek common ground while preserving differences.",
+      "感情": "Personality clashes; requires tolerance and adaptation.",
+      "健康": "Pay attention to eyes and heart.",
+      "財運": "Partnerships are prone to disagreements; handle with caution."
     },
-    "transformationTip": "If the first line changes → Kan Hexagram; If the top line changes → Li Hexagram",
+    "transformationTip": "Moving initial line → Dui Hexagram; Moving top line → Li Hexagram.",
     "notes": "",
     "lines": [
       {
-        "position": "Line 1 (Yin)",
-        "text": "Wetting its tail, regret.",
-        "meaning": "Its tail gets wet, making a mistake at the start, there is regret, needs to start from the basics."
+        "position": "Line 1 (Yang)",
+        "text": "Remorse vanishes. If you lose your horse, do not pursue it; it will return by itself. If you encounter evil people, there will be no blame.",
+        "meaning": "Regret disappears; if a horse is lost, do not chase it, it will return on its own; facing evil people calmly brings no blame."
       },
       {
         "position": "Line 2 (Yang)",
-        "text": "Dragging its wheels, perseverance brings good fortune.",
-        "meaning": "Holding back its wheels, upholding righteousness brings good fortune, cautiously accumulating strength."
+        "text": "Meeting the master in an alley; no blame.",
+        "meaning": "Meeting the lord in a secluded alley; although not formal, there is no blame."
       },
       {
         "position": "Line 3 (Yin)",
-        "text": "Not yet complete, venturing forth is ominous, but beneficial to cross the great stream.",
-        "meaning": "Not yet complete, rushing forward is ominous, but it is beneficial to overcome great difficulties."
+        "text": "Seeing a carriage being pulled with difficulty, its ox constrained, and the person branded and his nose cut off; there is no beginning but there is an end.",
+        "meaning": "The carriage is stuck, the ox is restrained, the person is punished; though the beginning is difficult, there will ultimately be a result."
       },
       {
         "position": "Line 4 (Yang)",
-        "text": "Perseverance brings good fortune, regret vanishes. It shakes and strikes the Ghost Fang, after three years there is reward from the great state.",
-        "meaning": "Upholding righteousness brings good fortune, regret disappears, striving to conquer, after three years receiving reward from a great state."
+        "text": "Isolated in opposition; encountering a genuine man; trusting each other; danger but no blame.",
+        "meaning": "Amidst isolation, meeting a sincere person; interacting with sincerity; though dangerous, there is no blame."
       },
       {
         "position": "Line 5 (Yin)",
-        "text": "Perseverance brings good fortune, no regret. The light of the noble person, with sincerity, good fortune.",
-        "meaning": "Upholding righteousness brings good fortune, no regret, the radiance of the noble person shines with sincerity, auspicious."
+        "text": "Remorse vanishes. One's relatives gnaw on the flesh. What blame is there in going?",
+        "meaning": "Regret disappears; kinship and closeness; what fault is there in proceeding?"
       },
       {
         "position": "Line 6 (Yang)",
-        "text": "With sincerity in drinking wine, no fault. If it wets its head, sincerity is lost.",
-        "meaning": "Sincere celebration with wine, no fault; if indulging excessively, sincerity is lost."
+        "text": "Isolated in opposition; seeing a pig carrying mud, a cart laden with ghosts; first drawing the bow, then unstringing the bow; not robbers but marriage; going and meeting rain brings good fortune.",
+        "meaning": "Extreme isolation and suspicion, seeing ghosts due to excessive doubt; after letting go of suspicion, finding it to be a good marriage; auspicious when encountering rain."
       }
     ]
   },
@@ -2323,49 +2303,69 @@
     ]
   },
   "010101": {
-    "name": "Kui (Opposition)",
-    "symbolInfo": "Upper Li ☲, Lower Dui ☱",
-    "image": "Fire over Lake",
-    "keywords": "Auspicious for small matters",
-    "coreMeaning": "Mutual opposition and separation; seeking common ground amidst differences; despite divergences, small matters can be accomplished.",
+    "name": "The Hexagram of Not Yet Complete",
+    "symbolInfo": "Upper Li ☲ Lower Kan ☵",
+    "image": "Fire over Water",
+    "keywords": "Success, the little fox is almost across, it wets its tail, no advantage",
+    "coreMeaning": "Not yet completed, continue to move forward; matters are not concluded, still require effort.",
     "aspects": {
-      "事業": "Differences in opinion; it is advisable to seek common ground while preserving differences.",
-      "感情": "Personality clashes; requires tolerance and adaptation.",
-      "健康": "Pay attention to eyes and heart.",
-      "財運": "Partnerships are prone to disagreements; handle with caution."
+      "事業": "Goals not yet achieved, continued effort is required",
+      "感情": "Emotions/relationships are still developing, requiring patient nurturing",
+      "健康": "Still requires recuperation, continuous effort for recovery",
+      "財運": "Financial goals not yet fulfilled, continue to accumulate",
+      "--": "--",
+      "**上乾☰**": "1 Qian",
+      "**上坤☷**": "12 Pi",
+      "**上震☳**": "25 Wu Wang",
+      "**上巽☴**": "44 Gou",
+      "**上坎☵**": "6 Song",
+      "**上離☲**": "13 Tong Ren",
+      "**上艮☶**": "33 Dun",
+      "**上兌☱**": "10 Lü",
+      "關鍵字": "Meaning",
+      "**元**": "Great auspiciousness, the beginning of all things, the highest level of good fortune",
+      "**亨**": "Smooth, everything goes well, no obstacles",
+      "**利**": "Beneficial, acting is advantageous, suitable for something",
+      "**貞**": "Uphold righteousness, adhere to the correct path, meaning for divination",
+      "**吝**": "Minor regret, requires caution",
+      "**厲**": "There is danger, meaning of vigilance",
+      "**咎**": "There is fault, requires self-reflection",
+      "**無咎**": "No fault, can rest assured",
+      "**凶**": "Inauspicious, requires extreme caution",
+      "日期": "Question"
     },
-    "transformationTip": "Moving initial line → Dui Hexagram; Moving top line → Li Hexagram.",
+    "transformationTip": "If the first line changes → Kan Hexagram; If the top line changes → Li Hexagram",
     "notes": "",
     "lines": [
       {
-        "position": "Line 1 (Yang)",
-        "text": "Remorse vanishes. If you lose your horse, do not pursue it; it will return by itself. If you encounter evil people, there will be no blame.",
-        "meaning": "Regret disappears; if a horse is lost, do not chase it, it will return on its own; facing evil people calmly brings no blame."
+        "position": "Line 1 (Yin)",
+        "text": "Wetting its tail, regret.",
+        "meaning": "Its tail gets wet, making a mistake at the start, there is regret, needs to start from the basics."
       },
       {
         "position": "Line 2 (Yang)",
-        "text": "Meeting the master in an alley; no blame.",
-        "meaning": "Meeting the lord in a secluded alley; although not formal, there is no blame."
+        "text": "Dragging its wheels, perseverance brings good fortune.",
+        "meaning": "Holding back its wheels, upholding righteousness brings good fortune, cautiously accumulating strength."
       },
       {
         "position": "Line 3 (Yin)",
-        "text": "Seeing a carriage being pulled with difficulty, its ox constrained, and the person branded and his nose cut off; there is no beginning but there is an end.",
-        "meaning": "The carriage is stuck, the ox is restrained, the person is punished; though the beginning is difficult, there will ultimately be a result."
+        "text": "Not yet complete, venturing forth is ominous, but beneficial to cross the great stream.",
+        "meaning": "Not yet complete, rushing forward is ominous, but it is beneficial to overcome great difficulties."
       },
       {
         "position": "Line 4 (Yang)",
-        "text": "Isolated in opposition; encountering a genuine man; trusting each other; danger but no blame.",
-        "meaning": "Amidst isolation, meeting a sincere person; interacting with sincerity; though dangerous, there is no blame."
+        "text": "Perseverance brings good fortune, regret vanishes. It shakes and strikes the Ghost Fang, after three years there is reward from the great state.",
+        "meaning": "Upholding righteousness brings good fortune, regret disappears, striving to conquer, after three years receiving reward from a great state."
       },
       {
         "position": "Line 5 (Yin)",
-        "text": "Remorse vanishes. One's relatives gnaw on the flesh. What blame is there in going?",
-        "meaning": "Regret disappears; kinship and closeness; what fault is there in proceeding?"
+        "text": "Perseverance brings good fortune, no regret. The light of the noble person, with sincerity, good fortune.",
+        "meaning": "Upholding righteousness brings good fortune, no regret, the radiance of the noble person shines with sincerity, auspicious."
       },
       {
         "position": "Line 6 (Yang)",
-        "text": "Isolated in opposition; seeing a pig carrying mud, a cart laden with ghosts; first drawing the bow, then unstringing the bow; not robbers but marriage; going and meeting rain brings good fortune.",
-        "meaning": "Extreme isolation and suspicion, seeing ghosts due to excessive doubt; after letting go of suspicion, finding it to be a good marriage; auspicious when encountering rain."
+        "text": "With sincerity in drinking wine, no fault. If it wets its head, sincerity is lost.",
+        "meaning": "Sincere celebration with wine, no fault; if indulging excessively, sincerity is lost."
       }
     ]
   },
